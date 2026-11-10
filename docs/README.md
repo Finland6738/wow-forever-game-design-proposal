@@ -44,8 +44,11 @@ Choose an activity or character topic. Pages distinguish selected directions, re
 | [Runes](systems/runes.md) | Finite permanent stat progression, a fixed lifetime ceiling and history without a new rank. |
 | [Adventurer Abilities](systems/adventurer-abilities.md) | Permanently useful historical raid options, one equipped entry and distinct Normal/Veteran unlocks. |
 | [Recognition and Competitive Standing](08-prestige-ranks.md) | Adventurer, Explorer, Honor, Gladiator, Challenger and city-service boundaries. |
-| [Races](identity/races.md) | Six playable-people concepts, cultures, anatomy and racial-power rules. |
-| [Classes](identity/classes.md) | Eighteen class families, thirteen mechanical studies, roles and design gates. |
+| [Races](identity/races.md) | Ten established race candidates, original alternatives, neutral origins and visible armor fitting. |
+| [Classes](identity/classes.md) | English archetypes, role/spec matrix, eighteen family briefs and thirteen mapped studies. |
+| [Class Roles and Specializations](identity/class-roles-and-specializations.md) | Pure support, traditional/support five-player groups and design-review decisions. |
+| [Artificer — Puppet Warden](identity/classes/artificer.md) | Stationary tank dummies, hammer positioning, repairs and an extra autonomous capstone puppet. |
+| [Summoner — Swarms and Spirits](identity/classes/summoner.md) | Swarmcaller, Soulbinder and Sporekeeper; accumulation, orders and caster counterplay. |
 | [Rewards and Acquisition](11-rewards-and-acquisition.md) | Reward matrix, ownership, lockouts, alternatives and economic faucets. |
 
 ## Project Reference

@@ -196,6 +196,16 @@ An ordinary legal opposing-faction attack is not suppressed because someone has 
 
 The preferred prototype combines ordinary faction combat and the local opt-in city relation. Final support inheritance, capture ownership resolution and the city-switch penalty amount remain open. Base cosmetic ownership persists; city variants require eligible current service. Objective guards and boss state are dedicated event data; ordinary quest/service NPCs cannot be used as conquest triggers.
 
+## Playable identities, construct tanks and support
+
+Record race origin and chosen major faction separately. Every proposed new race permits either major faction after its introduction; city-standard eligibility then follows the chosen faction. Race appearance must not decide targeting permissions. Armor adaptations change presentation, not item identity, slot count or effective power.
+
+An Artificer deployment needs an owner, construct identifier, anchor, function/loadout, independent health and threat relation. Only the owner's repair actions restore construct HP; ordinary direct/group healing targets the player instead. Ordinary dummies stay stationary until a valid command moves them. The extra autonomous capstone has a separate duration/cooldown state and reviewed power allowance. Threat-transfer and external-prevention policies still need engine validation; no production architecture is claimed. See the [tank dossier](identity/classes/artificer.md).
+
+The Summoner reserve has gathered, committed and consumed states, owned by one player. Its small beings have no targetable health state. Counterplay follows caster/effect rules; decorative followers cannot multiply procs, reward shares or raid bonuses. Scope and normalization apply through the owner. See [Summoner](identity/classes/summoner.md).
+
+Support contributions require validated control, prevention, dispel or objective events rather than damage-only eligibility. A support occupies one of a five-player group's flexible slots; both selected group patterns face the same ordinary encounter. Competitive composition/profile rules remain open. These are behavior contracts for prototypes, not new live systems.
+
 ## Acceptance matrix
 
 These are proposed implementation acceptance cases, not tests executed against an existing game.
@@ -236,6 +246,16 @@ These are proposed implementation acceptance cases, not tests executed against a
 | An NPC is greeted repeatedly or a zone boundary is crossed in a loop | No fresh Explorer objective claim is created |
 | A high prestige tier is reached | Grants approved recognition only; no stats, increased loot/material yield or activity-access gate |
 | A new race or class prototype is added | Fits permanent budgets and activity policies; no mandatory racial utility or new required party slot |
+| A new race finishes its introduction | Can choose Alliance or Horde; its ancestry does not force membership |
+| A neutral-origin race chooses a Warfare city | Only standards eligible for its chosen major faction are offered |
+| An unusual anatomy equips leg/foot armor | Keeps ordinary slot effects and a recognizable approved visual adaptation |
+| A support replaces one DPS in a five-player group | Both the traditional and support compositions can complete the intended ordinary encounter |
+| A tank dummy's enemy moves out of reach | Ordinary dummy does not chase; a valid player action repositions or redirects it |
+| A healer attempts to heal a tank dummy | No construct HP is restored; feedback explains the owner's repair-only rule |
+| One dummy is damaged or repaired | Other dummies and the owner retain their separate health; only valid Artificer repairs restore that dummy |
+| An Artificer capstone expires | Extra autonomous unit ends predictably, preserving cooldown state and an explicit threat transition |
+| A Summoner follower is inside enemy AoE | No hidden HP/death is simulated; its selected no-HP policy remains true |
+| A Summoner consumes a committed group | The same unit cannot retain its full future payload and also grant a free full burst/refund |
 | A new update adds Rune objectives | Existing lifetime limits remain unchanged; objectives can offer equivalent acquisition paths |
 | A character reaches the Rune ceiling | Further activity cannot grant hidden stat overflow or a new Rune rank |
 | A character clears Veteran | Receives the eligible Veteran repertoire option, without automatically learning Normal |

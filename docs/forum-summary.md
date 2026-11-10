@@ -30,7 +30,7 @@ The wider endgame could grow through:
 
 Warfare now focuses on capturing designated guard-and-boss camps and expressing service through city-themed cosmetic rewards. The preferred bivalent prototype combines ordinary Horde/Alliance combat and local voluntary city rivalry, with a separate NPC-managed flag. Base cosmetics remain owned; city variants require eligible service, and changing city loses some reputation. Detailed capture/support rules and the penalty amount still need testing.
 
-Future updates could also expand regions and explore original playable peoples and class concepts that fit Forever's atmosphere. The repository includes named working concepts and mechanical studies, each requiring narrative, technical and balance review before selection.
+Future updates could also explore established peoples from Vanilla/TBC/Wrath, starting with ten race candidates and a choice of either faction after their introduction. Equipment should stay recognizable through anatomy-specific fitting. English class archetypes now have a role/spec matrix, detailed Artificer tank and Summoner dossiers, and a pure-support proposal that can replace one DPS without making support compulsory. These remain narrative, technical and balance studies rather than a release roster.
 
 The important constraint is that these activities remain parallel choices. PvP buffs should not be raid prerequisites, world artifacts should have reasonable functional alternatives, and Challenge competition should not require farming old gear.
 

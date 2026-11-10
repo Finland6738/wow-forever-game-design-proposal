@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850" role="img" aria-labelledby="title desc">
+<title id="title">Build the frontline. Maintain every defender.</title><desc id="desc">A healer heals the player and group. The Artificer commands, repairs and repositions three or four stationary dummies with independent health and local threat. An extra temporary autonomous puppet has its own cooldown and balance allowance. Exact dummy cap and numerical tuning remain open.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#377d7a"/></marker>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172d35}.heading{font-size:34px;font-weight:700}.label{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:19px;fill:#425c63}</style></defs>
+<rect width="1200" height="850" rx="20" fill="#f1f5f1"/>
+<text x="60" y="60" text-anchor="start" class="heading" style="" data-fit="60,22,1080,45"><tspan x="60" dy="0">Build the frontline. Maintain every defender.</tspan></text>
+<text x="60" y="98" text-anchor="start" class="body" style="" data-fit="60,75,1080,32"><tspan x="60" dy="0">Artificer tank · Separate construct HP · Only the Artificer repairs constructs.</tspan></text>
+<rect x="60" y="150" width="300" height="105" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="210.0" y="186" text-anchor="middle" class="label" style="font-size:24px;" data-fit="72,160,276,37"><tspan x="210.0" dy="0">Group healer</tspan></text>
+<text x="210.0" y="223" text-anchor="middle" class="body" style="font-size:20px;" data-fit="72,200,276,47"><tspan x="210.0" dy="0">Heals player and group</tspan></text>
+<rect x="450" y="150" width="300" height="105" rx="14" fill="#173c43" stroke="#173c43" stroke-width="2"/>
+<text x="600.0" y="186" text-anchor="middle" class="label" style="fill:#ffffff;font-size:25px;" data-fit="462,160,276,37"><tspan x="600.0" dy="0">Artificer</tspan></text>
+<text x="600.0" y="223" text-anchor="middle" class="body" style="fill:#d8e8e5;font-size:19px;" data-fit="462,200,276,47"><tspan x="600.0" dy="0">Own HP · Commands · Repairs</tspan></text>
+<rect x="840" y="150" width="300" height="105" rx="14" fill="#f5ead5" stroke="#b8ccca" stroke-width="2"/>
+<text x="990.0" y="186" text-anchor="middle" class="label" style="font-size:24px;" data-fit="852,160,276,37"><tspan x="990.0" dy="0">Extra puppet</tspan></text>
+<text x="990.0" y="223" text-anchor="middle" class="body" style="font-size:20px;" data-fit="852,200,276,47"><tspan x="990.0" dy="0">Temporary · Autonomous</tspan></text>
+<path d="M360 202H432" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M750 202H822" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="600" y="303" text-anchor="middle" class="body" style="" data-fit="60,278,1080,35"><tspan x="600" dy="0">3–4 stationary dummies · Exact cap remains open</tspan></text>
+<rect x="60" y="345" width="240" height="150" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="180.0" y="381" text-anchor="middle" class="label" style="font-size:20px;" data-fit="72,355,216,37"><tspan x="180.0" dy="0">Defender 1</tspan></text>
+<text x="180.0" y="418" text-anchor="middle" class="body" style="font-size:19px;" data-fit="72,395,216,92"><tspan x="180.0" dy="0">Independent HP</tspan><tspan x="180.0" dy="28">Local threat and taunt</tspan><tspan x="180.0" dy="28">Artificer-only repairs</tspan></text>
+<rect x="340" y="345" width="240" height="150" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="460.0" y="381" text-anchor="middle" class="label" style="font-size:20px;" data-fit="352,355,216,37"><tspan x="460.0" dy="0">Defender 2</tspan></text>
+<text x="460.0" y="418" text-anchor="middle" class="body" style="font-size:19px;" data-fit="352,395,216,92"><tspan x="460.0" dy="0">Independent HP</tspan><tspan x="460.0" dy="28">Local threat and taunt</tspan><tspan x="460.0" dy="28">Artificer-only repairs</tspan></text>
+<rect x="620" y="345" width="240" height="150" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="740.0" y="381" text-anchor="middle" class="label" style="font-size:20px;" data-fit="632,355,216,37"><tspan x="740.0" dy="0">Defender 3</tspan></text>
+<text x="740.0" y="418" text-anchor="middle" class="body" style="font-size:19px;" data-fit="632,395,216,92"><tspan x="740.0" dy="0">Independent HP</tspan><tspan x="740.0" dy="28">Local threat and taunt</tspan><tspan x="740.0" dy="28">Artificer-only repairs</tspan></text>
+<rect x="900" y="345" width="240" height="150" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="1020.0" y="381" text-anchor="middle" class="label" style="font-size:20px;" data-fit="912,355,216,37"><tspan x="1020.0" dy="0">Defender 4 if selected</tspan></text>
+<text x="1020.0" y="418" text-anchor="middle" class="body" style="font-size:19px;" data-fit="912,395,216,92"><tspan x="1020.0" dy="0">Independent HP</tspan><tspan x="1020.0" dy="28">Local threat and taunt</tspan><tspan x="1020.0" dy="28">Artificer-only repairs</tspan></text>
+<rect x="60" y="550" width="1080" height="100" rx="14" fill="#173c43" stroke="#173c43" stroke-width="2"/>
+<text x="600.0" y="586" text-anchor="middle" class="label" style="fill:#ffffff;font-size:24px;" data-fit="72,560,1056,37"><tspan x="600.0" dy="0">Place → Establish threat → Reposition → Repair or rebuild</tspan></text>
+<text x="600.0" y="623" text-anchor="middle" class="body" style="fill:#d8e8e5;font-size:20px;" data-fit="72,600,1056,42"><tspan x="600.0" dy="0">Hammer strikes and kicks move the ordinary dummies. They do not chase targets.</tspan></text>
+<rect x="60" y="690" width="1080" height="80" rx="14" fill="#f5ead5" stroke="#b8ccca" stroke-width="2"/>
+<text x="600.0" y="726" text-anchor="middle" class="label" style="font-size:23px;" data-fit="72,700,1056,37"><tspan x="600.0" dy="0">One tank role. Several health bars. A reviewed collective power budget.</tspan></text>
+<path d="M60 787H1140" stroke="#b8ccca" stroke-width="2"/>
+<text x="600" y="814" text-anchor="middle" class="small" style="" data-fit="60,794,1080,51"><tspan x="600" dy="0">The extra puppet has its own cooldown. Independent HP does not mean unlimited power.</tspan></text>
+</svg>

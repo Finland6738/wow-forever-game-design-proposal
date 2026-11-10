@@ -39,8 +39,11 @@
         {"source": "docs/systems/runes.md", "page": "Runes", "label": "Runes", "description": "Finite permanent stat progression, a fixed lifetime ceiling and history without a new rank."},
         {"source": "docs/systems/adventurer-abilities.md", "page": "Adventurer-Abilities", "label": "Adventurer Abilities", "description": "Permanently useful historical raid options, one equipped entry and distinct Normal/Veteran unlocks."},
         {"source": "docs/08-prestige-ranks.md", "page": "Prestige-Ranks", "label": "Recognition and Competitive Standing", "description": "Adventurer, Explorer, Honor, Gladiator, Challenger and city-service boundaries."},
-        {"source": "docs/identity/races.md", "page": "Races", "label": "Races", "description": "Six playable-people concepts, cultures, anatomy and racial-power rules."},
-        {"source": "docs/identity/classes.md", "page": "Classes", "label": "Classes", "description": "Eighteen class families, thirteen mechanical studies, roles and design gates."},
+        {"source": "docs/identity/races.md", "page": "Races", "label": "Races", "description": "Ten established race candidates, original alternatives, neutral origins and visible armor fitting."},
+        {"source": "docs/identity/classes.md", "page": "Classes", "label": "Classes", "description": "English archetypes, role/spec matrix, eighteen family briefs and thirteen mapped studies."},
+        {"source": "docs/identity/class-roles-and-specializations.md", "page": "Class-Roles", "label": "Class Roles and Specializations", "description": "Pure support, traditional/support five-player groups and design-review decisions."},
+        {"source": "docs/identity/classes/artificer.md", "page": "Class-Artificer", "label": "Artificer — Puppet Warden", "description": "Stationary tank dummies, hammer positioning, repairs and an extra autonomous capstone puppet."},
+        {"source": "docs/identity/classes/summoner.md", "page": "Class-Summoner", "label": "Summoner — Swarms and Spirits", "description": "Swarmcaller, Soulbinder and Sporekeeper; accumulation, orders and caster counterplay."},
         {"source": "docs/11-rewards-and-acquisition.md", "page": "Rewards-and-Acquisition", "label": "Rewards and Acquisition", "description": "Reward matrix, ownership, lockouts, alternatives and economic faucets."}
       ]
     },

@@ -4,7 +4,7 @@
 
 ![Five adventurers at a crossroads overlooking a forest valley, ruins, a mountain citadel, and a dungeon entrance.](assets/images/a-world-of-parallel-adventures.png)
 
-> **Status: design proposal · v0.6 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
+> **Status: design proposal · v0.7 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
 
 **[Read the complete GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design/wiki)** · [Documentation index](docs/README.md) · [Questions and discussion](https://github.com/Finland6738/wow-forever-game-design/discussions)
 
@@ -14,7 +14,7 @@ Keep characters at level 60 and establish an accessible, lasting equipment-power
 
 Raid equipment remains usable throughout the game. Its additional progression bonuses activate only in the **raid group belonging to its content update and in its own difficulty**. Normal and Veteran retain separate contextual equipment tracks. Raids can also teach **permanently usable Adventurer abilities**, with one repertoire option equipped at a time; each difficulty teaches only its own option.
 
-Around that foundation, expand the level-60 endgame with tactical Heroic dungeons, keyless timed Challenge Modes, elite open-world regions, territorial PvP, settlement defense and reconstruction, procedural expeditions, professions, and exploration. Adventurer, Explorer and Honor recognize participation; Gladiator and Challenger identify separate competitive domains. Runes add a fixed-ceiling numerical journey without another rank ladder. Future regions and original playable identities expand the world within the same power policy.
+Around that foundation, expand the level-60 endgame with tactical Heroic dungeons, keyless timed Challenge Modes, elite open-world regions, territorial PvP, settlement defense and reconstruction, procedural expeditions, professions, and exploration. Adventurer, Explorer and Honor recognize participation; Gladiator and Challenger identify separate competitive domains. Runes add a fixed-ceiling numerical journey without another rank ladder. Future regions and new playable options expand the world within the same power policy.
 
 **The revised promise:** a returning player can enter a new raid without a sequential item-level climb through earlier tiers. Historical raids remain worthwhile sources of useful abilities for a chosen build; direct equipment access does not imply an already complete ability collection.
 
@@ -35,7 +35,7 @@ The [Wiki Home](https://github.com/Finland6738/wow-forever-game-design/wiki) and
 | PvE — Raids and Dungeons | [Raids](docs/01-progression-and-raids.md) · [World Bosses](docs/activities/world-bosses.md) · [Dungeon Overview](docs/02-dungeons-and-challenges.md) · [Heroic Dungeons (HC)](docs/activities/heroic-dungeons.md) · [Challenge Dungeons](docs/activities/challenge-dungeons.md) · [Procedural Dungeons](docs/07-procedural-expeditions.md) |
 | Open World | [Open World](docs/03-world-and-professions.md) · [NPC Invasions and Reconstruction](docs/06-invasions-and-reconstruction.md) · [Exploration and Small-Group Adventures](docs/activities/exploration-and-adventures.md) · [Professions and Crafting](docs/activities/professions.md) · [New Regions](docs/09-regions-races-and-classes.md) |
 | PvP and Faction Warfare | [PvP Overview](docs/activities/pvp.md) · [Arenas and Gladiator](docs/activities/arenas.md) · [Open-World PvP](docs/activities/open-world-pvp.md) · [Faction Warfare](docs/activities/faction-warfare.md) · [Warfare Models and Rules](docs/activities/warfare-models.md) · [Warfare Reputation and Cosmetics](docs/activities/warfare-rewards.md) |
-| Character and Progression | [Equipment and Progression](docs/systems/equipment-and-progression.md) · [Runes](docs/systems/runes.md) · [Adventurer Abilities](docs/systems/adventurer-abilities.md) · [Recognition and Competitive Standing](docs/08-prestige-ranks.md) · [Races](docs/identity/races.md) · [Classes](docs/identity/classes.md) · [Rewards and Acquisition](docs/11-rewards-and-acquisition.md) |
+| Character and Progression | [Equipment and Progression](docs/systems/equipment-and-progression.md) · [Runes](docs/systems/runes.md) · [Adventurer Abilities](docs/systems/adventurer-abilities.md) · [Recognition and Competitive Standing](docs/08-prestige-ranks.md) · [Races](docs/identity/races.md) · [Classes](docs/identity/classes.md) · [Roles and Specializations](docs/identity/class-roles-and-specializations.md) · [Artificer](docs/identity/classes/artificer.md) · [Summoner](docs/identity/classes/summoner.md) · [Rewards and Acquisition](docs/11-rewards-and-acquisition.md) |
 
 For technical rules, design philosophy, FAQ, glossary, roadmap and report reviews, see the [complete topic directory](docs/README.md). To propose an improvement, read [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -58,7 +58,7 @@ Raid difficulties are **Normal / Veteran** in this proposal. **Heroic / HC** nam
 | PvE, world, PvP, Arena and Challenge recognition | [§10](#10-rankings-and-recognition-pve-world-pvp-arenas-and-challenge) | [Details](docs/08-prestige-ranks.md) — Domains defined; Arena format/rating remains open |
 | Finite Rune-stat progression | [§11](#11-runes-finite-statistics-without-another-rank-ladder) | [Details](docs/systems/runes.md) — Fixed lifetime ceiling selected; numbers and pace open |
 | Permanent raid ability collection | [§12](#12-adventurer-repertoire-permanent-raid-abilities-one-equipped-choice) | [Details](docs/systems/adventurer-abilities.md) — One slot selected; production and ranked policies open |
-| Regions, races and classes | [§13](#13-new-regions-and-original-playable-identities) | [Details](docs/09-regions-races-and-classes.md) — Exploratory catalog, not a release roster |
+| Regions, races and classes | [§13](#13-new-regions-playable-races-and-class-specializations) | [Details](docs/09-regions-races-and-classes.md) — Ten established race candidates, original alternatives and role/spec studies; no release roster |
 | Professions, exploration and small-group play | [§14](#14-professions-exploration-and-small-group-adventures) | [Details](docs/03-world-and-professions.md) — Defined direction; individual activities require pilots |
 
 ## 1. Why a permanent level cap needs a permanent power policy
@@ -275,21 +275,27 @@ Ordinary external use is part of the selected direction. Competitive Challenge a
 
 [Read the Repertoire rules →](docs/systems/adventurer-abilities.md)
 
-## 13. New regions and original playable identities
+## 13. New regions, playable races and class specializations
 
-![Regions, six race concepts and eighteen class families with thirteen mechanical studies pass shared setting, feasibility and balance review.](assets/diagrams/identity-development.svg)
+![Established race candidates and original alternatives pass setting, equipment, animation and balance review alongside class and regional concepts.](assets/diagrams/identity-development.svg)
 
 Future updates can add lasting regions, cultures, classes and playable peoples while keeping level 60 and the same permanent power range. They do not need to deliver a new race or class every season, and older regions should keep useful stories, activities and rewards.
 
-The creative direction favors grounded, sometimes ominous fantasy and distinctive new playable identities. Six invented working concepts—Gravemarch, Brineveil, Stonewake, Thornmaw, Briarhide and Veilbound—explore different cultures and silhouettes. Each needs setting, anatomy and narrative review; these names do not identify announced peoples or additions to existing lore.
+The race shortlist starts with **ten established peoples from Vanilla, TBC or Wrath**: Ethereals, Ogres, Naga, classic Worgen, Quilboar/Razormane, Kobolds, Gnolls, Furbolgs, Arakkoa and Tuskarr. Preserve their early visual identity, especially the Silverpine/Arugal-associated Worgen appearance. Six invented alternatives remain secondary rather than replacing recognizable peoples with new names.
 
-The class catalog uses invented working names for 18 exploratory identities, including Veilcantor, Cruciblewright, Pactbinder, Aetheredge, Cogwarden and Stillguard. Each entry explains its fantasy, decision loop and group-balance risks. Overlapping ideas are consolidated; a new name alone is insufficient to justify a new class.
+Every new playable race has a neutral introductory experience and then permits **Alliance or Horde** membership, so friends can keep their preferred race and choose the same faction. Armor remains recognizable through visible anatomy-specific adaptations. Existing NPC assets are visual starting points, not proof that arbitrary player equipment or animations already work.
 
-Thirteen additional mechanical studies preserve the useful ideas in the brainstorming—forms, swarms, companion empowerment, state consumption, stances, devices, blood resources, parries, ammunition, rune selection and mounted coordination. They are alternatives that may become specializations or talents, rather than 13 more promised classes.
+The class catalog uses **English archetypes** such as Bard, Alchemist, Summoner, Oracle, Spellblade and Artificer, retaining earlier invented names as aliases. Eighteen exploratory families have explicit roles, equipment proposals, loops and specialization candidates. Thirteen mechanical studies map into those families; they are not thirteen additional promised classes.
 
-Each concept needs a unique decision loop, readable role, practical animation/pathing plan and the same power constraints as existing choices. New classes must not become mandatory party slots; new races must not supply a stronger permanent racial package. Prestige rank or old raid completion must not be required to unlock them.
+**Artificer/Puppet Warden is a tank:** stationary dummies generate threat and taunt, move through hammer strikes/kicks, and gain shield or weapon functions through talents. Each has separate HP and only the Artificer repairs it; ordinary healing targets the player. A powerful temporary autonomous puppet is an extra capstone summon with its own cooldown and reviewed power allowance.
 
-[New Regions →](docs/09-regions-races-and-classes.md) · [Races →](docs/identity/races.md) · [Classes →](docs/identity/classes.md)
+**Summoner** accumulates small beings through ranged abilities and commands their attacks. Its three selected trees are **Swarmcaller** (insect DPS), **Soulbinder** (souls/wisps DPS) and **Sporekeeper** (pure-support colony). The beings are not selectable and have no HP; counterplay targets the caster and commanded effects. Ability details and tuning remain prototypes.
+
+**Pure support is a separate role to investigate.** It contributes through active utility rather than full tanking, direct damage or healing. Five-player groups must remain viable both as 1 tank + 1 healer + 3 DPS and as 1 tank + 1 healer + 2 DPS + 1 support. No extra player or compulsory support slot is introduced; numerical viability still requires testing.
+
+Each concept needs a distinct loop, readable role, equipment/animation plan and the same power constraints as existing choices. New classes must not become mandatory party members; new races must not supply a stronger permanent racial package. Prestige rank or old raid completion must not be required to unlock them.
+
+[New Regions →](docs/09-regions-races-and-classes.md) · [Races →](docs/identity/races.md) · [Classes →](docs/identity/classes.md) · [Roles →](docs/identity/class-roles-and-specializations.md) · [Artificer tank →](docs/identity/classes/artificer.md) · [Summoner trees →](docs/identity/classes/summoner.md)
 
 ## 14. Professions, exploration and small-group adventures
 

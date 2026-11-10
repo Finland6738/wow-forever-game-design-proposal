@@ -80,7 +80,19 @@ Yes, outside combat under the encounter, cooldown and persistent-effect rules. F
 
 ## Are all concept names and numerical values final?
 
-No. Invented working names identify proposed peoples, classes and mechanical studies. The five-to-twenty-player expedition envelope and one-to-five-floor depth are requested parameters; scoring weights and suggested time windows are prototypes. Loot rates, caps, thresholds and exact tuning require evidence.
+No. The race catalog now prioritizes ten established peoples from Vanilla/TBC/Wrath, with six invented alternatives kept secondary. Classes use English archetypes and mapped specializations. These are proposals, not a release roster or proof that NPC bodies support all player equipment. The five-to-twenty-player expedition envelope and one-to-five-floor depth are requested parameters; rates, caps, thresholds and exact tuning still require evidence.
+
+## Can friends choose different new races and still join one faction?
+
+Yes. Every new playable race has an introductory experience followed by an Alliance/Horde choice. That choice defines the character's faction and eligible Warfare city standards; ancestry does not fix them. The exact introductions and later faction-change policy remain open. See [Races](identity/races.md#neutral-origins-and-faction-choice).
+
+## Does pure support require a sixth player or a compulsory new class?
+
+No. The selected goal supports both 1 tank + 1 healer + 3 DPS and 1 tank + 1 healer + 2 DPS + 1 support in the same ordinary five-player content. Support contributes active utility rather than full damage, tanking or healing. Whether the kits and encounters achieve this remains a prototype test. See [Roles](identity/class-roles-and-specializations.md).
+
+## Are the Artificer's devices and the Summoner's small beings the same pet system?
+
+No. The [Artificer tank](identity/classes/artificer.md) uses stationary dummies with separate HP, repaired only by the Artificer, with threat, taunt and deliberate repositioning. Its extra autonomous capstone puppet is temporary. Exact survival numbers need testing. The [Summoner](identity/classes/summoner.md) uses non-selectable beings with no HP as an accumulated and commanded resource; opponents pressure the caster and respond to its effects.
 
 ## Where should a correction be made?
 

@@ -4,7 +4,7 @@
 
 ## Expand the world without importing a new power ladder
 
-Future content updates can add regions, cultures, stories, dungeon environments and original playable identities while retaining level 60 and the permanent equipment budget. New areas should stand beside older content rather than functioning as the next mandatory level band.
+Future updates can add regions, cultures, stories, dungeon environments and new playable options while retaining level 60 and the permanent equipment budget. Established Warcraft peoples can become candidates alongside original concepts. New areas stand beside older content rather than functioning as the next mandatory level band.
 
 “Season” describes a content-release cadence here. It does not imply character wipes, disappearing regions, expiring rank totals or a promise to deliver a new race and class every season. New playable identities have substantial art, animation, narrative, itemization and balance costs.
 
@@ -22,7 +22,10 @@ New regions also create maintenance commitments: pathing, quest continuity, even
 
 | Topic | Scope |
 | --- | --- |
-| [Races](identity/races.md) | Six exploratory peoples, cultures, anatomy and racial mechanics |
-| [Classes](identity/classes.md) | Eighteen class families, thirteen mechanical studies, roles and development gates |
+| [Races](identity/races.md) | Ten established Vanilla/TBC/Wrath candidates, six original alternatives, neutral origins and visible armor adaptations |
+| [Classes](identity/classes.md) | Eighteen English archetype families, roles, candidate specializations and thirteen mapped studies |
+| [Roles and Specializations](identity/class-roles-and-specializations.md) | Pure support, two viable five-player compositions and recorded/open decisions |
+| [Artificer](identity/classes/artificer.md) | Tank dummies, hammer positioning, repairs, threat and extra autonomous capstone puppet |
+| [Summoner](identity/classes/summoner.md) | Insects, souls/wisps, non-selectable beings without HP and the proposed third tree |
 
 New regions can introduce stories and cultures without committing a new playable race or class each update. A future identity still needs its own narrative, technical and balance review. The [source register](references.md) keeps concept proposals distinct from official context.

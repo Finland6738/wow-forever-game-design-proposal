@@ -19,7 +19,9 @@ All assets are stored in the repository so its pages do not rely on hotlinked im
 | [recognition-domains.svg](diagrams/recognition-domains.svg) | Participation ranks, competitive standings and city service | Editable, repository-authored vector diagram |
 | [rune-progression.svg](diagrams/rune-progression.svg) | Finite statistics with a fixed lifetime ceiling and no Rune rank | Editable, repository-authored vector diagram |
 | [adventurer-repertoire.svg](diagrams/adventurer-repertoire.svg) | Permanent raid ability collection with one equipped option | Editable, repository-authored vector diagram |
-| [identity-development.svg](diagrams/identity-development.svg) | Review gates for regions, race concepts and class studies | Editable, repository-authored vector diagram |
+| [identity-development.svg](diagrams/identity-development.svg) | Established race candidates, neutral origins, class roles and review gates | Editable, repository-authored vector diagram |
+| [artificer-frontline.svg](diagrams/artificer-frontline.svg) | Stationary tank dummies, repair ownership and the extra autonomous puppet | Editable, repository-authored vector diagram |
+| [summoner-branches.svg](diagrams/summoner-branches.svg) | Non-selectable reserve beings and the three selected role/spec identities | Editable, repository-authored vector diagram |
 | [world-activities.svg](diagrams/world-activities.svg) | Professions, exploration and small-group adventures | Editable, repository-authored vector diagram |
 | [power-validation.svg](diagrams/power-validation.svg) | Server-side checks for the effective loadout and ranked profiles | Editable, repository-authored vector diagram |
 

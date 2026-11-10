@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="730" viewBox="0 0 1200 730" role="img" aria-labelledby="title desc">
-<title id="title">New places and identities need a purpose.</title><desc id="desc">Permanent regions, six exploratory peoples and eighteen class families with thirteen non-additive mechanical studies are subject to shared setting, readability, feasibility and power-budget review. These are not release commitments.</desc>
+<title id="title">New places and identities need a purpose.</title><desc id="desc">Permanent regions, ten established race candidates, six original alternatives and eighteen English archetype families undergo equipment, role and power review. New races choose either major faction after an introduction. Thirteen mechanical studies map into specializations; pure support is tested alongside tank, healer and DPS. These are not release commitments.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#377d7a"/></marker>
 <style>text{font-family:Arial,Helvetica,sans-serif;fill:#172d35}.heading{font-size:34px;font-weight:700}.label{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:19px;fill:#425c63}</style></defs>
 <rect width="1200" height="730" rx="20" fill="#f1f5f1"/>
 <text x="60" y="60" text-anchor="start" class="heading" style="" data-fit="60,22,1080,45"><tspan x="60" dy="0">New places and identities need a purpose.</tspan></text>
-<text x="60" y="98" text-anchor="start" class="body" style="" data-fit="60,75,1080,32"><tspan x="60" dy="0">Working concepts · Setting, combat and technical review before selection.</tspan></text>
+<text x="60" y="98" text-anchor="start" class="body" style="" data-fit="60,75,1080,32"><tspan x="60" dy="0">Existing peoples and original alternatives · Review before roster selection.</tspan></text>
 <rect x="60" y="155" width="340" height="155" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
 <text x="230.0" y="191" text-anchor="middle" class="label" style="font-size:25px;" data-fit="72,165,316,37"><tspan x="230.0" dy="0">Regions</tspan></text>
 <text x="230.0" y="228" text-anchor="middle" class="body" style="font-size:20px;" data-fit="72,205,316,97"><tspan x="230.0" dy="0">Permanent stories</tspan><tspan x="230.0" dy="28">Social and group activities</tspan><tspan x="230.0" dy="28">No new level band</tspan></text>
 <rect x="430" y="155" width="340" height="155" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
 <text x="600.0" y="191" text-anchor="middle" class="label" style="font-size:25px;" data-fit="442,165,316,37"><tspan x="600.0" dy="0">Races</tspan></text>
-<text x="600.0" y="228" text-anchor="middle" class="body" style="font-size:20px;" data-fit="442,205,316,97"><tspan x="600.0" dy="0">Six working concepts</tspan><tspan x="600.0" dy="28">Culture and silhouette</tspan><tspan x="600.0" dy="28">Anatomy and equipment review</tspan></text>
+<text x="600.0" y="228" text-anchor="middle" class="body" style="font-size:20px;" data-fit="442,205,316,97"><tspan x="600.0" dy="0">10 established candidates</tspan><tspan x="600.0" dy="28">6 original alternatives</tspan><tspan x="600.0" dy="28">Choose either major faction</tspan></text>
 <rect x="800" y="155" width="340" height="155" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
 <text x="970.0" y="191" text-anchor="middle" class="label" style="font-size:25px;" data-fit="812,165,316,37"><tspan x="970.0" dy="0">Classes</tspan></text>
-<text x="970.0" y="228" text-anchor="middle" class="body" style="font-size:20px;" data-fit="812,205,316,97"><tspan x="970.0" dy="0">18 exploratory families</tspan><tspan x="970.0" dy="28">13 mechanical studies</tspan><tspan x="970.0" dy="28">Distinct combat decisions</tspan></text>
+<text x="970.0" y="228" text-anchor="middle" class="body" style="font-size:20px;" data-fit="812,205,316,97"><tspan x="970.0" dy="0">18 archetype families</tspan><tspan x="970.0" dy="28">Roles and specializations</tspan><tspan x="970.0" dy="28">Tank · Healer · DPS · Support</tspan></text>
 <path d="M230 310V370" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
 <path d="M600 310V370" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
 <path d="M970 310V370" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
 <rect x="60" y="385" width="1080" height="105" rx="14" fill="#173c43" stroke="#173c43" stroke-width="2"/>
 <text x="600.0" y="421" text-anchor="middle" class="label" style="fill:#ffffff;font-size:25px;" data-fit="72,395,1056,37"><tspan x="600.0" dy="0">Shared design gate</tspan></text>
-<text x="600.0" y="458" text-anchor="middle" class="body" style="fill:#d8e8e5;font-size:21px;" data-fit="72,435,1056,47"><tspan x="600.0" dy="0">Setting · Readability · Feasibility · Permanent power budget</tspan></text>
+<text x="600.0" y="458" text-anchor="middle" class="body" style="fill:#d8e8e5;font-size:21px;" data-fit="72,435,1056,47"><tspan x="600.0" dy="0">Setting · Equipment · Roles · Feasibility · Permanent power budget</tspan></text>
 <rect x="60" y="540" width="1080" height="95" rx="14" fill="#f5ead5" stroke="#b8ccca" stroke-width="2"/>
 <text x="600.0" y="576" text-anchor="middle" class="label" style="font-size:24px;" data-fit="72,550,1056,37"><tspan x="600.0" dy="0">An exploratory catalog, not a promised release roster</tspan></text>
 <text x="600.0" y="613" text-anchor="middle" class="body" style="font-size:20px;" data-fit="72,590,1056,37"><tspan x="600.0" dy="0">Concepts may merge, change, become talents or be rejected.</tspan></text>

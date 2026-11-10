@@ -66,7 +66,7 @@ Assess short-term novelty and repeat behavior separately. A high participation r
 - Adventurer, Explorer and Honor identities stay separate and grant no statistics; civic defense belongs to Explorer.
 - Gladiator and Challenger identify separate competitive domains. Rune history is not another rank; its numerical allowance has a fixed lifetime ceiling.
 - Historical raids may remain the exclusive source of desirable build abilities. The direct-entry promise concerns the equipment ladder, not an already complete optimized repertoire.
-- New regions and original playable identities must fit the setting and budget, with distinct cultures and loops rather than repeated existing-race or class variants.
+- New regions and playable options must fit the setting and budget. Prioritize ten established early-era race candidates, neutral introductions with faction choice and recognizable armor adaptations; class families need explicit roles and distinct specialization loops.
 
 ## Open design questions
 
@@ -84,7 +84,11 @@ Assess short-term novelty and repeat behavior separately. A high participation r
 | Procedural depth and scaling | Generated geometry/encounters, 1–5 floors and checkpoint-bound 5–20-player profiles | Module library, duration, safe roster changes, resistance limits and reproducible state |
 | Expedition rewards | Pilot modest gold, common materials, collections and prestige | Payout rates, resource supply, seed fishing, replay eligibility and economic impact |
 | Prestige weights | Prototype level ×1/×2/×5 kill values with role-aware eligibility | Rank thresholds, repeat windows, completion credit, account presentation and AFK false positives |
-| Race/class catalog | Six exploratory peoples, 18 families and 13 non-additive mechanical studies | Setting/roster review, original identity, role fit, animation, pathing and prototype rejection criteria |
+| Race catalog | Ten established early-era candidates and six secondary original alternatives; neutral introductions and faction choice | Wardrobe mockups, exact anatomy adaptations, animation coverage, arrival stories and shortlist |
+| Class catalog | Eighteen English archetype families and thirteen mapped studies | Role/spec identity, equipment, readable loops and prototype rejection criteria |
+| Pure support | A support can replace one DPS; traditional and support five-player groups both work | Boss utility, leveling, raid stacking, matched encounter completion and competitive profiles |
+| Artificer tank | Stationary dummies with independent HP repaired only by the Artificer; extra temporary autonomous capstone | Threat, repair/rebuild economy, healer role, placement, capstone power and recovery |
+| Summoner trees | Swarmcaller and Soulbinder DPS, Sporekeeper support; beings are non-selectable and have no HP | Reserve pace, output accounting, caster counterplay and boss-usable support tools |
 | Rune progression | A fixed lifetime stat allowance, no new rank or seasonal increase | Stat set, exact caps, acquisition time, precision, group incentives and competitive profiles |
 | Raid repertoire | Permanent historical options, one equipped entry, each difficulty teaches its own | Per-raid/class production scope, eligibility, swap preparation/cost and competitive treatment |
 | Warfare structure | Preferred ordinary-faction/local-city prototype; permanent base objects and service-qualified variants | Full capture/support resolution, objective population, penalty amount, eligibility thresholds and switching timers |

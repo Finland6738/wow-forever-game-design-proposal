@@ -39,6 +39,12 @@
 | Claim ledger | Authoritative records preventing duplicate rewards for the same entitlement |
 | Idempotent operation | Repeating a request returns the intended result without repeating its side effects |
 | Source of truth | Repository Markdown from which the published wiki is generated |
+| Neutral race origin | A new race's introduction before the player chooses Alliance or Horde |
+| Armor adaptation | Anatomy-specific visible fitting that preserves an item's identity, slots and power |
+| Pure support | A distinct utility responsibility with low direct damage and no full healer/tank role |
+| Specialization | A coherent role/resource branch within a class family, not an additional class by default |
+| Summoner reserve | Small beings accumulated and committed through abilities; no individual targetability or HP |
+| Puppet Warden | Artificer tank specialization using stationary repairable dummies and commanded positioning |
 
 ## Status vocabulary
 
@@ -58,11 +64,11 @@
 | D08 | Expeditions target 5–20 players and a committed 1–5-floor envelope | Requested prototype | [Expedition access](07-procedural-expeditions.md#entry-and-expedition-identity) |
 | D09 | Prestige is separate from statistics, economic throughput and skill ratings | Commitment | [Prestige boundaries](08-prestige-ranks.md#rewards-and-progression-boundaries) |
 | D10 | Kill scoring starts from native level ×1/×2/×5 before eligibility/repeat rules | Prototype | [Scoring](08-prestige-ranks.md#adventurer-a-simple-starting-score) |
-| D11 | New identities need distinct culture/loops and the same power policy | Commitment | [Identity gates](identity/classes.md#development-gates) |
+| D11 | New identities need distinct culture/loops and the same power policy | Commitment | [Identity gates](identity/classes.md#shared-balance-and-development-gates) |
 | D12 | Cooperative play anchors meaningful endgame achievement; prestige remains earned | Commitment | [Social design](10-social-design-and-earned-prestige.md) |
 | D13 | Loot cadence, shared allowances, rates, caps and economic tuning require pilots | Open | [Reward policies](11-rewards-and-acquisition.md) |
 | D14 | Exact rank thresholds, repeat windows and public presentation require evaluation | Open | [Prestige evaluation](08-prestige-ranks.md#evaluation-and-unresolved-choices) |
-| D15 | Class/race working names are exploratory and do not define a release roster | Prototype | [Classes](identity/classes.md) · [Races](identity/races.md) |
+| D15 | Established race candidates and English class archetypes form an exploratory catalog, not a release roster | Clarified in v0.7 | [Classes](identity/classes.md) · [Races](identity/races.md) |
 | D16 | Repository edits automatically publish the wiki after validation | Commitment | [Wiki maintenance](14-wiki-maintenance.md) |
 | D17 | Runes can grant finite statistics within a fixed lifetime envelope, without another rank ladder | Selected direction | [Runes](systems/runes.md) |
 | D18 | A desired historical raid ability may remain source-exclusive and useful outside its raid; one repertoire option is equipped | Selected direction, revises earlier blanket equivalence | [Adventurer Abilities](systems/adventurer-abilities.md) |
@@ -70,5 +76,11 @@
 | D20 | City rivalry allows allied-major-faction opponents only in Warfare areas with both city flags active; ordinary PvP remains separate | Selected constraint of the preferred bivalent prototype | [Warfare models](activities/warfare-models.md) |
 | D21 | With city service retained, base cosmetics stay owned, city variants need eligible service and switching city loses reputation | Selected direction; amount/thresholds open | [City rewards](activities/warfare-rewards.md) |
 | D22 | Toggling city combat and changing the city served are distinct operations | Recommended separation for the prototype | [Warfare states](activities/warfare-models.md#three-independent-states) |
+| D23 | Every new race permits Alliance or Horde choice after its introduction | Selected boundary | [Neutral origins](identity/races.md#neutral-origins-and-faction-choice) |
+| D24 | Earned equipment remains recognizable through visible anatomy-specific adaptations | Selected goal; fitting unverified | [Armor contract](identity/races.md#equipment-contract-for-every-candidate) |
+| D25 | Pure support is distinct; it may replace a DPS in five-player content, while both compositions remain viable | Selected prototype goal; numbers unvalidated | [Group roles](identity/class-roles-and-specializations.md#five-player-compositions) |
+| D26 | Artificer tank uses stationary movable dummies with independent HP repaired only by the Artificer; autonomous capstone is extra and temporary | Selected concept; exact budgets open | [Artificer](identity/classes/artificer.md) |
+| D27 | Summoner beings follow/order-attack, cannot be selected and have no HP; counterplay targets the caster/effects | Selected constraint | [Summoner](identity/classes/summoner.md#targetability-and-counterplay) |
+| D28 | Summoner contains Swarmcaller and Soulbinder DPS trees and Sporekeeper pure support | Selected three-tree direction; kit/numbers require testing | [Summoner trees](identity/classes/summoner.md) |
 
 Keep IDs stable when clarifying a decision. A substantial reversal should explain the affected player experience, trade-off and evidence, with a change-history entry. Unsettled numbers must not quietly become fixed rules merely because a wiki page describes them.

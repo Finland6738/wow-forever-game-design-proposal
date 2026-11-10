@@ -40,7 +40,28 @@ Four-to-eight-week raid progression, 30–60-minute territorial benefits and sho
 
 The level ×1/×2/×5 prestige formula is a user-proposed prototype, not a validated performance model. The 5–20-player range and 1–5-floor envelope are requested design parameters; exact scaling, reward rates and feasibility remain unproven. Generated module assemblies can repeat, so the design does not promise a globally unique layout for every run.
 
-The [concept catalog](09-regions-races-and-classes.md) uses invented working names and self-contained mechanical descriptions. They are proposals requiring identity, setting and feasibility review. Claims such as “no class has ever done this” or “the most requested class” are not treated as verified facts.
+The [concept catalog](09-regions-races-and-classes.md) now distinguishes established Warcraft peoples from six secondary original alternatives, and uses English class archetypes with self-contained mechanics. The role/spec proposals, neutral introductions and armor adaptations are design choices, not statements that Blizzard has approved or implemented them. Claims such as “no class has ever done this” or “the most requested class” are not treated as verified facts.
+
+## Historical race references and technical limits
+
+The following references identify the early-era appearances used by the [race catalog](identity/races.md). Community pages are secondary historical indexes; their later expansion sections are not automatically adopted. Blizzard's retrospective Arakkoa and Wrath zone articles support the limited historical distinctions listed below.
+
+| Reference | Limited use in this proposal |
+| --- | --- |
+| [Ethereals](https://warcraft.wiki.gg/wiki/Ethereal) | TBC-era wrapped-energy people and their Outland appearances |
+| [Classic Dustwallow Marsh](https://warcraft.wiki.gg/wiki/Dustwallow_Marsh_%28Classic%29) | Stonemaul/Brackenwall as one Vanilla Ogre connection |
+| [Blackfathom](https://warcraft.wiki.gg/wiki/Blackfathom) | Naga represented in a Vanilla dungeon group |
+| [Sons of Arugal](https://warcraft.wiki.gg/wiki/Son_of_Arugal) and Blizzard's [Worgen race profile](https://worldofwarcraft.blizzard.com/en-gb/game/races/worgen) | Separate the original Silverpine reference from the later playable race treatment |
+| [Razormane tribe](https://warcraft.wiki.gg/wiki/Razormane) | Razormane is a Quilboar tribe represented in Durotar and the Barrens |
+| [Kobold Tunneler](https://warcraft.wiki.gg/wiki/Kobold_Tunneler) | Elwynn mine-dwellers as a Vanilla visual reference |
+| [Gnolls](https://warcraft.wiki.gg/wiki/Gnoll) | Riverpaw and other early-world packs |
+| [Timbermaw Furbolgs](https://warcraft.wiki.gg/wiki/Timbermaw_furbolg) | An existing forest community and neutral-relationship reference |
+| Blizzard, [Spires of Arak preview](https://worldofwarcraft.blizzard.com/en-gb/news/15108050/warlords-of-draenor-zone-preview-spires-of-arak) | Distinguishes familiar TBC cursed/flightless Arakkoa from the later winged treatment |
+| Blizzard, [Wrath zone guide](https://news.blizzard.com/en-gb/article/23816544/wrath-classic-zone-guide-borean-tundra-and-howling-fjord) | Tuskarr/Kalu'ak presence in Northrend and interaction with both factions |
+
+**No local game-client, mesh, skeleton, UV or equipment-attachment audit has been performed.** Gear-fitting work bands are design estimates based on the proposed anatomies. A cost band is not an implementation measurement, and a model seen holding a weapon does not establish support for arbitrary player items. TBC/Wrath references do not prove those assets are already present in Forever's client.
+
+Pure support, stationary tank dummies, the extra autonomous puppet and the Summoner's no-HP small beings are original proposal rules. Their descriptions are not balance results or claims about an existing engine. The [role register](identity/class-roles-and-specializations.md) records the author's selected constraints and the remaining questions.
 
 ## Source handling
 

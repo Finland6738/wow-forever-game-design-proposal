@@ -1,5 +1,16 @@
 # Change history
 
+## 0.7 — 2026-11-10
+
+- Prioritized ten established Vanilla/TBC/Wrath race candidates ahead of the six original alternatives, with historical references, equipment analysis and candidate-specific review gates.
+- Selected neutral introductions followed by Alliance/Horde choice for all new races, and visible anatomy-specific armor adaptations preserving item identity.
+- Restored English class archetype names with traceable aliases; expanded the eighteen-family role/spec/equipment matrix and mapped the thirteen mechanical studies into candidate branches.
+- Selected pure support as a distinct role to investigate, replacing one DPS in a five-player group while retaining the traditional composition as a viable alternative; deferred bruiser.
+- Added a detailed Artificer tank dossier with stationary taunting dummies, separate construct HP repaired only by the Artificer, hammer/kick positioning, functional talents and an extra temporary autonomous capstone puppet.
+- Added a detailed Summoner dossier for selected Swarmcaller/Soulbinder DPS and Sporekeeper pure-support trees, non-selectable beings without HP and caster counterplay.
+- Added matching Artificer-frontline and Summoner-branch diagrams to their shared repository/wiki dossiers.
+- Updated README, shared diagram, wiki navigation, decision register, FAQ, technical acceptance cases, evaluation roadmap and unpublished forum draft; kept unselected mechanics and numerical tuning explicit.
+
 ## 0.6 — 2026-11-10
 
 - Audited README coverage and added a linked concept map covering raids, the three dungeon formats, World Bosses, Warfare, NPC assaults, recognition, Runes, raid abilities and world development.
