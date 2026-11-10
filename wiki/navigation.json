@@ -2,6 +2,7 @@
   "groups": [
     {
       "title": "PvE — Raids and Dungeons",
+      "collapsed": true,
       "items": [
         {"source": "docs/01-progression-and-raids.md", "page": "Raids", "label": "Raids", "description": "Entry, Normal and Veteran, scoped gear, loot and old-raid relevance."},
         {"source": "docs/activities/world-bosses.md", "page": "World-Bosses", "label": "World Bosses", "description": "Elite approaches, territorial bosses, contribution, access and artifacts."},
@@ -13,6 +14,7 @@
     },
     {
       "title": "Open World",
+      "collapsed": true,
       "items": [
         {"source": "docs/03-world-and-professions.md", "page": "Open-World", "label": "Open World", "description": "Find cooperative activities, discoveries and living-world systems."},
         {"source": "docs/06-invasions-and-reconstruction.md", "page": "NPC-Invasions", "label": "NPC Invasions and Reconstruction", "description": "Defend settlements, rebuild after defeat and restore NPC services."},
@@ -23,6 +25,7 @@
     },
     {
       "title": "PvP and Faction Warfare",
+      "collapsed": true,
       "items": [
         {"source": "docs/activities/pvp.md", "page": "PvP", "label": "PvP Overview", "description": "Find PvP topics and their shared participation and reward boundaries."},
         {"source": "docs/activities/arenas.md", "page": "Arenas", "label": "Arenas and Gladiator", "description": "The arena competition domain, with format and competitive policies still to define."},
@@ -34,6 +37,7 @@
     },
     {
       "title": "Character and Progression",
+      "collapsed": true,
       "items": [
         {"source": "docs/systems/equipment-and-progression.md", "page": "Equipment-and-Progression", "label": "Equipment and Progression", "description": "Equipment, fixed Rune growth, scoped raid bonuses and the permanent ability repertoire."},
         {"source": "docs/systems/runes.md", "page": "Runes", "label": "Runes", "description": "Finite permanent stat progression, a fixed lifetime ceiling and history without a new rank."},
