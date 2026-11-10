@@ -257,7 +257,7 @@ class WikiBuilder:
         for title, collapsed, entries in groups:
             output["Home.md"] += f"## {title}\n\n"
             if collapsed:
-                output["Home.md"] += "<details>\n<summary>Show guides and technical documentation</summary>\n\n"
+                output["Home.md"] += "<details>\n<summary>Show topics</summary>\n\n"
                 sidebar += f"\n<details>\n<summary>{title}</summary>\n\n"
             else:
                 sidebar += f"\n**{title}**\n\n"

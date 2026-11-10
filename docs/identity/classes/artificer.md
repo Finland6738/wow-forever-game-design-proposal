@@ -1,14 +1,16 @@
-# Artificer — Puppet Warden
+# Artificer — Three Talent Trees
 
 [← Class catalog](../classes.md) · [Roles and specializations](../class-roles-and-specializations.md) · [Summoner](summoner.md)
 
 ![The healer heals the player and group; the Artificer repairs independently healthy stationary defenders and summons an extra temporary autonomous puppet.](../../../assets/diagrams/artificer-frontline.svg)
 
+**Tree structure:** Puppet Warden (tank), Artillery (ranged DPS) and Field Engineer (pure support). The tank's core constraints are author-selected; the two additional kits below are proposed implementation specifications. Apply the [Vanilla-style talent and evidence contract](../implementation-standard.md) before claiming complete tree or hybrid balance.
+
 ## Identity and role
 
-**Primary role: tank.** The Puppet Warden builds training-dummy-like defenders, positions them with forceful hammer strikes or kicks, repairs them and directs their threat. The player wins through preparation, facing, resource decisions and recovery. The ordinary constructs are **stationary**, not pets that chase targets automatically.
+**Puppet Warden primary role: tank.** It builds training-dummy-like defenders, positions them with forceful hammer strikes or kicks, repairs them and directs their threat. The player wins through preparation, facing, resource decisions and recovery. The ordinary constructs are **stationary**, not pets that chase targets automatically.
 
-The class family may also explore an Artillery DPS specialization. This dossier concerns the tank tree. Repair does not make it the group's healer, and its devices cannot add full independent tank and damage budgets to a player who already performs those roles at full strength.
+The detailed defender contract below concerns the tank tree; Artillery and Field Engineer use the same ownership, placement and repair foundation with different output responsibilities. Repair does not make any tree the group's healer. Devices cannot add full independent tank and damage budgets to a player already performing those roles at full strength.
 
 **Selected fantasy:** three or four ordinary dummies as the target envelope, plus a powerful **temporary extra autonomous puppet** unlocked through a late talent. Dummies have **separate health and only the Artificer repairs them**. Exact cap, health, mitigation and costs remain prototype decisions. The extra puppet is not silently made a replacement for an ordinary dummy.
 
@@ -132,3 +134,51 @@ In a five-player dungeon the specialization occupies **one tank slot**. Other pl
 | PvP pressure | Counterplay through positioning and owner pressure, with device interaction defined |
 
 Measure command frequency, setup time, threat losses, healer targeting burden, damage spikes, recovery options and effective power against existing tank baselines. A promising fantasy is not a claim that its engine behavior or numbers are already validated.
+
+## Talent-tree specifications
+
+### Puppet Warden
+
+**Primary role:** tank. **Status:** core identity selected; exact talent allocation and tuning open.
+
+Its baseline kit, independent construct HP, owner-only repairs, hammer movement, local threat and extra temporary autonomous capstone are specified above. The first implementation slice is Assemble Defender, Driving Blow, Challenge Pulse and Field Repair against one moving threat, followed by a multi-enemy pull.
+
+**Talent anchors:** early placement/repair efficiency versus resource retention; middle physical shield, magical ward or offensive threat-module choices with opportunity costs; deep Harvest Puppet capstone adding the selected temporary autonomous unit and its own cooldown/power allowance. A repair talent improves device recovery, not ordinary group healing.
+
+### Artillery
+
+**Primary role:** ranged DPS. **Status:** proposed tree specification.
+
+**Loop:** deploy a small stationary firing arrangement, generate construction reserve through ranged/tool actions, manage limited Heat and choose a controlled overdrive before repair/reposition. Devices remain independently healthy and only the Artificer repairs them. This tree does not receive full tank durability and boss-taunt capability on top of full ranged damage.
+
+| Baseline action | State change | Guard and trade-off |
+| --- | --- | --- |
+| Assemble Firing Module | Commit an ordinary device slot and reserve to a stationary ranged module | Shared family deployment cap; no extra full turret set alongside tank/support devices |
+| Calibrated Volley | Spend reserve/Heat allowance for a legal focused firing sequence | Owner range, target permission, line of sight and one total output budget |
+| Vent and Reposition | End overdrive, recover Heat under the rule and move/repair a module | Costs firing time/resource; no full health or cooldown reset |
+
+**Talent anchors:** early reserve generation versus Heat tolerance; middle focused volley versus bounded area delivery; capstone a finite overdrive sequence with a visible end and recovery, not the tank tree's full autonomous defender kit added for free.
+
+The test scene moves the target out of the firing arrangement, interrupts a repair and compares output before/after a full reposition. Stationary-device friction must be meaningful without making ordinary movement mechanics disable the class.
+
+### Field Engineer
+
+**Primary role:** pure support. **Status:** proposed tree specification.
+
+**Loop:** build a small relay arrangement, accumulate preparation through active tool/support actions and spend it on finite protection, disruption or regrouping utility. Device placement and repair remain decisions, while direct damage, healing and main-tank attention are deliberately low.
+
+| Baseline action | State change | Guard and trade-off |
+| --- | --- | --- |
+| Deploy Relay | Reserve a shared device slot and prepare a local support anchor | Independent HP and owner-only repairs; no invulnerable wall or extra full tank |
+| Interception Pattern | Spend preparation on finite guarded-zone prevention | Visible coverage, shared prevention allowance and ordinary encounter responsibilities |
+| Counterpulse | Commit a relay to reviewed local disruption or countermeasure delivery | Normal immunity/diminishing returns; no complete dispel catalog in one build |
+
+**Talent anchors:** early repair/reposition efficiency versus retained preparation; middle protective coverage versus control emphasis; capstone a short coordinated relay release consuming preparation with a shared support allowance.
+
+Test a control-immune boss, a moving encounter and a destroyed relay. The support must have useful protection/countermeasure decisions while both accepted five-player compositions remain viable. Its relays cannot generate main-tank threat merely to justify their visible bodies.
+
+## Shared deployment and mixed-tree allocation
+
+Ordinary devices from all three trees share the family deployment cap and construction resource. A mixed build cannot gain three independent deployment rosters, three repair budgets or every full output role. The extra autonomous tank capstone remains additional and temporary as selected; its deep-tree access, cooldown and power must be evaluated in the actual talent allocation.
+
+Before full implementation, specify node ranks, prerequisites, unlock depths, resource/Heat values, target caps, placement range, repair throughput, external-prevention eligibility and the encounter threat-transition rules. Validate representative hybrid builds under the approved level-60 point budget rather than imposing an unannounced modern specialization lock.

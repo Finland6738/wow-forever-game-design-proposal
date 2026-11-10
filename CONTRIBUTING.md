@@ -20,6 +20,8 @@ Useful feedback describes the affected player, a specific situation, the propose
 6. Put images in `assets/images/`, editable diagrams in `assets/diagrams/`, and document provenance in [assets/README.md](assets/README.md).
 7. Record material design decisions in [CHANGELOG.md](CHANGELOG.md).
 8. Use the established race names and English class archetypes in the catalog, with self-contained mechanic descriptions. Original alternatives remain labeled; put personal background in the author section.
+9. Keep each class/race dossier and its overview synchronized. Class candidates have three talent trees; record role, resource/state transitions, baseline actions, talent anchors and acceptance scenes. Update the [mechanic coverage register](docs/identity/mechanic-coverage.md) when moving a study between trees.
+10. Follow the [implementation evidence standard](docs/identity/implementation-standard.md): a prose specification does not establish engine feasibility, complete talent balance or race asset compatibility.
 
 ## Wiki updates
 

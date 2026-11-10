@@ -82,5 +82,7 @@
 | D26 | Artificer tank uses stationary movable dummies with independent HP repaired only by the Artificer; autonomous capstone is extra and temporary | Selected concept; exact budgets open | [Artificer](identity/classes/artificer.md) |
 | D27 | Summoner beings follow/order-attack, cannot be selected and have no HP; counterplay targets the caster/effects | Selected constraint | [Summoner](identity/classes/summoner.md#targetability-and-counterplay) |
 | D28 | Summoner contains Swarmcaller and Soulbinder DPS trees and Sporekeeper pure support | Selected three-tree direction; kit/numbers require testing | [Summoner trees](identity/classes/summoner.md) |
+| D29 | Each candidate class has three Vanilla-style talent trees; hybrid allocation is evaluated at the approved level-60 point budget | Selected structure; individual proposed kits require evaluation | [Implementation contract](identity/implementation-standard.md#class-and-talent-tree-contract) |
+| D30 | Moon Predator alternates through an automatic internal combat cycle, independent of world day/night | Selected constraint; phase timing/reset parameters open | [Moon Predator](identity/classes/warden.md#moon-predator) |
 
 Keep IDs stable when clarifying a decision. A substantial reversal should explain the affected player experience, trade-off and evidence, with a change-history entry. Unsettled numbers must not quietly become fixed rules merely because a wiki page describes them.

@@ -44,12 +44,50 @@ Choose an activity or character topic. Pages distinguish selected directions, re
 | [Runes](systems/runes.md) | Finite permanent stat progression, a fixed lifetime ceiling and history without a new rank. |
 | [Adventurer Abilities](systems/adventurer-abilities.md) | Permanently useful historical raid options, one equipped entry and distinct Normal/Veteran unlocks. |
 | [Recognition and Competitive Standing](08-prestige-ranks.md) | Adventurer, Explorer, Honor, Gladiator, Challenger and city-service boundaries. |
-| [Races](identity/races.md) | Ten established race candidates, original alternatives, neutral origins and visible armor fitting. |
-| [Classes](identity/classes.md) | English archetypes, role/spec matrix, eighteen family briefs and thirteen mapped studies. |
+| [Races](identity/races.md) | Ten individual race dossiers, original alternatives, neutral origins and visible armor fitting. |
+| [Classes](identity/classes.md) | Eighteen individual class dossiers, 54 tree specifications and a role/equipment matrix. |
 | [Class Roles and Specializations](identity/class-roles-and-specializations.md) | Pure support, traditional/support five-player groups and design-review decisions. |
-| [Artificer — Puppet Warden](identity/classes/artificer.md) | Stationary tank dummies, hammer positioning, repairs and an extra autonomous capstone puppet. |
-| [Summoner — Swarms and Spirits](identity/classes/summoner.md) | Swarmcaller, Soulbinder and Sporekeeper; accumulation, orders and caster counterplay. |
+| [Identity Implementation Standard](identity/implementation-standard.md) | State/ability handoff, talent allocation, hybrid review and evidence gates. |
+| [Archetype and Mechanic Coverage](identity/mechanic-coverage.md) | Latest nine studies, four earlier studies and their explicit class/tree homes. |
 | [Rewards and Acquisition](11-rewards-and-acquisition.md) | Reward matrix, ownership, lockouts, alternatives and economic faucets. |
+
+## Class Dossiers
+
+| Class | Talent trees |
+| --- | --- |
+| [Bard](identity/classes/bard.md) | Conductor · Cantor · Deep Cantor |
+| [Alchemist](identity/classes/alchemist.md) | Bombardier · Combat Medic · Mutagenist |
+| [Summoner](identity/classes/summoner.md) | Swarmcaller · Soulbinder · Sporekeeper |
+| [Inquisitor](identity/classes/inquisitor.md) | Judgment · Interrogator · Absolver |
+| [Oracle](identity/classes/oracle.md) | Seer · Omen · Doomweaver |
+| [Witch](identity/classes/witch.md) | Hexkeeper · Familiar · Coven |
+| [Investigator](identity/classes/investigator.md) | Field Agent · Analyst · Saboteur |
+| [Spellblade](identity/classes/spellblade.md) | Channeler · Spellguard · Oath Duelist |
+| [Gunslinger](identity/classes/gunslinger.md) | Sharpshooter · Trickshot · Gunmarshal |
+| [Cavalier](identity/classes/cavalier.md) | Outrider · Mounted Guardian · Beast Rider |
+| [Necromancer](identity/classes/necromancer.md) | Legion · Decay · Boneweaver |
+| [Artificer](identity/classes/artificer.md) | Puppet Warden · Artillery · Field Engineer |
+| [Warden](identity/classes/warden.md) | Moon Predator · Sentinel · Duelist |
+| [Dark Ranger](identity/classes/dark-ranger.md) | Shade Archer · Spectral Marks · Banshee Caller |
+| [Runemaster](identity/classes/runemaster.md) | Runeblade · Rune Scholar · Rime Scholar |
+| [Beastmaster](identity/classes/beastmaster.md) | Packleader · Wildbond · Trailwarden |
+| [Hemomancer](identity/classes/hemomancer.md) | Bloodweaver · Nightform · Lifewarden |
+| [Martial Adept](identity/classes/martial-adept.md) | Guarded Staff · Open Hand · Waykeeper |
+
+## Race Dossiers
+
+| Race | Evaluation focus |
+| --- | --- |
+| [Ethereals](identity/races/ethereals.md) | Wrapped-energy body with recognizable armor, not a permanent bandage outfit. |
+| [Ogres](identity/races/ogres.md) | A broad single-headed body whose size survives the playable-scale review. |
+| [Naga](identity/races/naga.md) | A serpentine playable body with genuine tail locomotion and visible lower-body item adaptation. |
+| [Classic Worgen](identity/races/classic-worgen.md) | The older Silverpine/Arugal-associated werewolf appearance, with a player-capable rig preserving its mood. |
+| [Quilboar / Razormane](identity/races/quilboar.md) | Bristles, tusks and a coherent thornland culture; Razormane remains a tribal reference. |
+| [Kobolds](identity/races/kobolds.md) | A genuinely small mine-dwelling silhouette with readable earned items and full player actions. |
+| [Gnolls](identity/races/gnolls.md) | The early hyena-like frontier profile with individual agency and recognizable equipment. |
+| [Furbolgs](identity/races/furbolgs.md) | A broad forest people with substantial culture and a workable full-armor presentation. |
+| [Arakkoa](identity/races/arakkoa.md) | The original hunched, flightless TBC appearance rather than a later winged model. |
+| [Tuskarr](identity/races/tuskarr.md) | The older walrus-like coastal body and a communal seafaring identity. |
 
 ## Project Reference
 

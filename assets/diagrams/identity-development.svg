@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="730" viewBox="0 0 1200 730" role="img" aria-labelledby="title desc">
-<title id="title">New places and identities need a purpose.</title><desc id="desc">Permanent regions, ten established race candidates, six original alternatives and eighteen English archetype families undergo equipment, role and power review. New races choose either major faction after an introduction. Thirteen mechanical studies map into specializations; pure support is tested alongside tank, healer and DPS. These are not release commitments.</desc>
+<title id="title">New places and identities need a purpose.</title><desc id="desc">Ten established race candidates have individual dossiers, with six secondary original alternatives. Eighteen candidate classes have three talent trees each, for fifty-four tree specifications. All undergo equipment, role and power review. New races choose either major faction after an introduction. Thirteen studies map into explicit trees. These are not release commitments.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#377d7a"/></marker>
 <style>text{font-family:Arial,Helvetica,sans-serif;fill:#172d35}.heading{font-size:34px;font-weight:700}.label{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:19px;fill:#425c63}</style></defs>
 <rect width="1200" height="730" rx="20" fill="#f1f5f1"/>
@@ -13,7 +13,7 @@
 <text x="600.0" y="228" text-anchor="middle" class="body" style="font-size:20px;" data-fit="442,205,316,97"><tspan x="600.0" dy="0">10 established candidates</tspan><tspan x="600.0" dy="28">6 original alternatives</tspan><tspan x="600.0" dy="28">Choose either major faction</tspan></text>
 <rect x="800" y="155" width="340" height="155" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
 <text x="970.0" y="191" text-anchor="middle" class="label" style="font-size:25px;" data-fit="812,165,316,37"><tspan x="970.0" dy="0">Classes</tspan></text>
-<text x="970.0" y="228" text-anchor="middle" class="body" style="font-size:20px;" data-fit="812,205,316,97"><tspan x="970.0" dy="0">18 archetype families</tspan><tspan x="970.0" dy="28">Roles and specializations</tspan><tspan x="970.0" dy="28">Tank · Healer · DPS · Support</tspan></text>
+<text x="970.0" y="228" text-anchor="middle" class="body" style="font-size:20px;" data-fit="812,205,316,97"><tspan x="970.0" dy="0">18 candidate classes</tspan><tspan x="970.0" dy="28">54 talent-tree specifications</tspan><tspan x="970.0" dy="28">Tank · Healer · DPS · Support</tspan></text>
 <path d="M230 310V370" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
 <path d="M600 310V370" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
 <path d="M970 310V370" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>

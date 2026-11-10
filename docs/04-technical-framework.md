@@ -246,6 +246,12 @@ These are proposed implementation acceptance cases, not tests executed against a
 | An NPC is greeted repeatedly or a zone boundary is crossed in a loop | No fresh Explorer objective claim is created |
 | A high prestige tier is reached | Grants approved recognition only; no stats, increased loot/material yield or activity-access gate |
 | A new race or class prototype is added | Fits permanent budgets and activity policies; no mandatory racial utility or new required party slot |
+| A candidate class has three talent trees | Evaluate actual point allocation, prerequisites and hybrid builds; do not assume three mutually exclusive full kits |
+| Moon Predator fights at different world times | Uses the same internal combat-cycle rules; personal combat toggles cannot reset an active encounter's phase |
+| A primed companion action has several hit components | Consumes one enhancement entitlement and applies the reviewed total effect once |
+| A cold damage state is applied to a slow-immune boss | Damage eligibility and control immunity resolve separately under the tree policy |
+| An anchored remote caster must move | Owner stays vulnerable; movement cancels/reconfigures the channel with the published cost and recovery |
+| A rare intervention is spent during an encounter | Personal combat loss does not restore its finite allowance |
 | A new race finishes its introduction | Can choose Alliance or Horde; its ancestry does not force membership |
 | A neutral-origin race chooses a Warfare city | Only standards eligible for its chosen major faction are offered |
 | An unusual anatomy equips leg/foot armor | Keeps ordinary slot effects and a recognizable approved visual adaptation |

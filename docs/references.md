@@ -61,7 +61,7 @@ The following references identify the early-era appearances used by the [race ca
 
 **No local game-client, mesh, skeleton, UV or equipment-attachment audit has been performed.** Gear-fitting work bands are design estimates based on the proposed anatomies. A cost band is not an implementation measurement, and a model seen holding a weapon does not establish support for arbitrary player items. TBC/Wrath references do not prove those assets are already present in Forever's client.
 
-Pure support, stationary tank dummies, the extra autonomous puppet and the Summoner's no-HP small beings are original proposal rules. Their descriptions are not balance results or claims about an existing engine. The [role register](identity/class-roles-and-specializations.md) records the author's selected constraints and the remaining questions.
+Pure support, stationary tank dummies, the extra autonomous puppet and the Summoner's no-HP small beings are proposal rules developed from the author's briefs. Their descriptions are not balance results or claims about an existing engine. The [role register](identity/class-roles-and-specializations.md) records selected constraints. The [coverage audit](identity/mechanic-coverage.md) maps the supplied archetypes and thirteen studies; the [implementation standard](identity/implementation-standard.md) distinguishes a specification from engine/production evidence.
 
 ## Source handling
 

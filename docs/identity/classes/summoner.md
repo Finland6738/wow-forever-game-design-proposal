@@ -2,6 +2,8 @@
 
 [← Class catalog](../classes.md) · [Roles and specializations](../class-roles-and-specializations.md) · [Artificer](artificer.md)
 
+**Implementation contract:** three Vanilla-style talent trees with one family resource/commitment budget. The [implementation standard](../implementation-standard.md) defines the point-grid, hybrid-allocation and evidence work still required.
+
 ![Ranged actions gather non-selectable beings without HP; Swarmcaller and Soulbinder provide ranged DPS, while Sporekeeper provides pure support.](../../../assets/diagrams/summoner-branches.svg)
 
 ## Shared class identity
@@ -10,7 +12,7 @@ A ranged caster accumulates small accompanying beings through abilities and send
 
 **Selected branches:** **Swarmcaller** controls insects; **Soulbinder** controls small souls or wisps; **Sporekeeper** commands a pure-support living colony. These are three specializations of one class, not three additional classes. Identities and roles are selected; ability sketches and numbers remain prototypes.
 
-The earlier Bard/Piper direction is retired from this concept. Music and rats are not the new class identity. The shared design is accumulation, controlled deployment and consumption; the two selected branches need different play decisions, not merely different particle colors.
+The earlier Bard/Piper direction is retired from this concept. Music and rats are not the new class identity. The shared design is accumulation, controlled deployment and consumption; the three selected trees need different play decisions, not merely different particle colors.
 
 ## Role and equipment
 
@@ -90,9 +92,17 @@ Whether the spirits are literal departed souls, magical echoes or minor independ
 | Guiding Colony | Give a brief, limited repositioning opportunity | No wall bypass or indefinite movement advantage |
 | Reclaim Growth | Recover eligible unspent colony effects | No refund after an effect's full benefit was delivered |
 
-The major overlap risk is nature/control fantasy already represented elsewhere. Its justification would be **mobile reserve versus committed prepared utility**, with original visuals and clear controls. If that decision proves shallow or duplicates another kit, merge it or consider a different third tree rather than filling a three-tree quota.
+The major overlap risk is nature/control fantasy already represented elsewhere. Its justification is **mobile reserve versus committed prepared utility**, with original visuals and clear controls. The selected three-tree structure requires a genuinely distinct support decision loop; weak differentiation is a redesign task, not evidence that the kit is already complete.
 
 ## Talent structure and output budget
+
+| Tree | Early talent choice | Middle talent choice | Capstone direction |
+| --- | --- | --- | --- |
+| Swarmcaller | Generation pace versus reserve capacity | Sustained infestation versus a planned rupture | A finite committed swarm release with remaining-payload accounting |
+| Soulbinder | Echo retention versus faster active generation | Longer binding commitment versus earlier release | A finite coordinated release that consumes bindings exactly once |
+| Sporekeeper | Active cultivation versus retained preparation | Narrow protection versus local control coverage | A finite colony response that spends prepared utility without full healer output |
+
+These are allocation anchors, not a finished point grid. Specify node ranks, depth and prerequisites at the approved level-60 budget. Hybrid builds share the same reserve and commitment ledger; different visual themes cannot produce three separate full caps or simultaneous full damage and support kits.
 
 Use three kinds of choice: generation/recovery, commitment/payload, and utility/defense. Capacity talents should trade against generation or output; a larger visual maximum cannot automatically grant proportionally more free damage. No exact cap or coefficients are selected.
 

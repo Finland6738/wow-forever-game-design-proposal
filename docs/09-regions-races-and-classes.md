@@ -22,8 +22,10 @@ New regions also create maintenance commitments: pathing, quest continuity, even
 
 | Topic | Scope |
 | --- | --- |
-| [Races](identity/races.md) | Ten established Vanilla/TBC/Wrath candidates, six original alternatives, neutral origins and visible armor adaptations |
-| [Classes](identity/classes.md) | Eighteen English archetype families, roles, candidate specializations and thirteen mapped studies |
+| [Races](identity/races.md) | Ten individual Vanilla/TBC/Wrath race dossiers, secondary original alternatives, neutral origins and visible armor adaptations |
+| [Classes](identity/classes.md) | Eighteen individual class dossiers and 54 talent-tree specifications, with roles and baseline actions |
+| [Implementation Standard](identity/implementation-standard.md) | State/ability handoff, talent allocation, hybrid builds, asset proof and evidence gates |
+| [Mechanic Coverage](identity/mechanic-coverage.md) | Latest nine studies, four earlier studies and tabletop-style archetype mapping |
 | [Roles and Specializations](identity/class-roles-and-specializations.md) | Pure support, two viable five-player compositions and recorded/open decisions |
 | [Artificer](identity/classes/artificer.md) | Tank dummies, hammer positioning, repairs, threat and extra autonomous capstone puppet |
 | [Summoner](identity/classes/summoner.md) | Insects, souls/wisps, non-selectable beings without HP and the proposed third tree |

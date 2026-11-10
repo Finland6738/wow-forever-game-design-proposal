@@ -85,7 +85,7 @@ Assess short-term novelty and repeat behavior separately. A high participation r
 | Expedition rewards | Pilot modest gold, common materials, collections and prestige | Payout rates, resource supply, seed fishing, replay eligibility and economic impact |
 | Prestige weights | Prototype level ×1/×2/×5 kill values with role-aware eligibility | Rank thresholds, repeat windows, completion credit, account presentation and AFK false positives |
 | Race catalog | Ten established early-era candidates and six secondary original alternatives; neutral introductions and faction choice | Wardrobe mockups, exact anatomy adaptations, animation coverage, arrival stories and shortlist |
-| Class catalog | Eighteen English archetype families and thirteen mapped studies | Role/spec identity, equipment, readable loops and prototype rejection criteria |
+| Class catalog | Eighteen individual dossiers, three trees each, and thirteen mapped studies | Full point-grid/depths, hybrid allocations, numerical tuning, engine prototypes and measured role performance |
 | Pure support | A support can replace one DPS; traditional and support five-player groups both work | Boss utility, leveling, raid stacking, matched encounter completion and competitive profiles |
 | Artificer tank | Stationary dummies with independent HP repaired only by the Artificer; extra temporary autonomous capstone | Threat, repair/rebuild economy, healer role, placement, capstone power and recovery |
 | Summoner trees | Swarmcaller and Soulbinder DPS, Sporekeeper support; beings are non-selectable and have no HP | Reserve pace, output accounting, caster counterplay and boss-usable support tools |

@@ -6,7 +6,7 @@
 
 The proposal investigates **four distinct group responsibilities: tank, healer, DPS and pure support**. Melee/ranged describes delivery, while physical/magical describes damage; neither creates an additional mandatory group slot. Bruiser is deferred from the active role model.
 
-A class family can offer different specializations, but an equipped specialization has a clear responsibility and budget. A support specialization is not a full damage dealer with free utility, and it is not a hidden healer. Supporting players must have meaningful decisions, feedback and contribution credit.
+A candidate class has three Vanilla-style talent trees. A build has a clear primary responsibility and budget; mixed-tree allocations require explicit review instead of an assumed modern specialization lock. A support build trades direct output for active utility. Supporting players need meaningful decisions, feedback and contribution credit.
 
 ## Role contract
 
@@ -59,7 +59,7 @@ Inputs need clear target priorities and a readable interface. Avoid requiring a 
 
 ## What constitutes a specialization
 
-A specialization changes the resource decisions, role or delivery enough to sustain a coherent talent tree. A different color of the same attack is a visual variant. A passive modifier may be a talent instead of another tree. The thirteen original mechanical studies are mapped into families in the [class catalog](classes.md#where-the-thirteen-mechanical-studies-belong).
+A talent tree changes resource decisions, role or delivery enough to sustain a coherent build. A different color of the same attack is a visual variant. Each of the eighteen candidate classes now has **three tree specifications**, with ranks/depths and hybrid allocation still requiring validation under the [implementation standard](implementation-standard.md). The thirteen mechanical studies have primary homes in the [coverage audit](mechanic-coverage.md).
 
 The selected Summoner direction contains **Swarmcaller, Soulbinder and Sporekeeper**. They share accumulating and commanding small beings, but their damage timing and utility choices must differ. The Artificer's Puppet Warden is a tank; a separate Artillery branch cannot retain full tank capability alongside full DPS.
 
@@ -71,7 +71,7 @@ The selected Summoner direction contains **Swarmcaller, Soulbinder and Sporekeep
 | --- | --- |
 | New races and factions | Every new playable people begins with an introduction and then permits choosing Alliance or Horde |
 | Armor presentation | Visible anatomy-specific adaptations that preserve recognizable item identity |
-| Naming | English archetype names; previous invented names retained only as aliases |
+| Naming | English archetype names |
 | Group roles | Study pure support as a distinct responsibility; defer bruiser |
 | Five-player groups | Support can replace one DPS; traditional and support compositions both remain viable |
 | Artificer tank | Stationary, repairable, movable dummies with threat, taunt and talent-dependent equipment |
@@ -81,6 +81,8 @@ The selected Summoner direction contains **Swarmcaller, Soulbinder and Sporekeep
 | Swarm counterplay | Attack, control or interrupt the caster; no hidden AoE health bars |
 | Summoner branches | Swarmcaller and Soulbinder are DPS; Sporekeeper is pure support, in the same class |
 | Construct health | Separate HP for each dummy; only the Artificer repairs it; ordinary healers heal the player |
+| Class structure | Three talent trees for each of the eighteen candidate classes |
+| Two-form predator | Automatic internal combat cycle, independent of world day/night; manual form selection is not the core mechanic |
 
 ### Open choices to resolve through examples
 

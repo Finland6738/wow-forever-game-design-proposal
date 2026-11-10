@@ -39,12 +39,52 @@
         {"source": "docs/systems/runes.md", "page": "Runes", "label": "Runes", "description": "Finite permanent stat progression, a fixed lifetime ceiling and history without a new rank."},
         {"source": "docs/systems/adventurer-abilities.md", "page": "Adventurer-Abilities", "label": "Adventurer Abilities", "description": "Permanently useful historical raid options, one equipped entry and distinct Normal/Veteran unlocks."},
         {"source": "docs/08-prestige-ranks.md", "page": "Prestige-Ranks", "label": "Recognition and Competitive Standing", "description": "Adventurer, Explorer, Honor, Gladiator, Challenger and city-service boundaries."},
-        {"source": "docs/identity/races.md", "page": "Races", "label": "Races", "description": "Ten established race candidates, original alternatives, neutral origins and visible armor fitting."},
-        {"source": "docs/identity/classes.md", "page": "Classes", "label": "Classes", "description": "English archetypes, role/spec matrix, eighteen family briefs and thirteen mapped studies."},
+        {"source": "docs/identity/races.md", "page": "Races", "label": "Races", "description": "Ten individual race dossiers, historical references, neutral origins and armor/animation evaluation."},
+        {"source": "docs/identity/classes.md", "page": "Classes", "label": "Classes", "description": "Eighteen individual class dossiers and 54 talent-tree specifications; roles, loops and evaluation."},
         {"source": "docs/identity/class-roles-and-specializations.md", "page": "Class-Roles", "label": "Class Roles and Specializations", "description": "Pure support, traditional/support five-player groups and design-review decisions."},
-        {"source": "docs/identity/classes/artificer.md", "page": "Class-Artificer", "label": "Artificer — Puppet Warden", "description": "Stationary tank dummies, hammer positioning, repairs and an extra autonomous capstone puppet."},
-        {"source": "docs/identity/classes/summoner.md", "page": "Class-Summoner", "label": "Summoner — Swarms and Spirits", "description": "Swarmcaller, Soulbinder and Sporekeeper; accumulation, orders and caster counterplay."},
-        {"source": "docs/11-rewards-and-acquisition.md", "page": "Rewards-and-Acquisition", "label": "Rewards and Acquisition", "description": "Reward matrix, ownership, lockouts, alternatives and economic faucets."}
+        {"source": "docs/11-rewards-and-acquisition.md", "page": "Rewards-and-Acquisition", "label": "Rewards and Acquisition", "description": "Reward matrix, ownership, lockouts, alternatives and economic faucets."},
+        {"source": "docs/identity/implementation-standard.md", "page": "Identity-Implementation-Standard", "label": "Identity Implementation Standard", "description": "Ability/state handoff, talent allocation, hybrid review, race asset proof and readiness evidence."},
+        {"source": "docs/identity/mechanic-coverage.md", "page": "Archetype-And-Mechanic-Coverage", "label": "Archetype and Mechanic Coverage", "description": "Trace thirteen mechanical studies and the supplied archetypes into explicit class trees."}
+      ]
+    },
+    {
+      "title": "Class Dossiers",
+      "collapsed": true,
+      "items": [
+        {"source": "docs/identity/classes/bard.md", "page": "Class-Bard", "label": "Bard", "description": "Conductor (Pure support) · Cantor (Healer) · Deep Cantor (Ranged magical DPS)."},
+        {"source": "docs/identity/classes/alchemist.md", "page": "Class-Alchemist", "label": "Alchemist", "description": "Bombardier (Ranged DPS) · Combat Medic (Healer) · Mutagenist (Melee DPS)."},
+        {"source": "docs/identity/classes/summoner.md", "page": "Class-Summoner", "label": "Summoner", "description": "Swarmcaller (Ranged DPS) · Soulbinder (Ranged DPS) · Sporekeeper (Pure support)."},
+        {"source": "docs/identity/classes/inquisitor.md", "page": "Class-Inquisitor", "label": "Inquisitor", "description": "Judgment (Melee DPS) · Interrogator (Pure support) · Absolver (Healer)."},
+        {"source": "docs/identity/classes/oracle.md", "page": "Class-Oracle", "label": "Oracle", "description": "Seer (Healer) · Omen (Pure support) · Doomweaver (Ranged magical DPS)."},
+        {"source": "docs/identity/classes/witch.md", "page": "Class-Witch", "label": "Witch", "description": "Hexkeeper (Ranged magical DPS) · Familiar (Ranged magical DPS) · Coven (Pure support)."},
+        {"source": "docs/identity/classes/investigator.md", "page": "Class-Investigator", "label": "Investigator", "description": "Field Agent (Melee DPS) · Analyst (Pure support) · Saboteur (Ranged DPS)."},
+        {"source": "docs/identity/classes/spellblade.md", "page": "Class-Spellblade", "label": "Spellblade", "description": "Channeler (Melee magical/weapon DPS) · Spellguard (Tank) · Oath Duelist (Melee DPS with finite interventions)."},
+        {"source": "docs/identity/classes/gunslinger.md", "page": "Class-Gunslinger", "label": "Gunslinger", "description": "Sharpshooter (Ranged physical DPS) · Trickshot (Ranged physical DPS) · Gunmarshal (Pure support)."},
+        {"source": "docs/identity/classes/cavalier.md", "page": "Class-Cavalier", "label": "Cavalier", "description": "Outrider (Melee DPS) · Mounted Guardian (Tank) · Beast Rider (Melee DPS)."},
+        {"source": "docs/identity/classes/necromancer.md", "page": "Class-Necromancer", "label": "Necromancer", "description": "Legion (Ranged magical DPS) · Decay (Ranged magical DPS) · Boneweaver (Pure support)."},
+        {"source": "docs/identity/classes/artificer.md", "page": "Class-Artificer", "label": "Artificer", "description": "Puppet Warden (Tank) · Artillery (Ranged DPS) · Field Engineer (Pure support)."},
+        {"source": "docs/identity/classes/warden.md", "page": "Class-Warden", "label": "Warden", "description": "Moon Predator (Melee DPS) · Sentinel (Tank) · Duelist (Melee DPS)."},
+        {"source": "docs/identity/classes/dark-ranger.md", "page": "Class-Dark-Ranger", "label": "Dark Ranger", "description": "Shade Archer (Ranged DPS) · Spectral Marks (Ranged magical DPS) · Banshee Caller (Pure support)."},
+        {"source": "docs/identity/classes/runemaster.md", "page": "Class-Runemaster", "label": "Runemaster", "description": "Runeblade (Melee magical/weapon DPS) · Rune Scholar (Ranged magical DPS) · Rime Scholar (Ranged magical DPS with control)."},
+        {"source": "docs/identity/classes/beastmaster.md", "page": "Class-Beastmaster", "label": "Beastmaster", "description": "Packleader (Melee DPS) · Wildbond (Ranged DPS) · Trailwarden (Pure support)."},
+        {"source": "docs/identity/classes/hemomancer.md", "page": "Class-Hemomancer", "label": "Hemomancer", "description": "Bloodweaver (Ranged magical DPS) · Nightform (Melee magical/weapon DPS) · Lifewarden (Healer)."},
+        {"source": "docs/identity/classes/martial-adept.md", "page": "Class-Martial-Adept", "label": "Martial Adept", "description": "Guarded Staff (Tank) · Open Hand (Melee DPS) · Waykeeper (Pure support)."}
+      ]
+    },
+    {
+      "title": "Race Dossiers",
+      "collapsed": true,
+      "items": [
+        {"source": "docs/identity/races/ethereals.md", "page": "Race-Ethereals", "label": "Ethereals", "description": "Wrapped-energy body with recognizable armor, not a permanent bandage outfit."},
+        {"source": "docs/identity/races/ogres.md", "page": "Race-Ogres", "label": "Ogres", "description": "A broad single-headed body whose size survives the playable-scale review."},
+        {"source": "docs/identity/races/naga.md", "page": "Race-Naga", "label": "Naga", "description": "A serpentine playable body with genuine tail locomotion and visible lower-body item adaptation."},
+        {"source": "docs/identity/races/classic-worgen.md", "page": "Race-Classic-Worgen", "label": "Classic Worgen", "description": "The older Silverpine/Arugal-associated werewolf appearance, with a player-capable rig preserving its mood."},
+        {"source": "docs/identity/races/quilboar.md", "page": "Race-Quilboar", "label": "Quilboar / Razormane", "description": "Bristles, tusks and a coherent thornland culture; Razormane remains a tribal reference."},
+        {"source": "docs/identity/races/kobolds.md", "page": "Race-Kobolds", "label": "Kobolds", "description": "A genuinely small mine-dwelling silhouette with readable earned items and full player actions."},
+        {"source": "docs/identity/races/gnolls.md", "page": "Race-Gnolls", "label": "Gnolls", "description": "The early hyena-like frontier profile with individual agency and recognizable equipment."},
+        {"source": "docs/identity/races/furbolgs.md", "page": "Race-Furbolgs", "label": "Furbolgs", "description": "A broad forest people with substantial culture and a workable full-armor presentation."},
+        {"source": "docs/identity/races/arakkoa.md", "page": "Race-Arakkoa", "label": "Arakkoa", "description": "The original hunched, flightless TBC appearance rather than a later winged model."},
+        {"source": "docs/identity/races/tuskarr.md", "page": "Race-Tuskarr", "label": "Tuskarr", "description": "The older walrus-like coastal body and a communal seafaring identity."}
       ]
     },
     {

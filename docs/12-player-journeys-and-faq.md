@@ -80,7 +80,11 @@ Yes, outside combat under the encounter, cooldown and persistent-effect rules. F
 
 ## Are all concept names and numerical values final?
 
-No. The race catalog now prioritizes ten established peoples from Vanilla/TBC/Wrath, with six invented alternatives kept secondary. Classes use English archetypes and mapped specializations. These are proposals, not a release roster or proof that NPC bodies support all player equipment. The five-to-twenty-player expedition envelope and one-to-five-floor depth are requested parameters; rates, caps, thresholds and exact tuning still require evidence.
+No. The catalog has ten established race dossiers and eighteen candidate class dossiers, each with three talent-tree specifications. English archetypes and mapped mechanical studies make the proposals readable. This is not a release roster or proof that NPC bodies support all player equipment. Full talent allocations, numerical tuning, engine and asset evidence remain required under the [implementation standard](identity/implementation-standard.md).
+
+## Were the supplied mechanical studies preserved?
+
+Their core decisions now have explicit class/tree homes. Some details are adapted to the selected MMO rules: Moon Predator uses an internal combat cycle; Summoner beings have no HP; Artificer dummies have separate repair-only HP; finite interventions do not generate wealth or unlimited resurrection. The [coverage audit](identity/mechanic-coverage.md) maps the latest nine studies, four earlier ones and tabletop-style archetypes.
 
 ## Can friends choose different new races and still join one faction?
 

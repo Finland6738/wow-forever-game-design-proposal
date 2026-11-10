@@ -1,5 +1,15 @@
 # Change history
 
+## 0.9 — 2026-11-10
+
+- Added individual implementation-evaluation dossiers for all eighteen candidate classes and ten established race candidates; retained overview pages as navigation and comparison indexes.
+- Selected three Vanilla-style talent trees per candidate class and specified all 54 tree identities, roles, baseline actions, talent anchors and acceptance work; removed the previous-alias table column.
+- Selected an automatic internal combat cycle for the two-form Moon Predator, independent of world day/night.
+- Added a traceable coverage audit for the latest nine mechanical studies, the four earlier studies and the supplied tabletop-style archetypes; recorded preserved decisions, adaptations and exclusions.
+- Gave companion next-action priming, finite interventions, anchored remote casting and cold-state consumption explicit homes rather than leaving them as unattached ideas.
+- Added an implementation/evidence standard covering target validation, state recovery, point-grid/hybrid review, power profiles, race wardrobe/animation proof and production-readiness gates.
+- Added categorized Class Dossiers and Race Dossiers to the automatically synchronized wiki; final numerical balance and engine/asset validation remain unperformed.
+
 ## 0.8 — 2026-11-10
 
 - Renamed the existing GitHub repository to `wow-forever-game-design-proposal`, retaining repository identity and Git history; updated source links and publishing defaults.

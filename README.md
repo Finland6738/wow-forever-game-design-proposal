@@ -4,7 +4,7 @@
 
 ![Five adventurers at a crossroads overlooking a forest valley, ruins, a mountain citadel, and a dungeon entrance.](assets/images/a-world-of-parallel-adventures.png)
 
-> **Status: design proposal · v0.8 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
+> **Status: design proposal · v0.9 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
 
 **[Read the complete GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design-proposal/wiki)** · [Documentation index](docs/README.md) · [Questions and discussion](https://github.com/Finland6738/wow-forever-game-design-proposal/discussions)
 
@@ -285,7 +285,9 @@ The race shortlist starts with **ten established peoples from Vanilla, TBC or Wr
 
 Every new playable race has a neutral introductory experience and then permits **Alliance or Horde** membership, so friends can keep their preferred race and choose the same faction. Armor remains recognizable through visible anatomy-specific adaptations. Existing NPC assets are visual starting points, not proof that arbitrary player equipment or animations already work.
 
-The class catalog uses **English archetypes** such as Bard, Alchemist, Summoner, Oracle, Spellblade and Artificer, retaining earlier invented names as aliases. Eighteen exploratory families have explicit roles, equipment proposals, loops and specialization candidates. Thirteen mechanical studies map into those families; they are not thirteen additional promised classes.
+The class catalog uses **English archetypes** such as Bard, Alchemist, Summoner, Oracle, Spellblade and Artificer. **Every one of the eighteen candidates has an individual dossier and three talent-tree specifications: 54 trees in total.** Pages define roles, resources, states, baseline actions, talent anchors, recovery and acceptance scenes. The thirteen mechanical studies have explicit primary homes and documented adaptations.
+
+The ten established race candidates also have individual dossiers covering body/armor treatment, animation, traversal, customization, proposed neutral-introduction beats and evaluation handoff. The six original alternatives remain secondary.
 
 **Artificer/Puppet Warden is a tank:** stationary dummies generate threat and taunt, move through hammer strikes/kicks, and gain shield or weapon functions through talents. Each has separate HP and only the Artificer repairs it; ordinary healing targets the player. A powerful temporary autonomous puppet is an extra capstone summon with its own cooldown and reviewed power allowance.
 
@@ -294,6 +296,8 @@ The class catalog uses **English archetypes** such as Bard, Alchemist, Summoner,
 **Pure support is a separate role to investigate.** It contributes through active utility rather than full tanking, direct damage or healing. Five-player groups must remain viable both as 1 tank + 1 healer + 3 DPS and as 1 tank + 1 healer + 2 DPS + 1 support. No extra player or compulsory support slot is introduced; numerical viability still requires testing.
 
 Each concept needs a distinct loop, readable role, equipment/animation plan and the same power constraints as existing choices. New classes must not become mandatory party members; new races must not supply a stronger permanent racial package. Prestige rank or old raid completion must not be required to unlock them.
+
+These are implementation specifications for evaluation, not evidence of engine or production readiness. Complete talent allocation, numerical tuning, hybrid-build testing and race asset/wardrobe validation remain required. See the [implementation standard](docs/identity/implementation-standard.md) and [archetype/mechanic coverage audit](docs/identity/mechanic-coverage.md).
 
 [New Regions →](docs/09-regions-races-and-classes.md) · [Races →](docs/identity/races.md) · [Classes →](docs/identity/classes.md) · [Roles →](docs/identity/class-roles-and-specializations.md) · [Artificer tank →](docs/identity/classes/artificer.md) · [Summoner trees →](docs/identity/classes/summoner.md)
 
