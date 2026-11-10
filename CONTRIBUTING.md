@@ -19,6 +19,13 @@ Useful feedback describes the affected player, a specific situation, the propose
 5. Use relative links for repository files. Add meaningful alternative text to images.
 6. Put images in `assets/images/`, editable diagrams in `assets/diagrams/`, and document provenance in [assets/README.md](assets/README.md).
 7. Record material design decisions in [CHANGELOG.md](CHANGELOG.md).
+8. Use the project's invented working names and self-contained descriptions for concept proposals. Put personal background in the author section rather than using other games as design shorthand.
+
+## Wiki updates
+
+Edit the repository Markdown, not the generated wiki pages. The [Sync GitHub Wiki workflow](https://github.com/Finland6738/wow-forever-game-design/actions/workflows/wiki-sync.yml) validates changes and publishes the full reading view after a merge into `main`. New documentation pages are included automatically.
+
+Run `python -m unittest discover -s tests -v` and `python scripts/sync_wiki.py --output .preview/wiki-build` to check link rewriting, anchors and generation. These use Python's standard library. See [wiki maintenance](docs/14-wiki-maintenance.md) for naming, removed pages and recovery behavior.
 
 Do not upload account information, private conversations or artwork without appropriate permission. Keep comments focused on the design and its effects on players.
 
@@ -30,4 +37,4 @@ Do not upload account information, private conversations or artwork without appr
 - Confirm that new combat effects do not quietly require another update, difficulty or activity.
 - Explain validation honestly: document checks do not establish game balance or engine feasibility.
 
-For substantial changes, use a `codex/` branch or another descriptive contributor branch and a focused pull request. This is a documentation project; it does not need a build system merely to edit prose.
+For substantial changes, use a `codex/` branch or another descriptive contributor branch and a focused pull request. The lightweight publishing script handles wiki generation; ordinary prose remains directly editable Markdown.

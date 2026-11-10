@@ -35,7 +35,7 @@ The intended tactical vocabulary includes crowd control, target priority, interr
 | Enemy | Threat | Possible answers |
 | --- | --- | --- |
 | Healer | Restores allies with an interruptible spell | Interrupt, control or focus damage |
-| Summoner | Completes a ritual that adds reinforcements | Interrupt, displace where supported, or eliminate quickly |
+| Pactbinder | Completes a ritual that adds reinforcements | Interrupt, displace where supported, or eliminate quickly |
 | Guardian | Pressures the tank and punishes careless positioning | Mitigation, threat control and positioning |
 | Scout | Escapes toward another group | Slow, root, stun or kill before escape |
 
@@ -53,7 +53,7 @@ Determine normal loot cadence separately from access to play. Controls on reward
 
 ## Challenge Mode rules
 
-The inspiration is the original MoP philosophy: normalized dungeon runs measured against time targets. Blizzard's historical discussion emphasizes normalized challenge and the effect of class/itemization changes on fairness. See [sources](references.md). The following detailed rules are proposed here.
+The design is a normalized dungeon run measured against clear time targets. Class, itemization and encounter changes can affect fair comparison, so the ruleset and rankings are versioned. The following rules define this proposal directly.
 
 1. Any level-60 five-player group can enter without a key or consumed entry resource.
 2. The group chooses a dungeon, reviews its objectives and normalized loadout, and confirms readiness.

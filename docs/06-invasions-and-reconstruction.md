@@ -77,4 +77,4 @@ World-state scope across layers needs engine investigation. The proposal does no
 
 Start with one hostile NPC faction, one settlement, one invasion pattern and a few reconstruction projects. Measure participation by role, unwanted leveling disruption, service availability, time to recovery, defense-versus-failure reward efficiency and state consistency after restarts.
 
-Expand only if players value the visible consequences without feeling forced to perform maintenance. The historical resource-and-rebuilding inspiration is documented in the [source register](references.md); the proposed town-defense lifecycle is a separate design.
+Expand only if players value the visible consequences without feeling forced to perform maintenance. The defense, supply, reconstruction and recruitment stages form one self-contained cooperative design.

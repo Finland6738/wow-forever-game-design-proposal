@@ -59,7 +59,7 @@ Assess short-term novelty and repeat behavior separately. A high participation r
 - NPC factions can attack settlements; loss opens cooperative reconstruction and NPC restoration with essential-service continuity.
 - Procedural expeditions target level 60, groups of 5–20 and a finite committed depth of 1–5 floors.
 - Adventurer, Explorer and Honor identities stay separate and grant no statistics; civic defense belongs to Explorer.
-- New regions and original playable identities must fit the setting and budget rather than import Retail classes/races or repeated existing-race variants.
+- New regions and original playable identities must fit the setting and budget, with distinct cultures and loops rather than repeated existing-race or class variants.
 
 ## Open design questions
 

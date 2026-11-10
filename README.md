@@ -4,9 +4,9 @@
 
 ![Five adventurers at a crossroads overlooking a forest valley, ruins, a mountain citadel, and a dungeon entrance.](assets/images/a-world-of-parallel-adventures.png)
 
-*Original AI-generated concept illustration. It represents the proposal's theme and does not depict an announced zone or official game artwork.*
+> **Status: design proposal · v0.3 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
 
-> **Status: design proposal · v0.2 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
+**[Read the complete GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design/wiki)** · [Documentation index](docs/README.md) · [Questions and discussion](https://github.com/Finland6738/wow-forever-game-design/discussions)
 
 ## The proposal in one minute
 
@@ -17,6 +17,14 @@ Raid equipment remains usable throughout the game. Its additional progression bo
 Around that foundation, expand the level-60 endgame with tactical Heroic dungeons, keyless timed Challenge Modes, elite open-world regions, territorial PvP, settlement defense and reconstruction, procedural expeditions, professions, and exploration. Separate Adventurer, Explorer and Honor prestige recognize participation without granting statistics. Future regions and original playable identities expand the world within the same power policy.
 
 **The central promise:** a returning player can prepare through accessible non-raid activities and enter a newly released raid without completing years of previous raid tiers.
+
+## A world built around playing together
+
+The heart of this proposal is cooperation: finding companions, learning to trust a group, helping a settlement and earning a reputation through shared adventures. Leveling and everyday exploration still have a place, while the most meaningful endgame achievements should reward people who organize, communicate and overcome challenges together.
+
+Keep the rules understandable and let depth come from decisions and teamwork. Approachable entry does not mean automatic completion or identical rewards for every activity. Difficult encounters and prestigious cosmetics should remain earned, recognizable accomplishments. Normal and Veteran offer different commitments without making one a compulsory preparation step for the other.
+
+[Read the social principles and earned-reward policy →](docs/10-social-design-and-earned-prestige.md)
 
 ## Read the proposal
 
@@ -31,7 +39,12 @@ Around that foundation, expand the level-60 endgame with tactical Heroic dungeon
 | [Procedural expeditions](docs/07-procedural-expeditions.md) | World portals, groups of 5–20, generated routes and encounters, and 1–5 finite floors |
 | [Prestige ranks](docs/08-prestige-ranks.md) | Adventurer, Explorer and Honor identities, role-aware credit and rewards without statistics |
 | [Regions, races and classes](docs/09-regions-races-and-classes.md) | Creative direction, six exploratory peoples, 18 class families and 13 mechanical studies |
-| [Sources and factual boundaries](docs/references.md) | Verified official context, historical inspiration and the limits of the proposal |
+| [Social design and earned prestige](docs/10-social-design-and-earned-prestige.md) | Group play, readable rules, meaningful difficulty and rewards earned through participation |
+| [Rewards and acquisition policies](docs/11-rewards-and-acquisition.md) | Power boundaries, acquisition alternatives, lockouts, economic faucets and ownership |
+| [Player journeys and FAQ](docs/12-player-journeys-and-faq.md) | Concrete examples of joining, returning, grouping, progressing and recovering from interruptions |
+| [Glossary and decision register](docs/13-glossary-and-decisions.md) | Terms, fixed design commitments, working parameters and open tuning decisions |
+| [Wiki publishing](docs/14-wiki-maintenance.md) | How concept edits automatically generate and publish the wiki |
+| [Sources and factual boundaries](docs/references.md) | Verified official context and the limits of the proposal |
 | [Forum summary draft](docs/forum-summary.md) | A short introduction linking readers here; not published |
 
 For the documentation index, see [docs/README.md](docs/README.md). To propose an improvement, read [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -97,7 +110,7 @@ Shared bonuses create a risk: players may farm the shortest raid before attempti
 | Cross-difficulty effects | Veteran bonuses inactive | Normal bonuses inactive |
 | Prestige | Core collections and completion rewards | Additional appearances, titles, mounts and achievements |
 
-Veteran is a proposed difficulty name. It is separate from any Hardcore ruleset. Its intended feel is a readable, tactical raid challenge inspired by the pacing of TBC-era raiding. A roughly **four-to-eight-week progression journey** for an appropriately prepared target guild is a tuning hypothesis, not a forced waiting period or a guarantee. Skilled groups may finish sooner.
+Veteran is a proposed difficulty name. It is separate from any Hardcore ruleset. Its intended feel is readable tactical progression: deliberate preparation, important individual responsibilities and coordination without excessive mechanical clutter. A roughly **four-to-eight-week progression journey** for an appropriately prepared target guild is a tuning hypothesis, not a forced waiting period or a guarantee. Skilled groups may finish sooner.
 
 Neither difficulty supplies a currency, base-stat upgrade or unique combat effect required in the other. Playing both remains an optional preference. Normal must not become the weekly gearing errand for Veteran guilds.
 
@@ -121,7 +134,7 @@ Rewards include accessible permanent baseline gear, alternative builds, professi
 
 ## 5. Challenge Modes: practice freely, compete on execution
 
-Use the original MoP Challenge Mode philosophy as inspiration for normalized timed dungeon runs. This is a new proposed rule set, not a promise to copy every historical mechanic or reward.
+Challenge Modes are normalized timed dungeon expeditions built around execution, route planning and repeated practice. They use the proposed access and reward rules below.
 
 | Element | Proposed rule |
 | --- | --- |
@@ -207,9 +220,9 @@ These cumulative ranks describe participation and history. They are not a skill 
 
 Future updates can add lasting regions, cultures, classes and playable peoples while keeping level 60 and the same permanent power range. They do not need to deliver a new race or class every season, and older regions should keep useful stories, activities and rewards.
 
-The requested creative direction favors grounded, sometimes ominous fantasy and distinctive new playable identities. It does not select direct imports of later Retail additions such as Pandaren, Goblins, Worgen or Vulpera, nor repeated altered variants of existing races. Exploratory candidates include Ogres, Naga, Giants, Gnolls, a Razormane-inspired people and Ethereals, all subject to setting, roster, anatomy and narrative review.
+The creative direction favors grounded, sometimes ominous fantasy and distinctive new playable identities. Six invented working concepts—Gravemarch, Brineveil, Stonewake, Thornmaw, Briarhide and Veilbound—explore different cultures and silhouettes. Each needs setting, anatomy and narrative review; these names do not identify announced peoples or additions to existing lore.
 
-The class catalog explores Bard, Alchemist, Bound Summoner, Inquisitor, Oracle, Witch, Investigator, Spellblade, Gunslinger, Cavalier, Necromancer, Tinker, Warden, Dark Ranger, Runemaster, Packmaster, Bloodweaver and a martial-adept study requiring redesign. Spellblade/Magus duplicates are consolidated, and the martial-arts/Chi idea cannot advance as a renamed Retail Monk import.
+The class catalog uses invented working names for 18 exploratory identities, including Veilcantor, Cruciblewright, Pactbinder, Aetheredge, Cogwarden and Stillguard. Each entry explains its fantasy, decision loop and group-balance risks. Overlapping ideas are consolidated; a new name alone is insufficient to justify a new class.
 
 Thirteen additional mechanical studies preserve the useful ideas in the brainstorming—forms, swarms, companion empowerment, state consumption, stances, devices, blood resources, parries, ammunition, rune selection and mounted coordination. They are alternatives that may become specializations or talents, rather than 13 more promised classes.
 
@@ -257,6 +270,8 @@ The critical test is concrete: **can a player with an adequate permanent set ski
 
 ## Discuss and contribute
 
+The [GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design/wiki) provides the complete reading view, a topic index and detailed navigation. The Markdown files in this repository are the source: changes merged into `main` automatically rebuild the wiki, including new or renamed documentation pages. See [wiki maintenance](docs/14-wiki-maintenance.md) for the publishing rules.
+
 Use [GitHub Discussions](https://github.com/Finland6738/wow-forever-game-design/discussions) for open-ended design debate, [Issues](https://github.com/Finland6738/wow-forever-game-design/issues) for specific problems, and pull requests for proposed edits. Explain the affected player experience, the trade-off and how we could test an improvement.
 
 Three useful starting questions:
@@ -266,5 +281,13 @@ Three useful starting questions:
 3. Which optional activities would keep you playing at 60 without regular item-level increases?
 
 The repository holds the detailed proposal. A short forum introduction can link here once the wording is ready; the [current forum draft](docs/forum-summary.md) has not been posted.
+
+## About the author
+
+I am a software developer and have loved video games since childhood, especially Warcraft, Diablo, StarCraft and World of Warcraft. I started playing WoW in 2004 and spent around fourteen years raiding. Over time, I lost interest as the game moved further from the experience that first drew me in.
+
+My strongest memories are the friendships, unexpected situations and accomplishments shared with other people. The loot and boss strategies mattered, but the people made those experiences last. That is what I hope Forever can preserve from Vanilla: a world where grouping matters, communities recognize effort and success feels earned.
+
+For years I have occasionally shared forum suggestions about what I would improve, add, preserve or remove. This project brings those thoughts together in a form others can examine and challenge. I want to see Forever grow while keeping clear rules, a strong social identity and room for players to pursue more demanding challenges. After so many years of raiding, I would love to see that kind of world thrive for just as long again.
 
 World of Warcraft and related names belong to their respective owners. See [asset provenance](assets/README.md) and the [change history](CHANGELOG.md).

@@ -26,7 +26,7 @@ The wider endgame could grow through:
 - Procedural expeditions discovered through world portals: 5–20 players, generated routes and encounters, and 1–5 finite floors, with gold/material rewards to test.
 - Separate Adventurer, Explorer and Honor prestige, offering recognition without statistics and crediting support roles as well as damage.
 
-Future updates could also expand regions and explore original playable peoples and class concepts that fit Forever's atmosphere. The repository includes a reviewed wishlist and mechanical studies, rather than a promise to import later Retail classes/races or deliver every concept.
+Future updates could also expand regions and explore original playable peoples and class concepts that fit Forever's atmosphere. The repository includes named working concepts and mechanical studies, each requiring narrative, technical and balance review before selection.
 
 The important constraint is that these activities remain parallel choices. PvP buffs should not be raid prerequisites, world artifacts should have reasonable functional alternatives, and Challenge competition should not require farming old gear.
 

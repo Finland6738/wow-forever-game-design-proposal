@@ -64,7 +64,7 @@ A shared progression allowance could reduce double farming, but might also penal
 
 Normal targets groups who want to experience the complete raid with basic preparation and coordination. Accessibility requires readable mechanics, understandable feedback and recoverable mistakes. It cannot promise a 100% completion rate for all groups.
 
-Veteran targets organized guilds that want more demanding progression with a manageable mechanic set. The desired feel is tactical coordination and class identity, inspired by TBC-era raiding. It should be playable using clear built-in information; external tools must not be assumed to solve intentionally opaque mechanics.
+Veteran targets organized guilds that want more demanding progression with a manageable mechanic set. The desired feel is deliberate tactical coordination, class identity and meaningful personal responsibility. It should be playable using clear built-in information; external tools must not be assumed to solve intentionally opaque mechanics.
 
 The four-to-eight-week progression goal is a cohort-based tuning hypothesis. It depends on player skill, attendance, raid size and schedule. Avoid enforced calendar gates intended solely to make the raid last that long.
 
