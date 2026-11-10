@@ -19,7 +19,11 @@ The intended handoff is concrete: an implementer should understand what to build
 
 Each of the **eighteen candidate classes has exactly three proposed talent trees**. The three-tree structure is selected; most individual kits are recommendations for author/developer review. Summoner's Swarmcaller, Soulbinder and Sporekeeper identities, and the Artificer tank's core behavior, have already been selected by the author.
 
-These are **Vanilla-style talent trees**, not an assumption of a later specialization interface. The first prototype uses one tree's identity to isolate its loop. Before shipping, define the level-60 point budget, unlock depths, prerequisite chains, capstone access and cross-tree combinations. Do not assume a character cannot mix talents simply because the document lists trees separately.
+These are **Vanilla-style talent trees**, not an assumption of a later specialization interface. The first prototype uses one tree's identity to isolate its loop. Before shipping, validate the working point budget and define unlock depths, prerequisite chains, capstone access and cross-tree combinations. Do not assume a character cannot mix talents simply because the document lists trees separately.
+
+**Selected working profile:** 51 talent points at level 60, with a capstone reached at 31 invested points in one tree. For a one-point capstone, its purchase follows 30 points already invested. This is a proposal reference to validate against the actual Forever system, not a verified current-game rule. Node ranks, tier gates and prerequisites still need allocation.
+
+Evaluate at least 31/20/0, 30/21/0, 21/21/9 and 17/17/17. Two 31-point capstones require 62 points and cannot fit this profile; powerful intermediate combinations still require testing.
 
 Each shared resource needs an owner and a maximum. Each ability specifies a trigger, target rule, cost/commitment, result and recovery/counterplay. Damage, healing, protection and pets all count toward the equipped build's total contribution. A support-oriented tree trades direct output for active utility; mixed talents cannot retain every tree's full output.
 

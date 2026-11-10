@@ -4,7 +4,7 @@
 
 ![Five adventurers at a crossroads overlooking a forest valley, ruins, a mountain citadel, and a dungeon entrance.](assets/images/a-world-of-parallel-adventures.png)
 
-> **Status: design proposal · v0.9 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
+> **Status: design proposal · v0.10 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
 
 **[Read the complete GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design-proposal/wiki)** · [Documentation index](docs/README.md) · [Questions and discussion](https://github.com/Finland6738/wow-forever-game-design-proposal/discussions)
 
@@ -298,6 +298,8 @@ The ten established race candidates also have individual dossiers covering body/
 Each concept needs a distinct loop, readable role, equipment/animation plan and the same power constraints as existing choices. New classes must not become mandatory party members; new races must not supply a stronger permanent racial package. Prestige rank or old raid completion must not be required to unlock them.
 
 These are implementation specifications for evaluation, not evidence of engine or production readiness. Complete talent allocation, numerical tuning, hybrid-build testing and race asset/wardrobe validation remain required. See the [implementation standard](docs/identity/implementation-standard.md) and [archetype/mechanic coverage audit](docs/identity/mechanic-coverage.md).
+
+The selected working talent profile is **51 points at level 60 with a 31-point capstone**, subject to target-game validation. Ordinary support groups trade a little speed for control and safety. Losing the Artificer's last dummy permits brief owner emergency defense and reconstruction at a real cost. Exact allocations, timings and tolerances remain open in the [critical readiness review](docs/proposals/design-readiness-review.md).
 
 [New Regions →](docs/09-regions-races-and-classes.md) · [Races →](docs/identity/races.md) · [Classes →](docs/identity/classes.md) · [Roles →](docs/identity/class-roles-and-specializations.md) · [Artificer tank →](docs/identity/classes/artificer.md) · [Summoner trees →](docs/identity/classes/summoner.md)
 

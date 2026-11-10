@@ -99,6 +99,7 @@ Choose an activity or character topic. Pages distinguish selected directions, re
 | [Glossary and Decisions](13-glossary-and-decisions.md) | Terms, selected boundaries, prototypes and open questions. |
 | [Technical Framework](04-technical-framework.md) | Conceptual data, validation, transitions and acceptance cases. |
 | [Roadmap and Evaluation](05-roadmap-and-evaluation.md) | Pilot scope, dependencies, measurements and unresolved tuning. |
+| [Design Readiness Review](proposals/design-readiness-review.md) | Critical gaps, 51/31 talent reference, support trade-off and paid Artificer recovery. |
 | [Reports Under Review](proposals/incoming-reports-review.md) | Selected report directions, revised acquisition promises and remaining prototype questions. |
 | [Contributing](../CONTRIBUTING.md) | How to propose and review a change. |
 | [Change History](../CHANGELOG.md) | Recorded design and documentation changes. |

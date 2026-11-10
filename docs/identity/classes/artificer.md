@@ -115,6 +115,10 @@ On expiry or destruction, announce the transition, stop new autonomous taunts an
 
 A disabled dummy reduces coverage and demands a repair/rebuild decision. A fully broken formation needs a bounded fallback long enough to respond, not indefinite invulnerability. Dismissal must not clear hostile attention, remove a dangerous debuff for free or recover a full reserve instantly.
 
+**Selected last-dummy response:** a brief emergency defensive window for the Artificer, followed by reconstruction at a real resource/time cost. Emergency Bracing is the working action for this response. Duration, cooldown, activation input, mitigation and reconstruction costs remain open. Destroying or dismissing devices cannot repeatedly refresh the emergency window or grant free full-health defenders.
+
+The prototype must show how earned attention reaches the exposed owner, how the player gains or preserves the resource needed to rebuild, and how a replacement resumes defense. Recovery cannot depend solely on a generation action available only to a surviving device. This does not guarantee recovery from every exhausted-resource mistake.
+
 In PvP, opponents can pressure the exposed Artificer, deny a repair position and move outside defender coverage. Device targetability, destructibility, control immunity and AoE treatment need a dedicated policy; do not inherit the Summoner swarm's non-selectable/no-HP rule. Dummies cannot grief allies by blocking narrow doors or permanently breaking line of sight.
 
 In a five-player dungeon the specialization occupies **one tank slot**. Other players should not need to operate its devices. Healing, tank participation and objective credit are attributed to the owner once, under the same policies as other classes.

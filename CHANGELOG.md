@@ -1,5 +1,13 @@
 # Change history
 
+## 0.10 — 2026-11-10
+
+- Added a critical readiness review separating broad topic coverage from incomplete kits, talent grids, class differentiation and unperformed engine/asset validation.
+- Selected a working talent reference of 51 points at level 60 with 31-point capstones, explicitly requiring hybrid-build review and confirmation against the target game.
+- Selected a slightly slower but safer/more controlled ordinary support lineup, while retaining both viable five-player compositions; exact tolerance and competitive treatment remain open.
+- Selected short owner emergency defense when the last tank dummy is lost, with reconstruction at a real cost and no repeated free reset.
+- Prioritized complete Artificer and support implementation slices, competitive progression profiles, mixed-city claim rules and measured race wardrobe tests.
+
 ## 0.9 — 2026-11-10
 
 - Added individual implementation-evaluation dossiers for all eighteen candidate classes and ten established race candidates; retained overview pages as navigation and comparison indexes.

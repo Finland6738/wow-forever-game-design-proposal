@@ -70,6 +70,8 @@ Assess short-term novelty and repeat behavior separately. A high participation r
 
 ## Open design questions
 
+The [critical readiness review](proposals/design-readiness-review.md) prioritizes these gaps and records the selected 51/31 talent reference, ordinary support speed/safety trade-off and last-dummy emergency recovery. Full node grids, numerical tolerances and measured engine behavior remain open.
+
 | Decision | Starting direction | What must be resolved |
 | --- | --- | --- |
 | Permanent baseline | Finite non-raid preparation with several routes | Role-specific profiles and the definition of adequate entry preparation |

@@ -30,6 +30,8 @@ Both of these compositions must be viable in ordinary five-player content:
 
 There is **no sixth player slot and no compulsory support slot**. Viable means a reasonably prepared group can finish the intended encounters, not that every composition must have identical speed, safety or tactics. A support lineup may gain control and recovery room while losing direct damage. If boss checks make that loss insurmountable, the role or encounter has failed the test.
 
+**Selected ordinary-play trade-off:** the support lineup is generally a little slower, with more control and safety. This is an intended aggregate trade-off, not a rule forcing every individual run to be slower. Exact tolerance remains open. Timed Challenge and Arena treatment require separate evaluation; no hidden encounter-health reduction compensates for the selected lineup.
+
 The same dungeon should not arbitrarily lower boss health when a support joins: that hides whether the role works and creates roster-change exploits. Test both groups against the same ordinary encounter. A future difficulty-specific rule requires a separate explicit decision.
 
 Raids need a support contribution and stacking budget for their intended size. No automatic rule such as one support per five players is selected. Challenge leaderboards and Arena formats need published composition and effect policies before support is enabled competitively; do not assume a new role is already normalized fairly.
@@ -83,6 +85,9 @@ The selected Summoner direction contains **Swarmcaller, Soulbinder and Sporekeep
 | Construct health | Separate HP for each dummy; only the Artificer repairs it; ordinary healers heal the player |
 | Class structure | Three talent trees for each of the eighteen candidate classes |
 | Two-form predator | Automatic internal combat cycle, independent of world day/night; manual form selection is not the core mechanic |
+| Talent reference | 51 points at level 60, capstone at 31; full allocation and hybrid builds require review |
+| Support trade-off | Slightly slower ordinary group play with more control and safety; both lineups remain viable |
+| Last dummy lost | Short owner emergency defense and reconstruction at a real cost; numerical behavior open |
 
 ### Open choices to resolve through examples
 

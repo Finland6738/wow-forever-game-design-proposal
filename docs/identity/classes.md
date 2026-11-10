@@ -14,6 +14,8 @@ English archetype names identify the proposals. The three-tree structure is sele
 
 These are Vanilla-style talent trees: hybrid allocation must be evaluated at the approved level-60 point budget. Listing three trees does not prove their full kits are mutually exclusive. The [implementation standard](implementation-standard.md) defines evidence levels and the required talent-allocation handoff.
 
+The selected proposal reference is **51 points at level 60 and a 31-point capstone**. Test 31/20/0, 30/21/0, 21/21/9 and 17/17/17; actual node grids and target-game integration remain open. The [readiness review](../proposals/design-readiness-review.md) prioritizes incomplete kits and differentiation work.
+
 ## Class and role matrix
 
 | Class dossier | Tree 1 | Tree 2 | Tree 3 | Equipment starting point |

@@ -97,6 +97,7 @@
         {"source": "docs/13-glossary-and-decisions.md", "page": "Glossary-And-Decisions", "label": "Glossary and Decisions", "description": "Terms, selected boundaries, prototypes and open questions."},
         {"source": "docs/04-technical-framework.md", "page": "Technical-Framework", "label": "Technical Framework", "description": "Conceptual data, validation, transitions and acceptance cases."},
         {"source": "docs/05-roadmap-and-evaluation.md", "page": "Roadmap-And-Evaluation", "label": "Roadmap and Evaluation", "description": "Pilot scope, dependencies, measurements and unresolved tuning."},
+        {"source": "docs/proposals/design-readiness-review.md", "page": "Design-Readiness-Review", "label": "Design Readiness Review", "description": "Critical gaps, working talent budget, support trade-off and paid Artificer recovery."},
         {"source": "docs/proposals/incoming-reports-review.md", "page": "Reports-Under-Review", "label": "Reports Under Review", "description": "Selected report directions, revised acquisition promises and remaining prototype questions."},
         {"source": "docs/README.md", "page": "Documentation-Index", "label": "Topic Directory", "description": "The repository's subject-based documentation index."},
         {"source": "CONTRIBUTING.md", "page": "Contributing", "label": "Contributing", "description": "How to propose and review a change."},
