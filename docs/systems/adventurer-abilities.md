@@ -2,6 +2,8 @@
 
 [← Raids](../01-progression-and-raids.md) · [Equipment and Progression](equipment-and-progression.md) · [Runes](runes.md)
 
+![Raid options remain permanently collected, but exactly one active or passive entry is equipped with explicit swap and competitive rules.](../../assets/diagrams/adventurer-repertoire.svg)
+
 ## Selected direction
 
 Raid rewards can include **permanently learned combat abilities usable beyond their source raid**. Players collect those options in an Adventurer Repertoire and equip **one option at a time**. The choice may be an active ability or a passive modifier, never one of each simultaneously.

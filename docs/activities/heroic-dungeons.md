@@ -4,6 +4,8 @@
 
 Tactical, untimed five-player level-60 adventures. This page covers access, encounter design, composition, rewards and the Heroic pilot. For timed competition, see [Challenge Dungeons](challenge-dungeons.md).
 
+![An untimed five-player level-60 Heroic uses tactical choices against an illustrative healer, summoner, guardian and scout pack.](../../assets/diagrams/heroic-dungeon.svg)
+
 ## Heroic design goals
 
 The long-term ambition is to revisit the existing leveling dungeon catalog at level 60 while preserving its leveling versions. A conversion needs actual encounter work: rescaling health and damage alone is insufficient.

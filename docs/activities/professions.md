@@ -2,6 +2,8 @@
 
 [← Main proposal](../../README.md) · [Open World](../03-world-and-professions.md) · [Rewards](../11-rewards-and-acquisition.md)
 
+![Professions, exploration and short group adventures offer useful choices and shared accomplishments without a required universal activity circuit.](../../assets/diagrams/world-activities.svg)
+
 ## Purpose
 
 Professions support lasting equipment alternatives, recipe specializations, cosmetic projects, utility items and a living player economy. New content should expand useful choices without issuing a stronger permanent equipment tier every update.

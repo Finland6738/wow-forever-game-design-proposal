@@ -4,6 +4,8 @@
 
 > This is a behavior specification and an illustrative data model. It is not production code, an API contract, a database migration, or a description of Blizzard's internal systems. Exact budgets, performance costs and engine integration need investigation.
 
+![Server-owned policies validate equipment, finite Runes, contextual scope and one repertoire entry before computing the effective loadout.](../assets/diagrams/power-validation.svg)
+
 ## Invariants
 
 1. Releasing new content does not automatically raise the approved permanent equipment-power range.

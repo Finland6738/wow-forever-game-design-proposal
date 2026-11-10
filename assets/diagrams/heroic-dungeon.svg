@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Familiar halls. Meaningful tactics.</title><desc id="desc">A fixed-difficulty Heroic dungeon asks a group to choose crowd control, interrupts, positioning and target priority. A healer, summoner, guardian and scout illustrate multiple valid solutions.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#377d7a"/></marker>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172d35}.heading{font-size:34px;font-weight:700}.label{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:19px;fill:#425c63}</style></defs>
+<rect width="1200" height="700" rx="20" fill="#f1f5f1"/>
+<text x="60" y="60" text-anchor="start" class="heading" style="" data-fit="60,22,1080,45"><tspan x="60" dy="0">Familiar halls. Meaningful tactics.</tspan></text>
+<text x="60" y="98" text-anchor="start" class="body" style="" data-fit="60,75,1080,32"><tspan x="60" dy="0">Heroic / HC dungeons · Level 60 · Five players · Untimed.</tspan></text>
+<rect x="60" y="145" width="1080" height="90" rx="14" fill="#173c43" stroke="#173c43" stroke-width="2"/>
+<text x="600.0" y="181" text-anchor="middle" class="label" style="fill:#ffffff;font-size:24px;" data-fit="72,155,1056,37"><tspan x="600.0" dy="0">Preserve the leveling version. Redesign the level-60 encounters.</tspan></text>
+<text x="600" y="282" text-anchor="middle" class="body" style="" data-fit="60,255,1080,35"><tspan x="600" dy="0">An illustrative pack — several valid plans</tspan></text>
+<rect x="60" y="310" width="240" height="145" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="180.0" y="346" text-anchor="middle" class="label" style="font-size:24px;" data-fit="72,320,216,37"><tspan x="180.0" dy="0">Healer</tspan></text>
+<text x="180.0" y="383" text-anchor="middle" class="body" style="font-size:20px;" data-fit="72,360,216,87"><tspan x="180.0" dy="0">Interrupt</tspan><tspan x="180.0" dy="28">Control or focus</tspan></text>
+<rect x="340" y="310" width="240" height="145" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="460.0" y="346" text-anchor="middle" class="label" style="font-size:24px;" data-fit="352,320,216,37"><tspan x="460.0" dy="0">Summoner</tspan></text>
+<text x="460.0" y="383" text-anchor="middle" class="body" style="font-size:20px;" data-fit="352,360,216,87"><tspan x="460.0" dy="0">Stop the ritual</tspan><tspan x="460.0" dy="28">Interrupt or eliminate</tspan></text>
+<rect x="620" y="310" width="240" height="145" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="740.0" y="346" text-anchor="middle" class="label" style="font-size:24px;" data-fit="632,320,216,37"><tspan x="740.0" dy="0">Guardian</tspan></text>
+<text x="740.0" y="383" text-anchor="middle" class="body" style="font-size:20px;" data-fit="632,360,216,87"><tspan x="740.0" dy="0">Manage threat</tspan><tspan x="740.0" dy="28">Position and mitigate</tspan></text>
+<rect x="900" y="310" width="240" height="145" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="1020.0" y="346" text-anchor="middle" class="label" style="font-size:24px;" data-fit="912,320,216,37"><tspan x="1020.0" dy="0">Scout</tspan></text>
+<text x="1020.0" y="383" text-anchor="middle" class="body" style="font-size:20px;" data-fit="912,360,216,87"><tspan x="1020.0" dy="0">Prevent reinforcements</tspan><tspan x="1020.0" dy="28">Slow, control or focus</tspan></text>
+<rect x="60" y="505" width="1080" height="105" rx="14" fill="#f5ead5" stroke="#b8ccca" stroke-width="2"/>
+<text x="600.0" y="541" text-anchor="middle" class="label" style="font-size:24px;" data-fit="72,515,1056,37"><tspan x="600.0" dy="0">Boss mechanics, recovery and coordinated execution</tspan></text>
+<text x="600.0" y="578" text-anchor="middle" class="body" style="font-size:21px;" data-fit="72,555,1056,47"><tspan x="600.0" dy="0">Baseline alternatives · Materials · Recipes · Collections</tspan></text>
+<path d="M60 637H1140" stroke="#b8ccca" stroke-width="2"/>
+<text x="600" y="664" text-anchor="middle" class="small" style="" data-fit="60,644,1080,51"><tspan x="600" dy="0">Fixed encounter difficulty; viable class variety; no endlessly scaling levels.</tspan></text>
+</svg>

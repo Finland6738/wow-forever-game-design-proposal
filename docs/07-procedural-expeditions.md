@@ -2,6 +2,8 @@
 
 [← Main proposal](../README.md) · [Documentation index](README.md) · [Dungeon modes](02-dungeons-and-challenges.md) · [Technical rules](04-technical-framework.md)
 
+![A world portal admits 5–20 level-60 players to a committed seed with one to five generated floors and checkpoint-bound scaling.](../assets/diagrams/procedural-expedition.svg)
+
 ## Explore an uncertain route together
 
 Portals appear in the open world and lead to level-60 cooperative expeditions for **5–20 players**. Each expedition assembles a new route from authored environment modules, then selects compatible enemy packs and bosses. The group may discover between **one and five floors**, with bounded increases in challenge as it descends.

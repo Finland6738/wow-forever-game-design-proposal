@@ -1,5 +1,12 @@
 # Change history
 
+## 0.6 — 2026-11-10
+
+- Audited README coverage and added a linked concept map covering raids, the three dungeon formats, World Bosses, Warfare, NPC assaults, recognition, Runes, raid abilities and world development.
+- Added standalone README sections for finite Rune progression, the one-slot Adventurer Repertoire, and professions/exploration/small-group adventures.
+- Added twelve editable SVG diagrams matching the three existing diagrams and reused them in the corresponding wiki source pages.
+- Made the Normal/Veteran raid and Heroic/HC dungeon terminology explicit, alongside the distinction between participation ranks and competitive standings; retained labels for unresolved design details.
+
 ## 0.5 — 2026-11-10
 
 - Selected fixed-lifetime Rune statistics with activity history and no additional Rune rank.

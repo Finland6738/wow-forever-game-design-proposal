@@ -2,6 +2,8 @@
 
 [← Main proposal](../README.md) · [Documentation index](README.md) · [Settlement recognition](06-invasions-and-reconstruction.md)
 
+![Adventurer, Explorer and Honor recognize participation; Gladiator and Challenger identify competitive results. City service is separate and Runes add no rank.](../assets/diagrams/recognition-domains.svg)
+
 ## Recognition without another power system
 
 Keep activity identities distinct: **Adventurer** for instanced PvE participation, **Explorer** for open-world contribution, **Honor** for PvP participation, **Gladiator** for arena competition and **Challenger** for Challenge Dungeon performance. Recognition grants titles, badges and cosmetics, with **no statistics, combat talent points, increased equipment budget or access advantage**.

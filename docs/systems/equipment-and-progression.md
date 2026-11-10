@@ -2,6 +2,8 @@
 
 [← Main proposal](../../README.md) · [Raids](../01-progression-and-raids.md) · [Rewards](../11-rewards-and-acquisition.md)
 
+![Equipment, finite Runes, scoped raid equipment, a one-slot ability collection and recognition have separate purposes and limits.](../../assets/diagrams/progression-channels.svg)
+
 ## Complementary progression channels
 
 | Layer | What players develop | Boundary |

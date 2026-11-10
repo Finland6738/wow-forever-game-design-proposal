@@ -2,6 +2,8 @@
 
 [← Equipment and Progression](equipment-and-progression.md) · [Prestige](../08-prestige-ranks.md) · [Adventurer Abilities](adventurer-abilities.md)
 
+![Validated activity milestones grant progress to a fixed lifetime Rune ceiling, after which history persists without overflow statistics or a new rank.](../../assets/diagrams/rune-progression.svg)
+
 ## Selected direction
 
 Runes provide a **finite permanent stat progression with a fixed lifetime ceiling**. Content updates do not add to that ceiling, raise it through a new currency, or reset earned progress. The character remains level 60.

@@ -2,6 +2,8 @@
 
 [← Main proposal](../../README.md) · [Open World](../03-world-and-professions.md) · [Explorer prestige](../08-prestige-ranks.md)
 
+![Professions, exploration and short group adventures offer useful choices and shared accomplishments without a required universal activity circuit.](../../assets/diagrams/world-activities.svg)
+
 ## Stories, discovery and class identity
 
 Hidden locations, puzzles, reputations, class-specific quests and permanent story chains can expand the world without increasing the level cap. Their rewards should avoid becoming compulsory combat-stat unlocks before raiding.

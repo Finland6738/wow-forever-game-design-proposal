@@ -2,6 +2,8 @@
 
 [← Main proposal](../../README.md) · [PvP](pvp.md) · [Open-World PvP](open-world-pvp.md)
 
+![Ordinary faction PvP and local opt-in city rivalry are separate relationships; city service, city flag and ordinary PvP state remain distinct.](../../assets/diagrams/warfare-layers.svg)
+
 ## Preferred prototype: ordinary factions with voluntary city rivalry
 
 The recommended model is bivalent: ordinary Horde/Alliance combat remains the foundation, and an NPC-enabled city flag adds voluntary rivalry only inside Warfare areas. The system resolves each pair of characters; it does not globally switch modes when someone changes their flag. See the [full comparison and prototype](warfare-models.md).

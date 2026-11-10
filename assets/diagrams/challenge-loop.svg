@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="710" viewBox="0 0 1200 710" role="img" aria-labelledby="title desc">
+<title id="title">Practice freely. Compete on execution.</title><desc id="desc">The group uses an approved profile, locks a roster, completes a timed run and validates the result. It can restart without a key. Medals and standings reward execution, while roster changes invalidate an active ranked attempt.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#377d7a"/></marker>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172d35}.heading{font-size:34px;font-weight:700}.label{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:19px;fill:#425c63}</style></defs>
+<rect width="1200" height="710" rx="20" fill="#f1f5f1"/>
+<text x="60" y="60" text-anchor="start" class="heading" style="" data-fit="60,22,1080,45"><tspan x="60" dy="0">Practice freely. Compete on execution.</tspan></text>
+<text x="60" y="98" text-anchor="start" class="body" style="" data-fit="60,75,1080,32"><tspan x="60" dy="0">Challenge Dungeons · Level 60 · Five players · Normalized timed runs.</tspan></text>
+<rect x="60" y="170" width="240" height="125" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="180.0" y="206" text-anchor="middle" class="label" style="font-size:24px;" data-fit="72,180,216,37"><tspan x="180.0" dy="0">Normalize</tspan></text>
+<text x="180.0" y="243" text-anchor="middle" class="body" style="font-size:20px;" data-fit="72,220,216,67"><tspan x="180.0" dy="0">Approved profile</tspan></text>
+<rect x="340" y="170" width="240" height="125" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="460.0" y="206" text-anchor="middle" class="label" style="font-size:24px;" data-fit="352,180,216,37"><tspan x="460.0" dy="0">Confirm roster</tspan></text>
+<text x="460.0" y="243" text-anchor="middle" class="body" style="font-size:20px;" data-fit="352,220,216,67"><tspan x="460.0" dy="0">Five ready players</tspan></text>
+<rect x="620" y="170" width="240" height="125" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="740.0" y="206" text-anchor="middle" class="label" style="font-size:24px;" data-fit="632,180,216,37"><tspan x="740.0" dy="0">Timed run</tspan></text>
+<text x="740.0" y="243" text-anchor="middle" class="body" style="font-size:20px;" data-fit="632,220,216,67"><tspan x="740.0" dy="0">Required objectives</tspan></text>
+<rect x="900" y="170" width="240" height="125" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="1020.0" y="206" text-anchor="middle" class="label" style="font-size:24px;" data-fit="912,180,216,37"><tspan x="1020.0" dy="0">Validate</tspan></text>
+<text x="1020.0" y="243" text-anchor="middle" class="body" style="font-size:20px;" data-fit="912,220,216,67"><tspan x="1020.0" dy="0">Server-owned result</tspan></text>
+<path d="M300 232H325" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M580 232H605" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M860 232H885" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1020 295V335H320V365" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="60" y="380" width="520" height="155" rx="14" fill="#f5ead5" stroke="#b8ccca" stroke-width="2"/>
+<text x="320.0" y="416" text-anchor="middle" class="label" style="font-size:25px;" data-fit="72,390,496,37"><tspan x="320.0" dy="0">Earned result</tspan></text>
+<text x="320.0" y="453" text-anchor="middle" class="body" style="font-size:21px;" data-fit="72,430,496,97"><tspan x="320.0" dy="0">Bronze · Silver · Gold</tspan><tspan x="320.0" dy="28">Personal records and standings</tspan><tspan x="320.0" dy="28">Cosmetic rewards</tspan></text>
+<rect x="620" y="380" width="520" height="155" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="880.0" y="416" text-anchor="middle" class="label" style="font-size:25px;" data-fit="632,390,496,37"><tspan x="880.0" dy="0">Reset and improve</tspan></text>
+<text x="880.0" y="453" text-anchor="middle" class="body" style="font-size:21px;" data-fit="632,430,496,97"><tspan x="880.0" dy="0">No keys or consumed attempts</tspan><tspan x="880.0" dy="28">Reform between attempts</tspan><tspan x="880.0" dy="28">Try a new route or strategy</tspan></text>
+<path d="M580 455H605" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1140 455H1170V135H180V155" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M60 621H1140" stroke="#b8ccca" stroke-width="2"/>
+<text x="600" y="648" text-anchor="middle" class="small" style="" data-fit="60,628,1080,77"><tspan x="600" dy="0">Roster changes invalidate the active ranking attempt, not the freedom to restart.</tspan><tspan x="600" dy="28">Challenger describes timed performance; it is not another kill-score ladder.</tspan></text>
+</svg>

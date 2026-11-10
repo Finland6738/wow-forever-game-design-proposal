@@ -4,6 +4,8 @@
 
 Normalized timed five-player dungeons with keyless entry, free retries, medals and records. This page covers the complete Challenge rule set; untimed tactical play belongs to [Heroic Dungeons](heroic-dungeons.md).
 
+![Normalize the group, confirm a roster, complete and validate a timed run, then freely reset and improve for medals and standings.](../../assets/diagrams/challenge-loop.svg)
+
 ## Challenge Mode rules
 
 The design is a normalized dungeon run measured against clear time targets. Class, itemization and encounter changes can affect fair comparison, so the ruleset and rankings are versioned. The following rules define this proposal directly.

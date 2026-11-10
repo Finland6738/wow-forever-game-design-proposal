@@ -64,6 +64,8 @@ A shared progression allowance could reduce double farming, but might also penal
 
 ## Independent Normal and Veteran paths
 
+![Normal and Veteran have separate contextual equipment tracks and each teaches only its own ability; both earned options share a one-slot repertoire.](../assets/diagrams/raid-difficulties.svg)
+
 Normal targets groups who want to experience the complete raid with basic preparation and coordination. Accessibility requires readable mechanics, understandable feedback and recoverable mistakes. It cannot promise a 100% completion rate for all groups.
 
 Veteran targets organized guilds that want more demanding progression with a manageable mechanic set. The desired feel is deliberate tactical coordination, class identity and meaningful personal responsibility. It should be playable using clear built-in information; external tools must not be assumed to solve intentionally opaque mechanics.

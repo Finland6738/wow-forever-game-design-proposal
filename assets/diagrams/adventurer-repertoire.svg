@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850" role="img" aria-labelledby="title desc">
+<title id="title">Collect the options. Equip one choice.</title><desc id="desc">Historical raid clears teach permanent class-compatible options. Each difficulty teaches only its own. Options enter a permanent collection, but exactly one active or passive entry is equipped. Swaps preserve cooldown integrity and ranked rules remain explicit.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#377d7a"/></marker>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172d35}.heading{font-size:34px;font-weight:700}.label{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:19px;fill:#425c63}</style></defs>
+<rect width="1200" height="850" rx="20" fill="#f1f5f1"/>
+<text x="60" y="60" text-anchor="start" class="heading" style="" data-fit="60,22,1080,45"><tspan x="60" dy="0">Collect the options. Equip one choice.</tspan></text>
+<text x="60" y="98" text-anchor="start" class="body" style="" data-fit="60,75,1080,32"><tspan x="60" dy="0">Adventurer Abilities · Permanent ownership · Ordinary use beyond the source raid.</tspan></text>
+<rect x="60" y="150" width="340" height="120" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="230.0" y="186" text-anchor="middle" class="label" style="font-size:25px;" data-fit="72,160,316,37"><tspan x="230.0" dy="0">Source raid A</tspan></text>
+<text x="230.0" y="223" text-anchor="middle" class="body" style="font-size:20px;" data-fit="72,200,316,62"><tspan x="230.0" dy="0">Normal OR Veteran clear</tspan><tspan x="230.0" dy="28">Learn that source option</tspan></text>
+<rect x="430" y="150" width="340" height="120" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="600.0" y="186" text-anchor="middle" class="label" style="font-size:25px;" data-fit="442,160,316,37"><tspan x="600.0" dy="0">Source raid B</tspan></text>
+<text x="600.0" y="223" text-anchor="middle" class="body" style="font-size:20px;" data-fit="442,200,316,62"><tspan x="600.0" dy="0">Normal OR Veteran clear</tspan><tspan x="600.0" dy="28">Learn that source option</tspan></text>
+<rect x="800" y="150" width="340" height="120" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="970.0" y="186" text-anchor="middle" class="label" style="font-size:25px;" data-fit="812,160,316,37"><tspan x="970.0" dy="0">Source raid C</tspan></text>
+<text x="970.0" y="223" text-anchor="middle" class="body" style="font-size:20px;" data-fit="812,200,316,62"><tspan x="970.0" dy="0">Normal OR Veteran clear</tspan><tspan x="970.0" dy="28">Learn that source option</tspan></text>
+<path d="M230 270V325" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M600 270V325" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M970 270V325" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="60" y="340" width="1080" height="100" rx="14" fill="#f5ead5" stroke="#b8ccca" stroke-width="2"/>
+<text x="600.0" y="376" text-anchor="middle" class="label" style="font-size:25px;" data-fit="72,350,1056,37"><tspan x="600.0" dy="0">Permanent ability collection</tspan></text>
+<text x="600.0" y="413" text-anchor="middle" class="body" style="font-size:21px;" data-fit="72,390,1056,42"><tspan x="600.0" dy="0">Each difficulty teaches only its own option. Both require both clears.</tspan></text>
+<path d="M600 440V485" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="300" y="500" width="600" height="105" rx="14" fill="#173c43" stroke="#173c43" stroke-width="2"/>
+<text x="600.0" y="536" text-anchor="middle" class="label" style="fill:#ffffff;font-size:25px;" data-fit="312,510,576,37"><tspan x="600.0" dy="0">ONE equipped option</tspan></text>
+<text x="600.0" y="573" text-anchor="middle" class="body" style="fill:#d8e8e5;font-size:21px;" data-fit="312,550,576,47"><tspan x="600.0" dy="0">Active OR passive — never both</tspan></text>
+<rect x="60" y="660" width="340" height="95" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="230.0" y="696" text-anchor="middle" class="label" style="font-size:23px;" data-fit="72,670,316,37"><tspan x="230.0" dy="0">Outside combat</tspan></text>
+<text x="230.0" y="733" text-anchor="middle" class="body" style="font-size:19px;" data-fit="72,710,316,37"><tspan x="230.0" dy="0">Encounter checks still apply</tspan></text>
+<rect x="430" y="660" width="340" height="95" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="600.0" y="696" text-anchor="middle" class="label" style="font-size:23px;" data-fit="442,670,316,37"><tspan x="600.0" dy="0">Cooldowns persist</tspan></text>
+<text x="600.0" y="733" text-anchor="middle" class="body" style="font-size:19px;" data-fit="442,710,316,37"><tspan x="600.0" dy="0">No swap-based resets</tspan></text>
+<rect x="800" y="660" width="340" height="95" rx="14" fill="#f5ead5" stroke="#b8ccca" stroke-width="2"/>
+<text x="970.0" y="696" text-anchor="middle" class="label" style="font-size:23px;" data-fit="812,670,316,37"><tspan x="970.0" dy="0">Ranked eligibility</tspan></text>
+<text x="970.0" y="733" text-anchor="middle" class="body" style="font-size:19px;" data-fit="812,710,316,37"><tspan x="970.0" dy="0">Competitive policy remains open</tspan></text>
+<path d="M60 787H1140" stroke="#b8ccca" stroke-width="2"/>
+<text x="600" y="814" text-anchor="middle" class="small" style="" data-fit="60,794,1080,51"><tspan x="600" dy="0">A larger library can improve build answers; one slot does not prove equal power.</tspan></text>
+</svg>

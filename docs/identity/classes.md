@@ -4,6 +4,8 @@
 
 The complete class catalog: 18 exploratory families, 13 mechanical studies, group-role constraints and development gates. For playable peoples and racial mechanics, see [Races](races.md).
 
+![Regions, six race concepts and eighteen class families with thirteen mechanical studies pass shared setting, feasibility and balance review.](../../assets/diagrams/identity-development.svg)
+
 ## A class-selection policy
 
 A class needs a distinct combat decision loop, readable fantasy, coherent resource, intended group role and enough depth to sustain talents, gear choices and encounter design. A visual theme alone may belong in a specialization, cosmetic set or questline instead.

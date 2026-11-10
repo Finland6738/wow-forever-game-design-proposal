@@ -4,6 +4,8 @@
 
 The complete playable-people concept catalog: six invented working identities, setting and anatomy requirements, and racial-power boundaries. For combat identities, see [Classes](classes.md).
 
+![Regions, six race concepts and eighteen class families with thirteen mechanical studies pass shared setting, feasibility and balance review.](../../assets/diagrams/identity-development.svg)
+
 ## A race-selection policy
 
 The direction favors **new playable peoples and distinctive concepts**, with their own silhouettes, cultures and reasons to participate in this world. Repeated cosmetic variations of an existing people are insufficient.
