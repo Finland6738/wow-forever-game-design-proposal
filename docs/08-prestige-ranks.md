@@ -1,10 +1,10 @@
-# Adventurer, Explorer and Honor prestige
+# Prestige and Competitive Recognition
 
 [← Main proposal](../README.md) · [Documentation index](README.md) · [Settlement recognition](06-invasions-and-reconstruction.md)
 
 ## Recognition without another power system
 
-Create three distinct activity identities: **Adventurer** for instanced PvE, **Explorer** for open-world discovery and contribution, and **Honor** for PvP. They grant recognition, titles, badges and cosmetic collections, with **no statistics, talent points, equipment-power budget, proc bonuses or access advantages**.
+Keep activity identities distinct: **Adventurer** for instanced PvE participation, **Explorer** for open-world contribution, **Honor** for PvP participation, **Gladiator** for arena competition and **Challenger** for Challenge Dungeon performance. Recognition grants titles, badges and cosmetics, with **no statistics, combat talent points, increased equipment budget or access advantage**.
 
 The requested system resembles a persistent participation record. It must not be presented as a skill rating, a guarantee of player quality or a direct measure of performance. A high total can reflect time played or farming efficiency. Encounter-specific achievements and Challenge records can show different kinds of accomplishment separately.
 
@@ -13,8 +13,13 @@ The requested system resembles a persistent participation record. It must not be
 | Adventurer | Eligible dungeon, raid and procedural-expedition combat and completion | Open-world kill farming or PvP kills |
 | Explorer | Discoveries, quests, regional stories, defense, reconstruction and meaningful world interactions | Repeated dialogue clicks or instanced kill totals |
 | Honor | PvP participation under its own rules | PvE defense against hostile NPCs |
+| Gladiator | Arena competitive standing under a defined rating policy | Raw accumulated PvE or Honor totals |
+| Challenger | Validated Challenge Dungeon completion times and standings | An unlimited participation-point ladder |
+| City service | Warfare reputation for a city's standard and its cosmetic rewards | A universal competitive skill rating |
 
 Honor is kept conceptually distinct here; its current mechanics are not redefined or assumed to match a competitive rating. “Roleplay honor” from settlement defense becomes Explorer civic commendations, avoiding two unrelated currencies called Honor.
+
+[Runes](systems/runes.md) are a separate fixed-ceiling numerical system with a history record, not another rank. [Adventurer Abilities](systems/adventurer-abilities.md) form a combat-choice collection; the similar name does not make them rewards from the Adventurer participation score. [City service](activities/faction-warfare.md) records a specific allegiance rather than adding another general-purpose participation ladder.
 
 ## Adventurer: a simple starting score
 
@@ -77,9 +82,9 @@ Continuing to visit older regions can matter through fresh objectives, rotating 
 
 Use the same readable tier vocabulary across Adventurer and Explorer, while storing separate totals and showing separate badges. One illustrative ladder is:
 
-**Wood → Bronze → Silver → Gold → Platinum → Diamond → Master → Challenger**
+**Wood → Bronze → Silver → Gold → Platinum → Diamond → Master → Legend**
 
-Each tier contains **IV, III, II and I** subdivisions, with I highest. Challenger is a prestige title here, not evidence of a competitive percentile. Names, tier count and thresholds can change after testing. No rank decay or compulsory seasonal reset is proposed.
+Each tier contains **IV, III, II and I** subdivisions, with I highest. Legend is a provisional participation-tier name; Challenger is reserved for the separate timed-dungeon domain. Names, tier count and thresholds can change after testing. No rank decay or compulsory seasonal reset is proposed for cumulative participation.
 
 For the first design, progress is **per character and cumulative**, with account-wide cosmetic unlocks deduplicated separately. An optional account summary can show earned milestones without pooling points into an alt-based acceleration loop. This is a starting ownership policy, not a claim about existing Honor or Legacy implementation.
 
@@ -90,6 +95,8 @@ Public badges should be optional and accompanied by an accessible explanation of
 ## Rewards and progression boundaries
 
 Suitable rewards include title variations, profile borders, cosmetic badges, banners, appearances, pets and commemorative collection milestones. None increases damage, healing, health, resistance, loot quality, gold yield, material yield, floor depth or access to a new class/race.
+
+Arena rating rules belong to [Arenas](activities/arenas.md), timed standings to [Challenge Dungeons](activities/challenge-dungeons.md), and city-service ranks to [Faction Warfare](activities/faction-warfare.md). Their formats and reset rules must not be inferred from the Adventurer/Explorer participation ladder.
 
 Avoid an XP buff or profession throughput perk that quietly converts rank into progression efficiency. The reward is recognition itself and optional identity, not another mandatory account grind. Any cosmetic vendor uses the earned cosmetic entitlement rather than selling combat items.
 

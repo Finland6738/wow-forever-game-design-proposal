@@ -1,5 +1,15 @@
 # Change history
 
+## 0.5 — 2026-11-10
+
+- Selected fixed-lifetime Rune statistics with activity history and no additional Rune rank.
+- Added the permanent one-slot Adventurer Repertoire as a useful historical raid reward; clarified that direct equipment access does not promise a complete optimized ability library.
+- Selected separate Normal/Veteran ability acquisition: each clear teaches only its own option.
+- Distinguished participation recognition, Arena Gladiator standing, Challenge Challenger standings, city service and Rune history.
+- Developed a preferred bivalent Warfare prototype: ordinary major-faction combat plus NPC-enabled local city rivalry, with both rival city flags required.
+- Recorded the conditional city reward direction: permanent base objects, service-qualified city treatments and reputation loss when changing city; numerical penalty and final capture/support details remain open.
+- Added comparison, reward-policy, Rune, ability and Arena pages and reconciled shared rules, FAQ, technical acceptance cases and navigation.
+
 ## 0.4 — 2026-11-10
 
 - Reorganized the wiki around activities and reader interests, with categorized Home, sidebar and detailed topic index.

@@ -14,7 +14,7 @@ I have started a community design proposal on GitHub. The central idea is a stab
 
 An item would remain usable outside its raid group, with permanent stats inside the agreed budget. Its extra raid bonus would activate only in the appropriate content. When a new update arrives, previous bonuses stay in their original raids. Players keep their equipment, collections and achievements, while the new raid has its own progression.
 
-Normal and a proposed Veteran difficulty would be independent. A guild could start Veteran directly without farming Normal, previous updates, or unrelated World Boss rewards. Veteran would offer its own internal progression and additional prestige.
+Normal and a proposed Veteran difficulty keep separate contextual equipment tracks. Raids can also teach permanently useful Adventurer abilities: one option is equipped at a time, and each difficulty teaches only its own. Returning to an old raid for a desired build option is an intended goal, without recreating a sequential item-level ladder.
 
 The wider endgame could grow through:
 
@@ -25,6 +25,10 @@ The wider endgame could grow through:
 - NPC-faction invasions: defend a settlement or gather supplies, rebuild and restore its NPCs after defeat, with essential-service fallbacks.
 - Procedural expeditions discovered through world portals: 5–20 players, generated routes and encounters, and 1–5 finite floors, with gold/material rewards to test.
 - Separate Adventurer, Explorer and Honor prestige, offering recognition without statistics and crediting support roles as well as damage.
+- Runes with a fixed lifetime stat allowance and activity history, without seasonal cap increases or another rank ladder.
+- Separate Gladiator arena and Challenger timed-dungeon standings; their detailed competitive policies remain to be defined.
+
+Warfare now focuses on capturing designated guard-and-boss camps and expressing service through city-themed cosmetic rewards. The preferred bivalent prototype combines ordinary Horde/Alliance combat and local voluntary city rivalry, with a separate NPC-managed flag. Base cosmetics remain owned; city variants require eligible service, and changing city loses some reputation. Detailed capture/support rules and the penalty amount still need testing.
 
 Future updates could also expand regions and explore original playable peoples and class concepts that fit Forever's atmosphere. The repository includes named working concepts and mechanical studies, each requiring narrative, technical and balance review before selection.
 

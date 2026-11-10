@@ -18,6 +18,8 @@ This is a proposed order of investigation, not Blizzard's roadmap, a schedule or
 | 7 — Procedural pilot | One module theme, reviewed encounter pools, limited initial depth and representative 5–20-player profiles | Valid paths/objectives, fair scaling, acceptable content cost and bounded gold/material output before expanding to five floors |
 | 8 — Prestige pilot | Adventurer/Explorer ledgers, simple base weights, role-aware credit and a small cosmetic milestone set | Support-role fairness, understandable repeat rules, no power reward and acceptable social gatekeeping risk |
 | 9 — World and identity prototypes | A region concept and a small race/class prototype shortlist | Setting fit, distinct loops, animation/pathing feasibility, roster diversity and unchanged permanent power limits |
+| 10 — Rune and repertoire pilot | A small fixed stat set, reviewed group milestones and a limited permanent ability set | Finite acquisition effort, stable numerical limits, one-slot integrity and diverse useful options |
+| 11 — Bivalent Warfare pilot | One area, a few guard/boss camps, ordinary faction capture and opt-in city rivalry | Clear relations, no immune support, coherent ownership and meaningful service/cosmetic commitment |
 
 Stages can overlap where work is independent. Challenge competition depends on a trustworthy normalization framework; full raid isolation is the central progression experiment and should not wait for the entire dungeon catalog. Do not launch every system simultaneously.
 
@@ -30,7 +32,7 @@ Set thresholds before each pilot using baseline data. This proposal intentionall
 | Question | Suggested measurement | Warning signal |
 | --- | --- | --- |
 | Can returning players join a new raid directly? | Preparation time, required item sources and first successful participation, split by role and prior equipment | Old raid items or several compulsory activity tracks dominate preparation |
-| Are difficulties independent? | Normal participation among Veteran groups, item/currency dependencies and player-reported reasons | Groups feel they must clear Normal for Veteran power |
+| Are equipment tracks independent? | Normal participation among Veteran groups, contextual item/currency dependencies and ability-collection motives | Required Normal equipment farming is confused with the intentional choice to collect its separate ability |
 | Is shared raid scope healthy? | Order of sibling raids attempted, power acquisition efficiency and skipping behavior | The shortest raid becomes the expected weekly prerequisite |
 | Are rewards satisfying? | Repeat participation, collection goals, local upgrade value and qualitative feedback | Players describe all drops as disposable or mandatory chores |
 | Is the item budget holding? | Simulated and observed build output, survivability, proc interactions and outlier acquisition sources | Equal item levels hide dominant old effects or upward permanent power drift |
@@ -45,6 +47,8 @@ Set thresholds before each pilot using baseline data. This proposal intentionall
 | Are expedition rewards economically sustainable? | Gold per player-hour, total gold created, material supply, seed abandonment and first-floor resets | Inflation or one easy route dominates every other source |
 | Do prestige ranks recognize all roles? | Eligibility and time-to-tier by role/activity, repeat-rule appeals and player understanding | Healers/tanks lose credit, AFK passengers farm points or totals are treated as proof of skill |
 | Do new identities expand choice? | Prototype role coverage, pick concentration, accessibility and old-roster viability | New classes/races become required or merely duplicate an existing kit/model |
+| Does the bivalent flag remain understandable? | Targeting mistakes, neutral-ally participation, outside-area behavior and guild regrouping | One player's flag unexpectedly changes others' allegiance or creates immunity from ordinary PvP |
+| Is city commitment proportionate? | Switch frequency, lost standing, regained variants and neutral-form satisfaction | Players feel trapped or interpret toggling combat off as losing earned service |
 
 Assess short-term novelty and repeat behavior separately. A high participation rate does not alone prove that players enjoy an activity or that its rewards are appropriately independent.
 
@@ -53,12 +57,15 @@ Assess short-term novelty and repeat behavior separately. A high participation r
 - Permanent equipment remains usable, with additional progression bonuses restricted by context.
 - Approved raids in the same content update share a progression scope.
 - Normal and Veteran maintain independent contextual power and acquisition tracks.
+- Each difficulty teaches only its own permanently usable repertoire ability; collecting both requires both completions.
 - Veteran adds prestige and its own internal progression without exporting extra power.
 - Heroics provide tactical level-60 adventures; Challenge Modes provide keyless, normalized timed mastery.
 - World, PvP and profession systems remain parallel rather than compulsory gearing steps.
 - NPC factions can attack settlements; loss opens cooperative reconstruction and NPC restoration with essential-service continuity.
 - Procedural expeditions target level 60, groups of 5–20 and a finite committed depth of 1–5 floors.
 - Adventurer, Explorer and Honor identities stay separate and grant no statistics; civic defense belongs to Explorer.
+- Gladiator and Challenger identify separate competitive domains. Rune history is not another rank; its numerical allowance has a fixed lifetime ceiling.
+- Historical raids may remain the exclusive source of desirable build abilities. The direct-entry promise concerns the equipment ladder, not an already complete optimized repertoire.
 - New regions and original playable identities must fit the setting and budget, with distinct cultures and loops rather than repeated existing-race or class variants.
 
 ## Open design questions
@@ -78,6 +85,9 @@ Assess short-term novelty and repeat behavior separately. A high participation r
 | Expedition rewards | Pilot modest gold, common materials, collections and prestige | Payout rates, resource supply, seed fishing, replay eligibility and economic impact |
 | Prestige weights | Prototype level ×1/×2/×5 kill values with role-aware eligibility | Rank thresholds, repeat windows, completion credit, account presentation and AFK false positives |
 | Race/class catalog | Six exploratory peoples, 18 families and 13 non-additive mechanical studies | Setting/roster review, original identity, role fit, animation, pathing and prototype rejection criteria |
+| Rune progression | A fixed lifetime stat allowance, no new rank or seasonal increase | Stat set, exact caps, acquisition time, precision, group incentives and competitive profiles |
+| Raid repertoire | Permanent historical options, one equipped entry, each difficulty teaches its own | Per-raid/class production scope, eligibility, swap preparation/cost and competitive treatment |
+| Warfare structure | Preferred ordinary-faction/local-city prototype; permanent base objects and service-qualified variants | Full capture/support resolution, objective population, penalty amount, eligibility thresholds and switching timers |
 
 ## Revision policy
 

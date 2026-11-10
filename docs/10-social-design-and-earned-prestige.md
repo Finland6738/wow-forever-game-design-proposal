@@ -34,7 +34,7 @@ Simple rules do not require easy outcomes. A clearly telegraphed mechanic can st
 
 An accessible equipment baseline removes an inherited gearing barrier. It does not grant a boss kill, guarantee full completion or entitle every character to every prestigious reward.
 
-Normal provides a manageable commitment for reasonably prepared groups. Veteran asks for stronger execution and organization. Both have their own contextual progression; neither is the other's gearing prerequisite. Groups choose the challenge that suits them and earn its outcomes.
+Normal provides a manageable commitment for reasonably prepared groups. Veteran asks for stronger execution and organization. Both have their own contextual equipment progression; neither supplies the other's required gear currency. Permanent repertoire abilities are different: each difficulty teaches only its own, so collecting both intentionally involves both completions.
 
 | Reward type | What earns it | Why the boundary matters |
 | --- | --- | --- |
@@ -52,6 +52,8 @@ Prestigious cosmetics may require difficult accomplishments. Keeping them availa
 Players may choose to devote many evenings to one activity. The game should support that commitment without requiring the same schedule from everyone else. Independent progression paths, permanent collections and bounded preparation help reconcile those preferences.
 
 Avoid universal weekly currencies, compulsory solo errands before raids and cross-difficulty double farming. Equally, do not make a prestige badge a hidden access requirement or a new class an obligatory group slot.
+
+The double-farming concern applies to equipment preparation. Returning for an exclusive historical ability, or completing both difficulties to collect both options, is now a deliberate progression goal. That choice accepts some optimization pressure; group availability and acquisition effort need evaluation rather than a blanket claim that every path is interchangeable.
 
 Social friction requires judgment. Forming a group can be part of the experience; unexplained travel failures, opaque prerequisites and resource-losing retries add little social value. Preserve meaningful dependence on people while reducing preventable administrative barriers.
 

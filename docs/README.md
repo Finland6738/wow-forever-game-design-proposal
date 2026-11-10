@@ -2,7 +2,7 @@
 
 [← Main proposal](../README.md) · [GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design/wiki)
 
-Choose the activity or character topic you are looking for. Detailed rules live on dedicated pages, while shared implementation and editorial material is grouped under Project Reference.
+Choose an activity or character topic. Pages distinguish selected directions, recommended prototypes and open tuning.
 
 ## PvE — Raids and Dungeons
 
@@ -30,15 +30,20 @@ Choose the activity or character topic you are looking for. Detailed rules live 
 | Topic | What you will find |
 | --- | --- |
 | [PvP Overview](activities/pvp.md) | Find PvP topics and their shared participation and reward boundaries. |
+| [Arenas and Gladiator](activities/arenas.md) | The arena competition domain, with format and competitive policies still to define. |
 | [Open-World PvP](activities/open-world-pvp.md) | Regional objectives, consent, temporary benefits and faction imbalance. |
-| [Faction Warfare](activities/faction-warfare.md) | Territorial cooperation, current faction objectives and campaign questions under review. |
+| [Faction Warfare](activities/faction-warfare.md) | Guard-and-boss capture with ordinary faction conflict and voluntary local city rivalry. |
+| [Warfare Models and Rules](activities/warfare-models.md) | Compare faction, city and bivalent designs; targeting, ownership and prototype edge cases. |
+| [Warfare Reputation and Cosmetics](activities/warfare-rewards.md) | Permanent base objects, live city treatments, allegiance changes and reputation penalties. |
 
 ## Character and Progression
 
 | Topic | What you will find |
 | --- | --- |
-| [Equipment and Progression](systems/equipment-and-progression.md) | Permanent preparation, contextual power and non-statistical recognition. |
-| [Adventurer, Explorer and Honor](08-prestige-ranks.md) | Rank ladders, role-aware credit, scoring prototypes and prestige rewards. |
+| [Equipment and Progression](systems/equipment-and-progression.md) | Equipment, fixed Rune growth, scoped raid bonuses and the permanent ability repertoire. |
+| [Runes](systems/runes.md) | Finite permanent stat progression, a fixed lifetime ceiling and history without a new rank. |
+| [Adventurer Abilities](systems/adventurer-abilities.md) | Permanently useful historical raid options, one equipped entry and distinct Normal/Veteran unlocks. |
+| [Recognition and Competitive Standing](08-prestige-ranks.md) | Adventurer, Explorer, Honor, Gladiator, Challenger and city-service boundaries. |
 | [Races](identity/races.md) | Six playable-people concepts, cultures, anatomy and racial-power rules. |
 | [Classes](identity/classes.md) | Eighteen class families, thirteen mechanical studies, roles and design gates. |
 | [Rewards and Acquisition](11-rewards-and-acquisition.md) | Reward matrix, ownership, lockouts, alternatives and economic faucets. |
@@ -53,7 +58,7 @@ Choose the activity or character topic you are looking for. Detailed rules live 
 | [Glossary and Decisions](13-glossary-and-decisions.md) | Terms, selected boundaries, prototypes and open questions. |
 | [Technical Framework](04-technical-framework.md) | Conceptual data, validation, transitions and acceptance cases. |
 | [Roadmap and Evaluation](05-roadmap-and-evaluation.md) | Pilot scope, dependencies, measurements and unresolved tuning. |
-| [Reports Under Review](proposals/incoming-reports-review.md) | Unadopted proposals for Rune statistics, Masteries, selectable abilities and province warfare. |
+| [Reports Under Review](proposals/incoming-reports-review.md) | Selected report directions, revised acquisition promises and remaining prototype questions. |
 | [Contributing](../CONTRIBUTING.md) | How to propose and review a change. |
 | [Change History](../CHANGELOG.md) | Recorded design and documentation changes. |
 | [Sources and Boundaries](references.md) | Verified context and the distinction between facts and suggestions. |
@@ -63,6 +68,6 @@ Choose the activity or character topic you are looking for. Detailed rules live 
 
 ## Design Status
 
-Current selected rules remain in force. Incoming reports are reviewed separately; Rune statistics, Masteries, globally usable Adventurer abilities and a province-level campaign are not adopted merely by appearing in that review.
+Fixed-ceiling Runes, the globally useful one-slot repertoire and separate ability acquisition for each raid difficulty are selected directions. The preferred Warfare prototype combines ordinary faction combat and local opt-in city rivalry. Base city-reward objects remain owned; live city variants and a departure reputation penalty are the selected conditional reward direction. Exact amounts, support/capture transitions and competitive profiles remain open.
 
-Changes merged into `main` automatically update the wiki. Its Home and sidebar use the same topic categories defined in the navigation map.
+Changes merged into `main` automatically update the wiki, including its topic categories.

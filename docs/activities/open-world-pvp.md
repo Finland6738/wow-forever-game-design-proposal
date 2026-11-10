@@ -4,6 +4,8 @@
 
 Regional player-versus-player objectives, consent, temporary control and faction imbalance. [Faction Warfare](faction-warfare.md) describes coordination around those objectives, while [NPC invasions](../06-invasions-and-reconstruction.md) are cooperative PvE.
 
+The latest [bivalent prototype](warfare-models.md) preserves ordinary major-faction combat and adds an opt-in city relation inside Warfare areas. Same-major-faction rivals need different city standards and both city flags active; a neutral ally remains outside that relation. City service and cosmetic eligibility are described in [Warfare rewards](warfare-rewards.md).
+
 ## Regional faction objectives
 
 Bring faction conflict back into the geography through recurring regional objectives. The following examples are illustrative design prompts:

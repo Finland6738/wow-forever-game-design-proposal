@@ -22,18 +22,23 @@ This page collects cross-system policies. Exact drop rates, prices, cooldowns an
 | Settlement defense/recovery | No exclusive baseline requirement | None | Event supplies fund restoration | Explorer civic commendations |
 | Territorial PvP | No compulsory PvE equipment route | Regional activity effects only where permitted | Local rewards with PvE alternatives for needed resources | Honor/PvP recognition |
 | Prestige ranks | None from rank itself | None | No yield or throughput bonus from rank | Titles, badges and cosmetics |
+| Rune milestones | Fixed-lifetime stat allowance inside the permanent envelope | No new seasonal allowance | No yield bonus from a Rune rank | Activity history without a new rank ladder |
+| Raid ability unlock | A permanently learned repertoire option, not a gear tier | Separate from scoped equipment bonuses | No paid/consumable entry requirement introduced | Useful source-exclusive collection and one equipped choice |
+| City Warfare service | No stronger permanent equipment | No raid or Rune-cap advantage | Reward ownership/switching policy under discussion | City-themed banners, cloaks, mounts and service recognition |
 
 An approved recipe is not automatically harmless: its output and acquisition effort need review. An optional material becomes a practical obligation if it is the only realistic source of a superior combat effect.
 
 ## Equivalent routes must be reasonable
 
-Functional alternatives should be available in achievable time and at a reasonable cost for the intended player. A rare auction-house listing is insufficient evidence. Compare preparation paths by role, activity preference, population and access schedule.
+For baseline equipment and reviewed world/crafting effects, functional alternatives should be available in achievable time and at a reasonable cost. A rare auction-house listing is insufficient evidence. Compare preparation paths by role, preference, population and access schedule.
+
+The [Adventurer Repertoire](systems/adventurer-abilities.md) is an explicit different case: a raid may remain the exclusive source of a desired ability. Returning for that build option is intended. Do not extend the equipment-equivalence promise into a guarantee that every historical ability is automatically granted elsewhere.
 
 Equivalence need not erase visual identity. A settlement reward can have a unique appearance while an accessible crafted item offers comparable combat function. Specialization remains valuable when it creates choices within the budget rather than access to a stronger budget.
 
 ## Raid acquisition and lockouts
 
-Normal and Veteran have distinct contextual tracks. A currency, recipe, upgrade token or account unlock must not transfer power between them. Shared cosmetics may remain account-wide if that does not affect combat or access.
+Normal and Veteran have distinct contextual equipment tracks. Their currency, item upgrades and scoped effects do not transfer. Permanent repertoire abilities can be used across ordinary content, but **each difficulty teaches only its own option**. A player collecting both completes both; Veteran does not grant Normal automatically.
 
 Within an update, sibling raids share a contextual budget. Each needs a self-contained acquisition route; exclusive required unlocks and additive per-raid caps would recreate a prerequisite ladder. Their exact loot cadence is an open pilot decision, not a finalized universal weekly cap.
 
@@ -60,11 +65,15 @@ Event reconstruction supplies can be local-purpose resources rather than rare tr
 | Settlement recognition | Per participant within one canonical event allowance | Defense and recovery do not create two unrestricted payouts |
 | Expedition floor reward | Character participation in that expedition/floor | No repeated claims, inherited earlier floors or seed rerolls |
 | Challenge record | Validated run identity and ruleset | Reconnects and duplicate completion requests cannot generate a new record |
+| Rune progress | Character-owned, finite lifetime allowance | No seasonal cap increase, repeat grant or transfer from alts |
+| Repertoire ability | Permanent eligible character unlock from its source difficulty | One equipped entry; no automatic cross-difficulty unlock |
 
 Persist authoritative entitlements before confirming completion. If recovery requires a retry, return the original result rather than reissuing the reward. Technical failures should not create a choice between lost legitimate progress and duplicate grants.
 
 ## Preserve earned meaning
 
 Cosmetic does not mean automatic. A title, medal or appearance can represent a demanding objective without granting permanent combat power. Collections also need clear criteria and understandable progress; extreme rarity alone does not establish meaningful prestige.
+
+The city-service reward direction keeps base objects permanently owned, makes city treatments depend on eligible current service and loses some departed-city reputation when changing service. The [full policy](activities/warfare-rewards.md) distinguishes those changes from toggling combat; the penalty amount and thresholds remain open.
 
 When correcting an unintended powerful effect, preserve ownership and collections where possible and communicate the functional change. A permanent budget can require balance corrections without making each content update a planned gear replacement cycle.

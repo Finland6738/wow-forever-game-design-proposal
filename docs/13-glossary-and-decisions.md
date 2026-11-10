@@ -29,6 +29,13 @@
 | Honor | The separate PvP recognition identity, not redefined by this proposal |
 | Prestige | Recognition and collections earned under stated rules, without permanent combat power |
 | Mastery | Demonstrated execution or accomplishment, distinct from an accumulated activity total |
+| Rune allowance | The fixed lifetime numerical budget earned through reviewed activity; no seasonal increases |
+| Rune record | A history and stat-progress display, not a new prestige or competitive rank |
+| Adventurer Repertoire | Permanently learned raid options, with one active or passive entry equipped at a time |
+| Gladiator | The separate arena-competition recognition domain; detailed format remains open |
+| Challenger | The timed Challenge Dungeon performance domain, distinct from participation tiers |
+| City standard | One active Warfare allegiance inside the character's existing major faction |
+| City service | Warfare-specific reputation and cosmetic recognition; separate from ordinary reputation and combat ratings |
 | Claim ledger | Authoritative records preventing duplicate rewards for the same entitlement |
 | Idempotent operation | Repeating a request returns the intended result without repeating its side effects |
 | Source of truth | Repository Markdown from which the published wiki is generated |
@@ -44,7 +51,7 @@
 | D01 | Keep level 60 and avoid automatic permanent-budget increases with new content | Commitment | [Progression contract](01-progression-and-raids.md#design-contract) |
 | D02 | Permanent items remain usable; additional raid effects have explicit scopes | Commitment | [Raid item model](01-progression-and-raids.md#a-worked-example) |
 | D03 | Approved sibling raids share one update/difficulty track with independent entry paths | Commitment | [Shared scope](01-progression-and-raids.md#update-wide-scope-without-a-mandatory-sibling-raid) |
-| D04 | Normal and Veteran do not exchange required power or acquisition currency | Commitment | [Difficulties](01-progression-and-raids.md#independent-normal-and-veteran-paths) |
+| D04 | Normal and Veteran contextual equipment/currency stay separate; each teaches only its own global repertoire ability | Commitment, clarified in v0.5 | [Difficulties](01-progression-and-raids.md#independent-normal-and-veteran-paths) |
 | D05 | Challenge attempts are keyless, normalized and freely repeatable | Commitment | [Challenge rules](activities/challenge-dungeons.md#challenge-mode-rules) |
 | D06 | World rewards cannot become exclusive raid prerequisites | Commitment | [Crafting boundaries](activities/world-bosses.md#world-boss-artifacts-and-crafting) |
 | D07 | Settlement loss opens communal recovery with essential-service continuity | Commitment | [Recovery](06-invasions-and-reconstruction.md#reconstruction-and-service-continuity) |
@@ -55,7 +62,13 @@
 | D12 | Cooperative play anchors meaningful endgame achievement; prestige remains earned | Commitment | [Social design](10-social-design-and-earned-prestige.md) |
 | D13 | Loot cadence, shared allowances, rates, caps and economic tuning require pilots | Open | [Reward policies](11-rewards-and-acquisition.md) |
 | D14 | Exact rank thresholds, repeat windows and public presentation require evaluation | Open | [Prestige evaluation](08-prestige-ranks.md#evaluation-and-unresolved-choices) |
-| D15 | Class/race working names are exploratory and do not define a release roster | Prototype | [Concept catalog](09-regions-races-and-classes.md) |
+| D15 | Class/race working names are exploratory and do not define a release roster | Prototype | [Classes](identity/classes.md) · [Races](identity/races.md) |
 | D16 | Repository edits automatically publish the wiki after validation | Commitment | [Wiki maintenance](14-wiki-maintenance.md) |
+| D17 | Runes can grant finite statistics within a fixed lifetime envelope, without another rank ladder | Selected direction | [Runes](systems/runes.md) |
+| D18 | A desired historical raid ability may remain source-exclusive and useful outside its raid; one repertoire option is equipped | Selected direction, revises earlier blanket equivalence | [Adventurer Abilities](systems/adventurer-abilities.md) |
+| D19 | Veteran does not automatically teach the Normal ability | Commitment | [Ability acquisition](systems/adventurer-abilities.md#working-acquisition-model) |
+| D20 | City rivalry allows allied-major-faction opponents only in Warfare areas with both city flags active; ordinary PvP remains separate | Selected constraint of the preferred bivalent prototype | [Warfare models](activities/warfare-models.md) |
+| D21 | With city service retained, base cosmetics stay owned, city variants need eligible service and switching city loses reputation | Selected direction; amount/thresholds open | [City rewards](activities/warfare-rewards.md) |
+| D22 | Toggling city combat and changing the city served are distinct operations | Recommended separation for the prototype | [Warfare states](activities/warfare-models.md#three-independent-states) |
 
 Keep IDs stable when clarifying a decision. A substantial reversal should explain the affected player experience, trade-off and evidence, with a change-history entry. Unsettled numbers must not quietly become fixed rules merely because a wiki page describes them.

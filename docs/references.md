@@ -12,6 +12,7 @@ Last checked: **10 November 2026**. Official pages may change; this register sta
 | Blizzard, [World of Warcraft: Forever Now Live!](https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-now-live) | The level-60 setting, account-wide Legacy System and different PvP/ruleset expectations | Our proposed raid scopes, Veteran difficulty, Heroics, Challenge Modes or reward model |
 | Blizzard EU forums, [WoW: Forever General Discussion](https://eu.forums.blizzard.com/en/wow/c/wow-forever/wow-forever-general-discussion/360) | A dedicated Forever discussion category exists and is a relevant destination for a future summary | That a thread has been created or that the community endorses this proposal |
 | Blizzard, [Playable Races](https://worldofwarcraft.blizzard.com/en-gb/game/races) | A direct roster reference when reviewing how a proposed playable identity differs from existing choices | That an invented working concept is feasible or approved for this setting |
+| Blizzard, [Taking Your First Steps in World of Warcraft Classic](https://news.blizzard.com/en-us/article/23317716/taking-your-first-steps-in-world-of-warcraft-classic) | Historical context for major-faction membership and Normal/PvP realm distinctions | That the proposed city flag, bivalent ownership or reward policy already exists or is endorsed |
 
 ## Proposal and interpretation
 
@@ -19,7 +20,10 @@ The following are design choices developed in this repository:
 
 - A stable long-term permanent equipment budget.
 - Update-wide contextual raid effects with strict difficulty boundaries.
-- Independent Normal and Veteran progression and reward acquisition.
+- Separate Normal/Veteran contextual equipment tracks and difficulty-specific permanent ability unlocks.
+- A fixed lifetime Rune-stat allowance, with history rather than another rank ladder.
+- A globally useful one-slot historical raid repertoire; no automatic Normal unlock from Veteran.
+- A preferred ordinary-faction/local-city Warfare prototype, with conditional city variants and a reputation-loss concept whose amount remains open.
 - A tactical level-60 Heroic catalog and the proposed Challenge Mode access/reward rules.
 - Elite regions, territorial World Bosses, regional PvP objectives and the proposed crafting safeguards.
 - Hostile-NPC invasions, settlement recovery, replacement NPC tasks and Explorer civic commendations.

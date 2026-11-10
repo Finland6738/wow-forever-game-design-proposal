@@ -25,15 +25,20 @@
       "title": "PvP and Faction Warfare",
       "items": [
         {"source": "docs/activities/pvp.md", "page": "PvP", "label": "PvP Overview", "description": "Find PvP topics and their shared participation and reward boundaries."},
+        {"source": "docs/activities/arenas.md", "page": "Arenas", "label": "Arenas and Gladiator", "description": "The arena competition domain, with format and competitive policies still to define."},
         {"source": "docs/activities/open-world-pvp.md", "page": "Open-World-PvP", "label": "Open-World PvP", "description": "Regional objectives, consent, temporary benefits and faction imbalance."},
-        {"source": "docs/activities/faction-warfare.md", "page": "Faction-Warfare", "label": "Faction Warfare", "description": "Territorial cooperation, current faction objectives and campaign questions under review."}
+        {"source": "docs/activities/faction-warfare.md", "page": "Faction-Warfare", "label": "Faction Warfare", "description": "Guard-and-boss capture with ordinary faction conflict and voluntary local city rivalry."},
+        {"source": "docs/activities/warfare-models.md", "page": "Warfare-Models", "label": "Warfare Models and Rules", "description": "Compare faction, city and bivalent designs; targeting, ownership and prototype edge cases."},
+        {"source": "docs/activities/warfare-rewards.md", "page": "Warfare-Rewards", "label": "Warfare Reputation and Cosmetics", "description": "Permanent base objects, live city treatments, allegiance changes and reputation penalties."}
       ]
     },
     {
       "title": "Character and Progression",
       "items": [
-        {"source": "docs/systems/equipment-and-progression.md", "page": "Equipment-and-Progression", "label": "Equipment and Progression", "description": "Permanent preparation, contextual power and non-statistical recognition."},
-        {"source": "docs/08-prestige-ranks.md", "page": "Prestige-Ranks", "label": "Adventurer, Explorer and Honor", "description": "Rank ladders, role-aware credit, scoring prototypes and prestige rewards."},
+        {"source": "docs/systems/equipment-and-progression.md", "page": "Equipment-and-Progression", "label": "Equipment and Progression", "description": "Equipment, fixed Rune growth, scoped raid bonuses and the permanent ability repertoire."},
+        {"source": "docs/systems/runes.md", "page": "Runes", "label": "Runes", "description": "Finite permanent stat progression, a fixed lifetime ceiling and history without a new rank."},
+        {"source": "docs/systems/adventurer-abilities.md", "page": "Adventurer-Abilities", "label": "Adventurer Abilities", "description": "Permanently useful historical raid options, one equipped entry and distinct Normal/Veteran unlocks."},
+        {"source": "docs/08-prestige-ranks.md", "page": "Prestige-Ranks", "label": "Recognition and Competitive Standing", "description": "Adventurer, Explorer, Honor, Gladiator, Challenger and city-service boundaries."},
         {"source": "docs/identity/races.md", "page": "Races", "label": "Races", "description": "Six playable-people concepts, cultures, anatomy and racial-power rules."},
         {"source": "docs/identity/classes.md", "page": "Classes", "label": "Classes", "description": "Eighteen class families, thirteen mechanical studies, roles and design gates."},
         {"source": "docs/11-rewards-and-acquisition.md", "page": "Rewards-and-Acquisition", "label": "Rewards and Acquisition", "description": "Reward matrix, ownership, lockouts, alternatives and economic faucets."}
@@ -49,7 +54,7 @@
         {"source": "docs/13-glossary-and-decisions.md", "page": "Glossary-And-Decisions", "label": "Glossary and Decisions", "description": "Terms, selected boundaries, prototypes and open questions."},
         {"source": "docs/04-technical-framework.md", "page": "Technical-Framework", "label": "Technical Framework", "description": "Conceptual data, validation, transitions and acceptance cases."},
         {"source": "docs/05-roadmap-and-evaluation.md", "page": "Roadmap-And-Evaluation", "label": "Roadmap and Evaluation", "description": "Pilot scope, dependencies, measurements and unresolved tuning."},
-        {"source": "docs/proposals/incoming-reports-review.md", "page": "Reports-Under-Review", "label": "Reports Under Review", "description": "Unadopted proposals for Rune statistics, Masteries, selectable abilities and province warfare."},
+        {"source": "docs/proposals/incoming-reports-review.md", "page": "Reports-Under-Review", "label": "Reports Under Review", "description": "Selected report directions, revised acquisition promises and remaining prototype questions."},
         {"source": "docs/README.md", "page": "Documentation-Index", "label": "Topic Directory", "description": "The repository's subject-based documentation index."},
         {"source": "CONTRIBUTING.md", "page": "Contributing", "label": "Contributing", "description": "How to propose and review a change."},
         {"source": "CHANGELOG.md", "page": "Change-History", "label": "Change History", "description": "Recorded design and documentation changes."},

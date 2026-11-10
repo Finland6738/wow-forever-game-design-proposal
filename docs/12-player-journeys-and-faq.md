@@ -14,11 +14,13 @@ A player returns during Update C with an adequate permanent set from Update A. T
 
 If their build needs adjustment, accessible sidegrades can provide it. The preparation journey should not silently become “replace every slot with this update's stronger baseline.” Measure real acquisition sources and time, rather than only whether the item-level number stayed constant.
 
+They may also seek a useful [ability](systems/adventurer-abilities.md) from a particular old raid. That is now an intended historical reward goal. Entering the current raid directly does not mean already owning every optimized build option.
+
 ## A Veteran-only guild
 
 The guild chooses Veteran and begins from the common permanent baseline. Normal bonuses do not apply. The guild earns its own Veteran contextual rewards and attempts the stated encounters until it succeeds or decides to change its approach.
 
-No Normal currency or exclusive recipe accelerates its Veteran power track. Playing Normal with friends remains allowed; it simply does not become a required second gearing schedule.
+No Normal contextual currency or upgrade accelerates its Veteran equipment track. A desired Normal repertoire ability is different: it requires a Normal clear, because Veteran grants only its own ability. Collecting both is a deliberate collection goal rather than equipment-track independence.
 
 ## A healer learning a Challenge dungeon
 
@@ -58,7 +60,7 @@ The intention is a choice of commitment. If Normal provides required Veteran pow
 
 ## Will an old raid remain useful forever?
 
-Its story, collections, achievements and local progression remain available. That creates reasons to revisit it, but does not guarantee enough groups at every hour. Group formation and participation still need evaluation. Exclusive old combat advantages would undermine the direct-entry promise.
+Its story, collections, achievements, local progression and permanently useful repertoire unlocks remain available. A desired ability can motivate a return years later. Group formation still needs evaluation, and the design must distinguish historical build goals from a mandatory sequential item-level climb.
 
 ## Are participation ranks a skill rating?
 
@@ -66,7 +68,15 @@ No. They record eligible accumulated activity. A high total can reflect time pla
 
 ## Can several ranks or bonuses combine into more permanent power?
 
-No. Prestige has no combat or yield bonus. Raid effects are validated by scope and difficulty, then constrained by effect-family and context budgets. The effective-power policy also covers procs, pets, consumables and temporary effects.
+Recognition ranks have no combat or yield bonus. Runes are a separate finite numerical journey inside a fixed permanent allowance. Repertoire abilities offer one equipped choice; contextual equipment still follows scope/difficulty budgets. Their interactions require effective-power testing rather than assuming every source is a cosmetic rank.
+
+## Do Runes add another rank to maintain?
+
+No. Their record shows finite earned statistics and activity history. Adventurer, Explorer, Honor, Gladiator and Challenger keep their own distinct participation or competition roles.
+
+## Can I switch a raid ability between encounters?
+
+Yes, outside combat under the encounter, cooldown and persistent-effect rules. Free switching through a brief preparation action is the recommended prototype; final cost and location rules remain open. No switch may stack several nominally exclusive abilities or reset their cooldowns.
 
 ## Are all concept names and numerical values final?
 

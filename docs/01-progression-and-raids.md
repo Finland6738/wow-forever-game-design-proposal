@@ -12,6 +12,8 @@ The [prestige ranks](08-prestige-ranks.md), [settlement events](06-invasions-and
 
 The baseline must include more than visible item level: weapon damage, armor, primary and secondary stats, proc effects, enchantments, consumables, relevant profession benefits and any combat-relevant permanent unlocks all affect effective power. A theoretical budget requires encounter and class testing to become a credible balance target.
 
+The permanent envelope now includes [Runes](systems/runes.md) with a fixed lifetime ceiling. The separate [Adventurer Repertoire](systems/adventurer-abilities.md) also lets players learn useful abilities from historical raids and equip one beyond its source raid. Direct entry does not promise an identical optimized ability library: old raids can remain practical collection goals without a sequential item-level ladder.
+
 ## Why use permanent gear with contextual bonuses?
 
 Three choices were considered:
@@ -22,7 +24,7 @@ Three choices were considered:
 | Raid items cannot be equipped elsewhere | Very explicit isolation | Usability and attachment to individual items outside their raid |
 | Permanent gear plus contextual bonuses | Ownership, appearances, sidegrades and local raid upgrades | Simplicity; more rules and maintenance are required |
 
-The third model is the selected direction. Its success depends on preventing permanent sidegrades from becoming compulsory upgrades in disguise.
+The third model remains the selected equipment direction. Its numerical budget and contextual restrictions are separate from the permanent ability-collection channel. That collection intentionally gives historical raids useful build rewards, with no promise that every source-exclusive ability has a non-raid substitute.
 
 ## A worked example
 
@@ -70,7 +72,7 @@ The four-to-eight-week progression goal is a cohort-based tuning hypothesis. It 
 
 Normal and Veteran begin from the same permanent baseline and maintain separate contextual budgets. Veteran may have more involved local equipment combinations and additional prestige rewards. Its stronger or more specialized local effects do not escape into Normal or future updates.
 
-Independence also applies to the less obvious sources of power:
+Equipment-track independence also applies to less obvious item/currency sources. Global repertoire rewards are a separate channel: each difficulty teaches only its own ability, and collecting both requires both completions.
 
 | Potential leak | Required policy |
 | --- | --- |
@@ -81,7 +83,7 @@ Independence also applies to the less obvious sources of power:
 | An account's alts funnel progression into its main | Ownership and transfer rules prevent contextual power funneling |
 | A buff is obtained on one difficulty and snapshotted on another | Revalidate and remove incompatible effects on transition |
 
-Players may choose both difficulties for friends or collections. The model should not reward doing both with faster progress toward a single competitive power track.
+Playing both difficulties must not accelerate one shared contextual equipment track. It can expand the permanent repertoire: Veteran does not automatically teach the Normal option. The design therefore distinguishes equipment preparation from collecting useful abilities across difficulties.
 
 ## Reward satisfaction and local gear resets
 
@@ -103,18 +105,18 @@ An archive must not duplicate tradable items or allow multiple copies of a uniqu
 
 ## Keeping old raids worth visiting
 
-Old raids keep their stories, achievements, appearances, profession projects and their own local progression. Permanent availability and social grouping tools can help new groups experience them. Avoid removing collections to manufacture urgency.
+Old raids keep their stories, achievements, appearances, profession projects and local progression. They can also teach permanently useful Adventurer abilities. Returning for a particular ability months or years later is an intended reason to organize another group. Avoid removing unlocks to manufacture urgency.
 
-There is a tension: if an old recipe provides uniquely optimal combat power, that raid becomes a prerequisite again. Keep comparable functional alternatives accessible elsewhere, and place stronger exclusivity in visual identity and prestige.
+Equipment and material sources still follow the common permanent-budget and access rules. Repertoire abilities may remain source-exclusive and desirable for optimization. Monitor how strongly those choices concentrate demand and how difficult historical groups are to form; one slot does not make those pressures disappear.
 
-No reward model guarantees that every old raid retains enough players. Evaluate participation and newcomer group formation instead of assuming that cosmetics solve this automatically.
+No reward model guarantees that every old raid retains enough players. Evaluate participation, unlock acquisition and newcomer group formation rather than assuming that a useful ability alone solves scheduling or group supply.
 
 ## Acceptance questions
 
 - Can a returning player skip several updates and enter the current one with an adequate permanent set?
-- Can a Veteran-only guild progress without Normal loot, unlocks or currency?
+- Can a Veteran-only guild begin without Normal contextual equipment or currency, while understanding that a desired Normal repertoire option requires a Normal completion?
 - Can either sibling raid be completed without the other becoming the expected gearing route?
-- Can an older proc, recipe or permanent unlock become the practical best-in-slot prerequisite despite equal item levels?
+- Are old equipment/proc advantages kept within budget, and can players reasonably acquire the historical abilities they intentionally seek for a build?
 - Can a player understand an inactive effect and recover their loadout without excessive inventory work?
 
 The [technical acceptance matrix](04-technical-framework.md#acceptance-matrix) turns these questions into concrete cases. The [evaluation plan](05-roadmap-and-evaluation.md) includes the social behavior that a rules engine alone cannot prove.

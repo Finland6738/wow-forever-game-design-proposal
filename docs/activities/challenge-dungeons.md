@@ -18,6 +18,8 @@ The design is a normalized dungeon run measured against clear time targets. Clas
 
 There are no infinitely scaling levels, rotating affixes, key depletion or weekly raid-equivalent equipment rewards. Adding another difficulty treadmill would contradict the purpose of this activity.
 
+**Challenger** identifies this activity's performance domain: validated completion times and rankings, not an extra kill-score progression. Medal thresholds and any title/standing criteria need their own published rules. It is distinct from Adventurer participation and arena Gladiator standing.
+
 ## Normalize effective power, not just item level
 
 For the competitive pilot, provide accessible approved equipment templates with role-appropriate stat distributions and bounded effect choices. Owned items can map to those same profiles, but an old raid item must not unlock a stronger Challenge option unavailable to a new competitor.
@@ -25,6 +27,8 @@ For the competitive pilot, provide accessible approved equipment templates with 
 This sacrifices some unrestricted equipment experimentation in exchange for a more credible competition environment. Preserve choices in stat profiles, talents and approved effects where balance permits. Templates do not make classes identical, and class diversity still requires monitoring.
 
 Specify weapon damage, armor, primary/secondary stats, caps, procs, set effects, enchants, consumables, profession benefits and pets. Disable all contextual raid bonuses and external territorial buffs. Either normalize relevant permanent unlocks to the profile or make their equivalent available within the mode.
+
+The fixed [Rune allowance](../systems/runes.md) and permanent [Adventurer Repertoire](../systems/adventurer-abilities.md) must be covered explicitly. Their ordinary-gameplay ownership does not automatically enable them outside the approved competitive profile. Repertoire integration is still under review; no new earned option may silently bypass normalization.
 
 If a previously unknown effect appears, use an approved replacement or prevent a ranked start with a clear explanation. Do not silently leave an unreviewed item at full power.
 
