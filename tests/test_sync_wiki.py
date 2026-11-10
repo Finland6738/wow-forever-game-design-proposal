@@ -89,6 +89,66 @@ class WikiTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.builder().build()
 
+    def configure_navigation(self, items):
+        self.put("wiki/navigation.json", json.dumps({"groups": [
+            {"title": "PvE", "items": items},
+            {"title": "Reference", "collapsed": True, "items": [
+                {"source": "README.md", "page": "Proposal", "label": "Proposal", "description": "Overview"}
+            ]}
+        ]}))
+
+    def test_topic_categories_and_explicit_page_names_are_used_everywhere(self):
+        self.put("docs/01-raid-design.md", "# Raids\n\n## Entry\n")
+        self.put("README.md", "# Proposal\n[Raids](docs/01-raid-design.md#entry)\n")
+        self.configure_navigation([
+            {"source": "docs/01-raid-design.md", "page": "Raids", "label": "Raids", "description": "Raid rules"}
+        ])
+        pages = self.builder().build()
+        self.assertIn("## PvE", pages["Home.md"])
+        self.assertIn("| [Raids](https://github.com/owner/repo/wiki/Raids) | Raid rules |", pages["Home.md"])
+        self.assertIn("**PvE**", pages["_Sidebar.md"])
+        self.assertIn("<summary>Reference</summary>", pages["_Sidebar.md"])
+        self.assertIn("wiki/Raids#entry", pages["Proposal.md"])
+        self.assertIn("Home#pve", pages["Raids.md"])
+        self.assertNotIn("Raid-Design.md", pages)
+
+    def test_unlisted_new_documents_still_appear_in_navigation(self):
+        self.configure_navigation([])
+        self.put("docs/new-activity.md", "# New Activity\n")
+        pages = self.builder().build()
+        self.assertIn("## Additional Topics", pages["Home.md"])
+        self.assertIn("wiki/New-Activity", pages["_Sidebar.md"])
+
+    def test_missing_or_duplicated_navigation_sources_are_rejected(self):
+        item = {"source": "docs/absent.md", "page": "Absent", "label": "Absent", "description": "Missing"}
+        self.configure_navigation([item])
+        with self.assertRaises(ValueError):
+            self.builder()
+        self.put("docs/absent.md", "# Now Present\n")
+        self.configure_navigation([item, item])
+        with self.assertRaises(ValueError):
+            self.builder()
+
+    def test_old_managed_page_is_retired_when_navigation_changes_its_name(self):
+        self.put("docs/01-raid-design.md", "# Raids\n")
+        output = self.root / "output"
+        wiki.write_pages(output, self.builder().build(), "abc123")
+        self.assertTrue((output / "Raid-Design.md").exists())
+        self.configure_navigation([
+            {"source": "docs/01-raid-design.md", "page": "Raids", "label": "Raids", "description": "Raid rules"}
+        ])
+        wiki.write_pages(output, self.builder().build(), "abc123")
+        self.assertTrue((output / "Raids.md").exists())
+        self.assertFalse((output / "Raid-Design.md").exists())
+
+    def test_navigation_group_anchor_collisions_are_rejected(self):
+        self.put("wiki/navigation.json", json.dumps({"groups": [
+            {"title": "PvE", "items": []},
+            {"title": "PvE!", "items": []}
+        ]}))
+        with self.assertRaises(ValueError):
+            self.builder()
+
 
 if __name__ == "__main__":
     unittest.main()

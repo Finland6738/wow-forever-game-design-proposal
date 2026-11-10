@@ -8,6 +8,7 @@ on:
       - 'assets/**'
       - 'scripts/**'
       - 'tests/**'
+      - 'wiki/**'
       - '.github/workflows/wiki-sync.yml'
   pull_request:
     paths:
@@ -15,6 +16,7 @@ on:
       - 'assets/**'
       - 'scripts/**'
       - 'tests/**'
+      - 'wiki/**'
       - '.github/workflows/wiki-sync.yml'
   workflow_dispatch:
 

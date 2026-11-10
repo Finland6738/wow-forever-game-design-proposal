@@ -1,4 +1,4 @@
-# Procedural expeditions for groups of 5–20
+# Procedural Dungeons
 
 [← Main proposal](../README.md) · [Documentation index](README.md) · [Dungeon modes](02-dungeons-and-challenges.md) · [Technical rules](04-technical-framework.md)
 

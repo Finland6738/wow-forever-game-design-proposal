@@ -4,7 +4,7 @@
 
 ![Five adventurers at a crossroads overlooking a forest valley, ruins, a mountain citadel, and a dungeon entrance.](assets/images/a-world-of-parallel-adventures.png)
 
-> **Status: design proposal · v0.3 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
+> **Status: design proposal · v0.4 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
 
 **[Read the complete GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design/wiki)** · [Documentation index](docs/README.md) · [Questions and discussion](https://github.com/Finland6738/wow-forever-game-design/discussions)
 
@@ -26,28 +26,18 @@ Keep the rules understandable and let depth come from decisions and teamwork. Ap
 
 [Read the social principles and earned-reward policy →](docs/10-social-design-and-earned-prestige.md)
 
-## Read the proposal
+## Find a topic
 
-| Document | What it explains |
+The [Wiki Home](https://github.com/Finland6738/wow-forever-game-design/wiki) and sidebar are organized by activity. Use the dedicated page for the topic you want:
+
+| Area | Topics |
 | --- | --- |
-| [Progression and raids](docs/01-progression-and-raids.md) | Permanent power, update-wide raid scopes, independent Normal/Veteran paths, rewards and loot management |
-| [Heroic dungeons and Challenge Modes](docs/02-dungeons-and-challenges.md) | Tactical encounters, unrestricted retries, normalization, medals and leaderboard integrity |
-| [Open world, PvP and professions](docs/03-world-and-professions.md) | Elite regions, territorial bosses, crafting artifacts, regional objectives and optional activities |
-| [Technical framework](docs/04-technical-framework.md) | Conceptual data model, server-side validation, normalization, transition rules and acceptance cases |
-| [Roadmap and evaluation](docs/05-roadmap-and-evaluation.md) | Small pilots, dependencies, success criteria and unresolved decisions |
-| [NPC invasions and reconstruction](docs/06-invasions-and-reconstruction.md) | Defend settlements, gather resources after defeat and restore buildings and NPCs |
-| [Procedural expeditions](docs/07-procedural-expeditions.md) | World portals, groups of 5–20, generated routes and encounters, and 1–5 finite floors |
-| [Prestige ranks](docs/08-prestige-ranks.md) | Adventurer, Explorer and Honor identities, role-aware credit and rewards without statistics |
-| [Regions, races and classes](docs/09-regions-races-and-classes.md) | Creative direction, six exploratory peoples, 18 class families and 13 mechanical studies |
-| [Social design and earned prestige](docs/10-social-design-and-earned-prestige.md) | Group play, readable rules, meaningful difficulty and rewards earned through participation |
-| [Rewards and acquisition policies](docs/11-rewards-and-acquisition.md) | Power boundaries, acquisition alternatives, lockouts, economic faucets and ownership |
-| [Player journeys and FAQ](docs/12-player-journeys-and-faq.md) | Concrete examples of joining, returning, grouping, progressing and recovering from interruptions |
-| [Glossary and decision register](docs/13-glossary-and-decisions.md) | Terms, fixed design commitments, working parameters and open tuning decisions |
-| [Wiki publishing](docs/14-wiki-maintenance.md) | How concept edits automatically generate and publish the wiki |
-| [Sources and factual boundaries](docs/references.md) | Verified official context and the limits of the proposal |
-| [Forum summary draft](docs/forum-summary.md) | A short introduction linking readers here; not published |
+| PvE — Raids and Dungeons | [Raids](docs/01-progression-and-raids.md) · [World Bosses](docs/activities/world-bosses.md) · [Dungeon Overview](docs/02-dungeons-and-challenges.md) · [Heroic Dungeons (HC)](docs/activities/heroic-dungeons.md) · [Challenge Dungeons](docs/activities/challenge-dungeons.md) · [Procedural Dungeons](docs/07-procedural-expeditions.md) |
+| Open World | [Open World](docs/03-world-and-professions.md) · [NPC Invasions and Reconstruction](docs/06-invasions-and-reconstruction.md) · [Exploration and Small-Group Adventures](docs/activities/exploration-and-adventures.md) · [Professions and Crafting](docs/activities/professions.md) · [New Regions](docs/09-regions-races-and-classes.md) |
+| PvP and Faction Warfare | [PvP Overview](docs/activities/pvp.md) · [Open-World PvP](docs/activities/open-world-pvp.md) · [Faction Warfare](docs/activities/faction-warfare.md) |
+| Character and Progression | [Equipment and Progression](docs/systems/equipment-and-progression.md) · [Adventurer, Explorer and Honor](docs/08-prestige-ranks.md) · [Races](docs/identity/races.md) · [Classes](docs/identity/classes.md) · [Rewards and Acquisition](docs/11-rewards-and-acquisition.md) |
 
-For the documentation index, see [docs/README.md](docs/README.md). To propose an improvement, read [CONTRIBUTING.md](CONTRIBUTING.md).
+For technical rules, design philosophy, FAQ, glossary, roadmap and report reviews, see the [complete topic directory](docs/README.md). To propose an improvement, read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## 1. Why a permanent level cap needs a permanent power policy
 
@@ -150,7 +140,7 @@ Resetting an attempt must not consume an opportunity to play. If someone leaves,
 
 Required bosses and explicit encounter objectives prevent trivial bypasses. Major balance changes create a new leaderboard ruleset while preserving previous records in an archive. Permanent medal rewards should remain earnable through a maintained version of the activity.
 
-[Read the dungeon and competitive design →](docs/02-dungeons-and-challenges.md)
+[Heroic Dungeon design →](docs/activities/heroic-dungeons.md) · [Challenge rules →](docs/activities/challenge-dungeons.md)
 
 ## 6. Elite regions and territorial World Bosses
 
@@ -228,7 +218,7 @@ Thirteen additional mechanical studies preserve the useful ideas in the brainsto
 
 Each concept needs a unique decision loop, readable role, practical animation/pathing plan and the same power constraints as existing choices. New classes must not become mandatory party slots; new races must not supply a stronger permanent racial package. Prestige rank or old raid completion must not be required to unlock them.
 
-[Read the creative policy and full concept catalog →](docs/09-regions-races-and-classes.md)
+[New Regions →](docs/09-regions-races-and-classes.md) · [Races →](docs/identity/races.md) · [Classes →](docs/identity/classes.md)
 
 ## 12. A shared technical contract
 

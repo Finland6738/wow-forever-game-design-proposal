@@ -1,30 +1,68 @@
-# Design documentation
+# Design Topics
 
-[← Main proposal](../README.md)
+[← Main proposal](../README.md) · [GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design/wiki)
 
-**[Read the complete GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design/wiki)**. It contains the same source documents with page contents, a topic index and automatic updates from `main`.
+Choose the activity or character topic you are looking for. Detailed rules live on dedicated pages, while shared implementation and editorial material is grouped under Project Reference.
 
-These pages expand the community proposal for a sustainable level-60 endgame. They describe desired behavior and testable design constraints, rather than existing game code or confirmed future features.
+## PvE — Raids and Dungeons
 
-| Page | Main questions |
+| Topic | What you will find |
 | --- | --- |
-| [01 — Progression and raids](01-progression-and-raids.md) | What is permanent? How do shared raid scopes work? Why are Normal and Veteran independent? |
-| [02 — Dungeons and Challenge Modes](02-dungeons-and-challenges.md) | How do Heroics become tactical? How can timed competition avoid a gearing ladder? |
-| [03 — World and professions](03-world-and-professions.md) | How do elite regions, bosses, PvP and crafting remain optional? |
-| [04 — Technical framework](04-technical-framework.md) | What must be validated, and which edge cases could break the progression boundaries? |
-| [05 — Roadmap and evaluation](05-roadmap-and-evaluation.md) | What should be piloted first, and what evidence would justify expansion? |
-| [06 — Invasions and reconstruction](06-invasions-and-reconstruction.md) | How can NPC factions attack villages, and how can players restore structures and residents after defeat? |
-| [07 — Procedural expeditions](07-procedural-expeditions.md) | How do 5–20 players explore generated routes, random encounters and 1–5 finite floors? |
-| [08 — Prestige ranks](08-prestige-ranks.md) | How do Adventurer, Explorer and Honor remain separate, role-aware and free of stat rewards? |
-| [09 — Regions, races and classes](09-regions-races-and-classes.md) | What creative rules and feasibility gates apply to the race/class concept catalog? |
-| [10 — Social design and earned prestige](10-social-design-and-earned-prestige.md) | How do cooperation, readable rules and earned achievements define the experience? |
-| [11 — Rewards and acquisition](11-rewards-and-acquisition.md) | How do access, reward eligibility, ownership, lockouts and economic boundaries interact? |
-| [12 — Player journeys and FAQ](12-player-journeys-and-faq.md) | How does the proposal work for new players, returning groups, healers and world contributors? |
-| [13 — Glossary and decisions](13-glossary-and-decisions.md) | What do the technical terms mean, and which decisions are fixed, prototypes or open? |
-| [14 — Wiki maintenance](14-wiki-maintenance.md) | How do validated concept changes automatically publish to GitHub Wiki? |
-| [Sources and factual boundaries](references.md) | Which statements are supported by official sources, and which are suggestions? |
-| [Forum summary](forum-summary.md) | How can we introduce the proposal briefly and link to the full design? |
+| [Raids](01-progression-and-raids.md) | Entry, Normal and Veteran, scoped gear, loot and old-raid relevance. |
+| [World Bosses](activities/world-bosses.md) | Elite approaches, territorial bosses, contribution, access and artifacts. |
+| [Dungeon Overview](02-dungeons-and-challenges.md) | Compare the three dungeon formats and choose an activity. |
+| [Heroic Dungeons (HC)](activities/heroic-dungeons.md) | Untimed tactical five-player play, encounter redesign and baseline rewards. |
+| [Challenge Dungeons](activities/challenge-dungeons.md) | Normalized timed runs, free retries, medals and leaderboard rules. |
+| [Procedural Dungeons](07-procedural-expeditions.md) | World portals, groups of 5–20, generated routes and 1–5 finite floors. |
 
-Decided directions through v0.3: permanent equipment with contextual bonuses; bonuses shared by approved raids in the same update; separate Normal/Veteran progression; Veteran prestige plus its own internal power track; cooperative settlement defense/recovery; finite procedural expeditions; separate prestige tracks without stats; and original playable identities subject to review. Point multipliers are prototypes; reward rates, rank thresholds, loot cadence, normalization profiles and final race/class selection remain open.
+## Open World
 
-For editing and feedback conventions, see [CONTRIBUTING.md](../CONTRIBUTING.md). The [asset directory](../assets/README.md) documents illustrations, diagrams and their provenance.
+| Topic | What you will find |
+| --- | --- |
+| [Open World](03-world-and-professions.md) | Find cooperative activities, discoveries and living-world systems. |
+| [NPC Invasions and Reconstruction](06-invasions-and-reconstruction.md) | Defend settlements, rebuild after defeat and restore NPC services. |
+| [Exploration and Small-Group Adventures](activities/exploration-and-adventures.md) | Stories, secrets, class quests and short two- or three-player adventures. |
+| [Professions and Crafting](activities/professions.md) | Recipes, sidegrades, optional projects, materials and economic limits. |
+| [New Regions](09-regions-races-and-classes.md) | Geography, regional identity, new places and long-term world growth. |
+
+## PvP and Faction Warfare
+
+| Topic | What you will find |
+| --- | --- |
+| [PvP Overview](activities/pvp.md) | Find PvP topics and their shared participation and reward boundaries. |
+| [Open-World PvP](activities/open-world-pvp.md) | Regional objectives, consent, temporary benefits and faction imbalance. |
+| [Faction Warfare](activities/faction-warfare.md) | Territorial cooperation, current faction objectives and campaign questions under review. |
+
+## Character and Progression
+
+| Topic | What you will find |
+| --- | --- |
+| [Equipment and Progression](systems/equipment-and-progression.md) | Permanent preparation, contextual power and non-statistical recognition. |
+| [Adventurer, Explorer and Honor](08-prestige-ranks.md) | Rank ladders, role-aware credit, scoring prototypes and prestige rewards. |
+| [Races](identity/races.md) | Six playable-people concepts, cultures, anatomy and racial-power rules. |
+| [Classes](identity/classes.md) | Eighteen class families, thirteen mechanical studies, roles and design gates. |
+| [Rewards and Acquisition](11-rewards-and-acquisition.md) | Reward matrix, ownership, lockouts, alternatives and economic faucets. |
+
+## Project Reference
+
+| Topic | What you will find |
+| --- | --- |
+| [Full Proposal and Author](../README.md) | The complete proposal and the author's background. |
+| [Design Philosophy](10-social-design-and-earned-prestige.md) | Group play, simple rules, meaningful challenge and earned success. |
+| [Player Journeys and FAQ](12-player-journeys-and-faq.md) | Examples for new characters, returning groups, support roles and world contributors. |
+| [Glossary and Decisions](13-glossary-and-decisions.md) | Terms, selected boundaries, prototypes and open questions. |
+| [Technical Framework](04-technical-framework.md) | Conceptual data, validation, transitions and acceptance cases. |
+| [Roadmap and Evaluation](05-roadmap-and-evaluation.md) | Pilot scope, dependencies, measurements and unresolved tuning. |
+| [Reports Under Review](proposals/incoming-reports-review.md) | Unadopted proposals for Rune statistics, Masteries, selectable abilities and province warfare. |
+| [Contributing](../CONTRIBUTING.md) | How to propose and review a change. |
+| [Change History](../CHANGELOG.md) | Recorded design and documentation changes. |
+| [Sources and Boundaries](references.md) | Verified context and the distinction between facts and suggestions. |
+| [Wiki Maintenance](14-wiki-maintenance.md) | Automatic publication, navigation and recovery. |
+| [Asset Notes](../assets/README.md) | Editable diagrams, cover provenance and source assets. |
+| [Forum Summary Draft](forum-summary.md) | A short unpublished introduction linking to the proposal. |
+
+## Design Status
+
+Current selected rules remain in force. Incoming reports are reviewed separately; Rune statistics, Masteries, globally usable Adventurer abilities and a province-level campaign are not adopted merely by appearing in that review.
+
+Changes merged into `main` automatically update the wiki. Its Home and sidebar use the same topic categories defined in the navigation map.

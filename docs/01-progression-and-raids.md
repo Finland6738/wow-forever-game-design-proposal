@@ -1,4 +1,4 @@
-# Permanent progression and independent raids
+# Raids
 
 [← Main proposal](../README.md) · [Documentation index](README.md) · [Technical rules](04-technical-framework.md)
 

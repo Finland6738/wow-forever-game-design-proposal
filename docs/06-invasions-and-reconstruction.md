@@ -1,4 +1,4 @@
-# NPC invasions, settlement defense and reconstruction
+# NPC Invasions and Reconstruction
 
 [← Main proposal](../README.md) · [Documentation index](README.md) · [Explorer prestige](08-prestige-ranks.md) · [Technical rules](04-technical-framework.md)
 

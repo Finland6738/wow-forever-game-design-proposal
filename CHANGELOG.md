@@ -1,5 +1,13 @@
 # Change history
 
+## 0.4 — 2026-11-10
+
+- Reorganized the wiki around activities and reader interests, with categorized Home, sidebar and detailed topic index.
+- Split dedicated pages for World Bosses, Heroic Dungeons, Challenge Dungeons, Open-World PvP, Races and Classes; retained concise overview pages and corrected incoming section links.
+- Added clear entry pages for PvP, Faction Warfare, professions, exploration and equipment/progression.
+- Added a configurable navigation map with stable page names, automatic discovery of unlisted pages and validation of moved or missing topics.
+- Recorded a separate review of the incoming endgame, Rune, Adventurer-ability and province-campaign reports. Those new mechanics remain unadopted pending design decisions.
+
 ## 0.3 — 2026-11-10
 
 - Added the author's background and an explicit commitment to group play, simple rules, meaningful challenge and earned prestige.

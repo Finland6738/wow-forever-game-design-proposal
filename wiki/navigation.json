@@ -1,0 +1,63 @@
+{
+  "groups": [
+    {
+      "title": "PvE — Raids and Dungeons",
+      "items": [
+        {"source": "docs/01-progression-and-raids.md", "page": "Raids", "label": "Raids", "description": "Entry, Normal and Veteran, scoped gear, loot and old-raid relevance."},
+        {"source": "docs/activities/world-bosses.md", "page": "World-Bosses", "label": "World Bosses", "description": "Elite approaches, territorial bosses, contribution, access and artifacts."},
+        {"source": "docs/02-dungeons-and-challenges.md", "page": "Dungeons", "label": "Dungeon Overview", "description": "Compare the three dungeon formats and choose an activity."},
+        {"source": "docs/activities/heroic-dungeons.md", "page": "Heroic-Dungeons", "label": "Heroic Dungeons (HC)", "description": "Untimed tactical five-player play, encounter redesign and baseline rewards."},
+        {"source": "docs/activities/challenge-dungeons.md", "page": "Challenge-Dungeons", "label": "Challenge Dungeons", "description": "Normalized timed runs, free retries, medals and leaderboard rules."},
+        {"source": "docs/07-procedural-expeditions.md", "page": "Procedural-Dungeons", "label": "Procedural Dungeons", "description": "World portals, groups of 5–20, generated routes and 1–5 finite floors."}
+      ]
+    },
+    {
+      "title": "Open World",
+      "items": [
+        {"source": "docs/03-world-and-professions.md", "page": "Open-World", "label": "Open World", "description": "Find cooperative activities, discoveries and living-world systems."},
+        {"source": "docs/06-invasions-and-reconstruction.md", "page": "NPC-Invasions", "label": "NPC Invasions and Reconstruction", "description": "Defend settlements, rebuild after defeat and restore NPC services."},
+        {"source": "docs/activities/exploration-and-adventures.md", "page": "Exploration-and-Adventures", "label": "Exploration and Small-Group Adventures", "description": "Stories, secrets, class quests and short two- or three-player adventures."},
+        {"source": "docs/activities/professions.md", "page": "Professions", "label": "Professions and Crafting", "description": "Recipes, sidegrades, optional projects, materials and economic limits."},
+        {"source": "docs/09-regions-races-and-classes.md", "page": "New-Regions", "label": "New Regions", "description": "Geography, regional identity, new places and long-term world growth."}
+      ]
+    },
+    {
+      "title": "PvP and Faction Warfare",
+      "items": [
+        {"source": "docs/activities/pvp.md", "page": "PvP", "label": "PvP Overview", "description": "Find PvP topics and their shared participation and reward boundaries."},
+        {"source": "docs/activities/open-world-pvp.md", "page": "Open-World-PvP", "label": "Open-World PvP", "description": "Regional objectives, consent, temporary benefits and faction imbalance."},
+        {"source": "docs/activities/faction-warfare.md", "page": "Faction-Warfare", "label": "Faction Warfare", "description": "Territorial cooperation, current faction objectives and campaign questions under review."}
+      ]
+    },
+    {
+      "title": "Character and Progression",
+      "items": [
+        {"source": "docs/systems/equipment-and-progression.md", "page": "Equipment-and-Progression", "label": "Equipment and Progression", "description": "Permanent preparation, contextual power and non-statistical recognition."},
+        {"source": "docs/08-prestige-ranks.md", "page": "Prestige-Ranks", "label": "Adventurer, Explorer and Honor", "description": "Rank ladders, role-aware credit, scoring prototypes and prestige rewards."},
+        {"source": "docs/identity/races.md", "page": "Races", "label": "Races", "description": "Six playable-people concepts, cultures, anatomy and racial-power rules."},
+        {"source": "docs/identity/classes.md", "page": "Classes", "label": "Classes", "description": "Eighteen class families, thirteen mechanical studies, roles and design gates."},
+        {"source": "docs/11-rewards-and-acquisition.md", "page": "Rewards-and-Acquisition", "label": "Rewards and Acquisition", "description": "Reward matrix, ownership, lockouts, alternatives and economic faucets."}
+      ]
+    },
+    {
+      "title": "Project Reference",
+      "collapsed": true,
+      "items": [
+        {"source": "README.md", "page": "Proposal", "label": "Full Proposal and Author", "description": "The complete proposal and the author's background."},
+        {"source": "docs/10-social-design-and-earned-prestige.md", "page": "Social-Design-And-Earned-Prestige", "label": "Design Philosophy", "description": "Group play, simple rules, meaningful challenge and earned success."},
+        {"source": "docs/12-player-journeys-and-faq.md", "page": "Player-Journeys-And-Faq", "label": "Player Journeys and FAQ", "description": "Examples for new characters, returning groups, support roles and world contributors."},
+        {"source": "docs/13-glossary-and-decisions.md", "page": "Glossary-And-Decisions", "label": "Glossary and Decisions", "description": "Terms, selected boundaries, prototypes and open questions."},
+        {"source": "docs/04-technical-framework.md", "page": "Technical-Framework", "label": "Technical Framework", "description": "Conceptual data, validation, transitions and acceptance cases."},
+        {"source": "docs/05-roadmap-and-evaluation.md", "page": "Roadmap-And-Evaluation", "label": "Roadmap and Evaluation", "description": "Pilot scope, dependencies, measurements and unresolved tuning."},
+        {"source": "docs/proposals/incoming-reports-review.md", "page": "Reports-Under-Review", "label": "Reports Under Review", "description": "Unadopted proposals for Rune statistics, Masteries, selectable abilities and province warfare."},
+        {"source": "docs/README.md", "page": "Documentation-Index", "label": "Topic Directory", "description": "The repository's subject-based documentation index."},
+        {"source": "CONTRIBUTING.md", "page": "Contributing", "label": "Contributing", "description": "How to propose and review a change."},
+        {"source": "CHANGELOG.md", "page": "Change-History", "label": "Change History", "description": "Recorded design and documentation changes."},
+        {"source": "docs/references.md", "page": "References", "label": "Sources and Boundaries", "description": "Verified context and the distinction between facts and suggestions."},
+        {"source": "docs/14-wiki-maintenance.md", "page": "Wiki-Maintenance", "label": "Wiki Maintenance", "description": "Automatic publication, navigation and recovery."},
+        {"source": "assets/README.md", "page": "Asset-Notes", "label": "Asset Notes", "description": "Editable diagrams, cover provenance and source assets."},
+        {"source": "docs/forum-summary.md", "page": "Forum-Summary", "label": "Forum Summary Draft", "description": "A short unpublished introduction linking to the proposal."}
+      ]
+    }
+  ]
+}

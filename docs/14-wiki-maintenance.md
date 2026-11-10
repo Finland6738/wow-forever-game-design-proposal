@@ -14,6 +14,7 @@ The pipeline validates source links and section anchors, runs generator tests, r
 - Every Markdown document under `docs/`, including newly added and nested pages.
 - Root Markdown guidance and the asset notes.
 - A generated Home page, a detailed topic index, a sidebar and a source-revision footer.
+- Dedicated activity and identity pages, grouped into PvE, Open World, PvP/Faction Warfare, Character/Progression and Project Reference.
 - Per-page section navigation, rewritten wiki links and repository-hosted illustrations.
 
 The generator converts relative document links to wiki links while keeping code examples intact. Images refer to the exact source revision, so a published page and its illustrated state remain consistent. Links to scripts or other non-page files point back to the repository.
@@ -30,7 +31,9 @@ No separate manual wiki edit is needed. Direct edits to generated pages are repl
 
 ## Addition, rename and removal
 
-New source documents are discovered automatically. Page names derive from their paths, with a small set of stable overrides for the proposal and indexes. Conflicting generated names fail validation rather than overwriting a page.
+New source documents are discovered automatically. [wiki/navigation.json](../wiki/navigation.json) assigns topic labels, categories, descriptions and stable page names such as `Raids`, `Races` and `Classes`. Topics not yet assigned to a category remain visible under Additional Topics. Default names derive from source paths; conflicting names fail validation rather than overwriting a page.
+
+When moving content between topic sources, update incoming section links as part of the same change. Category configuration and source links are validated before publication. Project Reference can be collapsed so technical material does not obscure activity navigation.
 
 A manifest records which wiki files the generator owns. Removed or renamed source pages remove only their previously managed output; unrelated wiki pages are left alone. Broken references to a removed source block publication until corrected.
 
