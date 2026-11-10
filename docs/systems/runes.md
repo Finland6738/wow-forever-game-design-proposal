@@ -1,67 +1,45 @@
 # Runes
 
-[← Equipment and Progression](equipment-and-progression.md) · [Prestige](../08-prestige-ranks.md) · [Adventurer Abilities](adventurer-abilities.md)
+[← Equipment and Progression](equipment-and-progression.md) · [Raid talents](adventurer-abilities.md) · [Raid entry preset](raid-entry-preset.md)
 
-![Validated activity milestones grant progress to a fixed lifetime Rune ceiling, after which history persists without overflow statistics or a new rank.](../../assets/diagrams/rune-progression.svg)
+![Reviewed completions unlock raid choices and history, without cast counters, numerical Rune statistics or another rank.](../../assets/diagrams/rune-progression.svg)
 
 ## Selected direction
 
-Runes provide a **finite permanent stat progression with a fixed lifetime ceiling**. Content updates do not add to that ceiling, raise it through a new currency, or reset earned progress. The character remains level 60.
+**Permanent progression expands choices; it does not accumulate combat statistics.** Runes record meaningful completion milestones and targeted unlocks. The proposal to gain 0.01% per ability through increasing usage requirements, up to 1%, is **not adopted**, including inside raids.
 
-This is bounded numerical growth, not a claim that stat increases are horizontal choices. The long-term power contract remains stable because the complete Rune allowance is part of the permanent power envelope from the beginning.
+A finite cap or raid-only counting would still reward repetitive casts, prolonged boss phases and trash farming. There is no Rune power per cast, fractional-stat allowance, seasonal increment or requirement to practice an ability a certain number of times before progression.
 
-There is **no Rune rank, competitive ladder or second participation score**. A Rune record shows earned statistics, the remaining fixed allowance and the activities that contributed. Existing Adventurer, Explorer and Honor recognition can continue to record their own eligible activity; Rune history does not duplicate their tier systems.
+## Milestones and targeted rewards
 
-## A finite journey, then a permanent record
+Use reviewed boss completions, authored objectives and achievements with clear participation criteria. A milestone may record history, grant a cosmetic or teach a class/build-compatible raid option. The [Adventurer Repertoire](adventurer-abilities.md) manages learned raid options and its one selected slot. Runes do not add a second equipped combat slot or duplicate talent tree.
 
-| Element | Behavior |
+| Element | Selected behavior |
 | --- | --- |
-| Access | Level 60, with an understandable introduction |
-| Numerical ceiling | A fixed global design budget, expressed through reviewed stat limits |
-| New updates | Add objective variety or equivalent sources; do not increase the numerical budget |
-| Character ownership | Permanent character progression; no alt funnel into another character |
-| After the ceiling | Keep history and appropriate existing-track recognition; no hidden further statistics |
-| Interface | Show progress, actual applied effects, the ceiling and eligible objective sources |
-| Unknown tuning | Exact stat amounts, acquisition time, distribution and secondary-stat eligibility remain open |
+| Character level | Remains 60 |
+| Numerical Rune reward | None; no accumulated damage, healing, primary/secondary stats or yield |
+| Objective | A reviewed completion or explicit authored milestone, not a cast counter |
+| Learned raid option | Permanent ownership; activation follows raid/difficulty rules |
+| Cosmetic/history | Records the accomplishment and its source |
+| Existing recognition | Adventurer, Explorer, Honor, Gladiator and Challenger keep separate purposes |
+| New Rune rank/currency | Not introduced |
 
-The first prototype should focus on a small reviewed stat set. Movement speed, hit, critical thresholds and other effects with large strategic consequences require separate testing before inclusion. The report's seasonal values are not adopted as lifetime tuning.
+The final boss of a raid is the selected source for that difficulty's reviewed raid option. Other Rune objectives must state their reward explicitly; they do not silently award additional combat abilities for every activity. No promise of two new abilities for every tree in every update is made.
 
-## Earning progress
+## Eligibility and anti-farming
 
-Use reviewed milestones and meaningful activity completions. Suitable categories include cooperative dungeon objectives, boss participation, world-event objectives and exploration milestones. Different viable paths should lead toward the same finite allowance.
+Credit real group contribution, including healing, tanking, control and assigned objectives. Store one authoritative occurrence and one eligible-character claim. Retries and reconnects return the same entitlement, not repeated unlocks.
 
-A player must not need PvP to finish a PvE-useful stat allowance, every profession to complete a class profile, or a long list of daily chores before joining friends. Group activities should be attractive sources, with credit for tanking, healing, control and objectives as well as damage.
+No extra progress is granted for stalling an encounter, unnecessary healing, low-risk trash resets or casting on harmless targets. Completion credit does not depend on the final blow. Exact minimum participation and late-join rules need the reward specification.
 
-The presence of a finite reward does not justify an excessive grind. Acquisition time is an important tuning decision: test whether new and returning players perceive a reasonable journey or an obligatory backlog. Do not make the optimal route an endless low-risk reset farm.
+## Power and competitive boundaries
 
-After reaching a stat's reviewed limit or the total allowance, further activity cannot spill into an uncapped alternative stat. New objective sets may provide additional ways to reach an existing ceiling, rather than another season's additive allowance.
+Rune records grant no numeric advantage in the world, dungeons or PvP. Learned raid options are inactive outside raids, including Heroics, procedural expeditions, Challenges, battlegrounds and Arenas. Normal options work only in Normal raids; Veteran options work only in Veteran raids.
 
-## Budget and raid preparation
+More available raid choices can make a raid easier through utility and better decisions. That accepted benefit still requires interaction testing: one slot does not prove equal value. An unconditional permanent statistical upgrade is not justified by calling it a Rune.
 
-The permanent envelope includes equipment, Runes and all other reviewed permanent effects. Rune power is not an unlisted layer added beyond the budget.
+## Interface and evaluation
 
-Raid entry is still based on an accessible preparation target rather than mandatory Rune completion. Encounters must be tested for appropriately prepared characters with incomplete Rune progress as well as characters at the ceiling. A fully developed Rune record may offer a bounded advantage; it must not silently become a requirement to complete years of prior content.
+Show completed objective, source raid/difficulty, reward, eligibility and the reason a learned effect is inactive. There is no hidden fractional percentage or progress bar implying that repeated casts improve an ability.
 
-Rune progress and the [raid ability repertoire](adventurer-abilities.md) have different purposes. Runes stop increasing numerically. Abilities expand the set of choices, while only one repertoire option can be equipped. Their combined effective power and interactions still require testing.
-
-## History without another prestige ladder
-
-The record can show which group adventures, discoveries or milestones contributed to each stat. It can also show a completed Rune allowance as a factual collection milestone. It does not need Wood-to-Legend tiers, a Rune rating, recurring prestige resets or another currency vendor.
-
-Any optional cosmetic milestone should reuse existing collection/recognition structures. It must not require repeating the same history as a separate Rune ranking grind. Whether a completion cosmetic is worthwhile remains an editorial/reward choice, not a new progression layer.
-
-## Competitive activities
-
-Challenge Dungeons already use an approved normalization profile. Rune effects must be explicitly covered by that profile; a veteran's accumulated stats cannot bypass normalized competition. Arena-specific Rune treatment belongs to the [Arena design page](../activities/arenas.md) and remains to be finalized with its competitive rules.
-
-Ordinary gameplay can use earned Rune progress inside the fixed envelope. Ranked profiles may replace, equalize or exclude numerical effects according to a published policy. No competitive mode should accidentally inherit an unreviewed permanent bonus.
-
-## Technical and abuse controls
-
-Store an authoritative objective occurrence and a deduplicated character claim before granting progress. Use adequate numeric precision and an explicit rounding/derived-stat policy; a fractional display must correspond to a real applied result or an accurately described accumulated fraction.
-
-Reject trivial target loops, duplicate completion messages, repeated low-cost crafting exploits and self-arranged reward transfers. If a role-aware objective is valid, its credit must not depend on the final blow. Reconnects and service recovery return the original entitlement rather than granting it again.
-
-## Evaluation
-
-Measure acquisition time, source diversity, role eligibility, stat breakpoints, the veteran/newcomer gap, perceived obligation and the value of history after the ceiling. A fixed cap solves unbounded accumulation; it does not by itself solve an unpleasant acquisition journey.
+Measure objective clarity, role eligibility, old-raid group formation, reward satisfaction, dominant choices and perceived preparation obligations. The earlier finite-stat Rune model is superseded; historical change entries and dated reviews remain historical records.

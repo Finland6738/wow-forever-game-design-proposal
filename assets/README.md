@@ -9,7 +9,7 @@ All assets are stored in the repository so its pages do not rely on hotlinked im
 | [a-world-of-parallel-adventures.png](images/a-world-of-parallel-adventures.png) | Cover illustrating a lasting world with several adventures | Original AI-generated illustration, built-in ImageGen, 10 November 2026 |
 | [raid-progression.svg](diagrams/raid-progression.svg) | Independent update and difficulty progression | Editable, repository-authored vector diagram |
 | [progression-channels.svg](diagrams/progression-channels.svg) | Equipment, Runes, scoped bonuses, abilities and recognition | Editable, repository-authored vector diagram |
-| [raid-difficulties.svg](diagrams/raid-difficulties.svg) | Separate Normal/Veteran equipment and ability acquisition | Editable, repository-authored vector diagram |
+| [raid-difficulties.svg](diagrams/raid-difficulties.svg) | Separate Normal/Veteran equipment, own final-boss rewards and matching-difficulty use | Editable, repository-authored vector diagram |
 | [heroic-dungeon.svg](diagrams/heroic-dungeon.svg) | Tactical, untimed five-player Heroic encounters | Editable, repository-authored vector diagram |
 | [challenge-loop.svg](diagrams/challenge-loop.svg) | Normalized timed attempts, validation and free retries | Editable, repository-authored vector diagram |
 | [elite-region.svg](diagrams/elite-region.svg) | Cooperative approach to a territorial World Boss | Editable, repository-authored vector diagram |
@@ -17,8 +17,8 @@ All assets are stored in the repository so its pages do not rely on hotlinked im
 | [settlement-cycle.svg](diagrams/settlement-cycle.svg) | NPC invasion, defense outcome and cooperative village reconstruction | Editable, repository-authored vector diagram |
 | [procedural-expedition.svg](diagrams/procedural-expedition.svg) | World portals, finite generated floors and checkpoint scaling | Editable, repository-authored vector diagram |
 | [recognition-domains.svg](diagrams/recognition-domains.svg) | Participation ranks, competitive standings and city service | Editable, repository-authored vector diagram |
-| [rune-progression.svg](diagrams/rune-progression.svg) | Finite statistics with a fixed lifetime ceiling and no Rune rank | Editable, repository-authored vector diagram |
-| [adventurer-repertoire.svg](diagrams/adventurer-repertoire.svg) | Permanent raid ability collection with one equipped option | Editable, repository-authored vector diagram |
+| [rune-progression.svg](diagrams/rune-progression.svg) | Completion-based unlocks and history, without statistical growth or a Rune rank | Editable, repository-authored vector diagram |
+| [adventurer-repertoire.svg](diagrams/adventurer-repertoire.svg) | Final-boss raid talents, one slot and strict matching-difficulty activation | Editable, repository-authored vector diagram |
 | [identity-development.svg](diagrams/identity-development.svg) | Established race candidates, neutral origins, class roles and review gates | Editable, repository-authored vector diagram |
 | [artificer-frontline.svg](diagrams/artificer-frontline.svg) | Stationary tank dummies, repair ownership and the extra autonomous puppet | Editable, repository-authored vector diagram |
 | [summoner-branches.svg](diagrams/summoner-branches.svg) | Non-selectable reserve beings and the three selected role/spec identities | Editable, repository-authored vector diagram |

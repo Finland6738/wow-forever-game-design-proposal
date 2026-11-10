@@ -59,6 +59,8 @@ For example, an Alliance-controlled fort can be captured by Horde participants. 
 
 Neutral city participants still contribute to the ordinary faction objective. Mixed city standards, simultaneous assaults and the claim process need explicit rules; the final hit cannot arbitrarily overwrite the collective result.
 
+Captured structures, banners, guards and bosses reflect the controlling faction/city; neutral objectives use the regional NPC faction. Art changes preserve reviewed encounter budgets and safe transition rules; see [visual transformation](faction-warfare.md#ownership-and-visual-transformation).
+
 Each capture occurrence must declare which change is being resolved and commit its result atomically. Ownership cannot flip twice because two clients report the same boss death. Public UI should distinguish major-faction control, city stewardship and an active contest.
 
 ## Three independent states
@@ -67,7 +69,7 @@ Each capture occurrence must declare which change is being resolved and commit i
 2. **City combat flag:** whether the character participates in local city rivalry; enabled/disabled through the city NPC.
 3. **Ordinary PvP state:** the ruleset's normal combat eligibility, unaffected by an attempt to gain city-mode immunity.
 
-Turning off a combat flag is not changing city allegiance. The recommendation is no reputation loss merely for leaving the mode to raid, trade or play with guildmates. The chosen reputation-loss idea applies when changing the served city; its amount remains open.
+Turning off a combat flag is not changing city allegiance and causes no standing loss or quarantine. At a service change, choose preserved standing with territorial quarantine OR a 50% loss of the departed city's current Warfare standing without a new quarantine. Guild/group access stays free. Duration and anti-bypass details remain open in the [city reward policy](warfare-rewards.md).
 
 ## Cases that must work before expanding
 

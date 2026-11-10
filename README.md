@@ -4,7 +4,7 @@
 
 ![Five adventurers at a crossroads overlooking a forest valley, ruins, a mountain citadel, and a dungeon entrance.](assets/images/a-world-of-parallel-adventures.png)
 
-> **Status: design proposal · v0.10 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
+> **Status: design proposal · v0.11 · 11 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
 
 **[Read the complete GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design-proposal/wiki)** · [Documentation index](docs/README.md) · [Questions and discussion](https://github.com/Finland6738/wow-forever-game-design-proposal/discussions)
 
@@ -12,9 +12,9 @@
 
 Keep characters at level 60 and establish an accessible, lasting equipment-power budget. New content should add encounters, builds, stories, collections, and opportunities for mastery without continually raising the minimum permanent power needed to participate.
 
-Raid equipment remains usable throughout the game. Its additional progression bonuses activate only in the **raid group belonging to its content update and in its own difficulty**. Normal and Veteran retain separate contextual equipment tracks. Raids can also teach **permanently usable Adventurer abilities**, with one repertoire option equipped at a time; each difficulty teaches only its own option.
+Raid equipment remains usable throughout the game. Its additional progression bonuses activate only in the **raid group belonging to its content update and in its own difficulty**. Normal and Veteran retain separate contextual equipment tracks. Final-boss clears teach permanently owned **raid-only talents**: one slot, Normal options only in Normal raids and Veteran options only in Veteran raids. They are inactive in the world, every dungeon and all PvP.
 
-Around that foundation, expand the level-60 endgame with tactical Heroic dungeons, keyless timed Challenge Modes, elite open-world regions, territorial PvP, settlement defense and reconstruction, procedural expeditions, professions, and exploration. Adventurer, Explorer and Honor recognize participation; Gladiator and Challenger identify separate competitive domains. Runes add a fixed-ceiling numerical journey without another rank ladder. Future regions and new playable options expand the world within the same power policy.
+Around that foundation, expand the level-60 endgame with tactical Heroic dungeons, keyless timed Challenge Modes, elite open-world regions, territorial PvP, settlement defense and reconstruction, procedural expeditions, professions, and exploration. Adventurer, Explorer and Honor recognize participation; Gladiator and Challenger identify separate competitive domains. Runes record completion milestones and targeted unlocks, with no usage-based or cumulative statistical power. Future regions and new playable options expand the world within the same power policy.
 
 **The revised promise:** a returning player can enter a new raid without a sequential item-level climb through earlier tiers. Historical raids remain worthwhile sources of useful abilities for a chosen build; direct equipment access does not imply an already complete ability collection.
 
@@ -35,7 +35,7 @@ The [Wiki Home](https://github.com/Finland6738/wow-forever-game-design-proposal/
 | PvE — Raids and Dungeons | [Raids](docs/01-progression-and-raids.md) · [World Bosses](docs/activities/world-bosses.md) · [Dungeon Overview](docs/02-dungeons-and-challenges.md) · [Heroic Dungeons (HC)](docs/activities/heroic-dungeons.md) · [Challenge Dungeons](docs/activities/challenge-dungeons.md) · [Procedural Dungeons](docs/07-procedural-expeditions.md) |
 | Open World | [Open World](docs/03-world-and-professions.md) · [NPC Invasions and Reconstruction](docs/06-invasions-and-reconstruction.md) · [Exploration and Small-Group Adventures](docs/activities/exploration-and-adventures.md) · [Professions and Crafting](docs/activities/professions.md) · [New Regions](docs/09-regions-races-and-classes.md) |
 | PvP and Faction Warfare | [PvP Overview](docs/activities/pvp.md) · [Arenas and Gladiator](docs/activities/arenas.md) · [Open-World PvP](docs/activities/open-world-pvp.md) · [Faction Warfare](docs/activities/faction-warfare.md) · [Warfare Models and Rules](docs/activities/warfare-models.md) · [Warfare Reputation and Cosmetics](docs/activities/warfare-rewards.md) |
-| Character and Progression | [Equipment and Progression](docs/systems/equipment-and-progression.md) · [Runes](docs/systems/runes.md) · [Adventurer Abilities](docs/systems/adventurer-abilities.md) · [Recognition and Competitive Standing](docs/08-prestige-ranks.md) · [Races](docs/identity/races.md) · [Classes](docs/identity/classes.md) · [Roles and Specializations](docs/identity/class-roles-and-specializations.md) · [Artificer](docs/identity/classes/artificer.md) · [Summoner](docs/identity/classes/summoner.md) · [Rewards and Acquisition](docs/11-rewards-and-acquisition.md) |
+| Character and Progression | [Equipment and Progression](docs/systems/equipment-and-progression.md) · [Raid Entry Preset](docs/systems/raid-entry-preset.md) · [Runes](docs/systems/runes.md) · [Adventurer Abilities](docs/systems/adventurer-abilities.md) · [Recognition and Competitive Standing](docs/08-prestige-ranks.md) · [Races](docs/identity/races.md) · [Classes](docs/identity/classes.md) · [Roles and Specializations](docs/identity/class-roles-and-specializations.md) · [Group Tools](docs/identity/group-tools-and-class-identity.md) · [Artificer](docs/identity/classes/artificer.md) · [Summoner](docs/identity/classes/summoner.md) · [Rewards and Acquisition](docs/11-rewards-and-acquisition.md) |
 
 For technical rules, design philosophy, FAQ, glossary, roadmap and report reviews, see the [complete topic directory](docs/README.md). To propose an improvement, read [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -55,9 +55,9 @@ Raid difficulties are **Normal / Veteran** in this proposal. **Heroic / HC** nam
 | Open-world elite regions and World Bosses | [§6](#6-elite-regions-and-territorial-world-bosses) | [Details](docs/activities/world-bosses.md) — Defined concept; access and population pilot |
 | Open-world PvP and Faction Warfare | [§7](#7-open-world-faction-warfare-factions-and-city-standards) | [Details](docs/activities/faction-warfare.md) — Bivalent prototype; capture/support details open |
 | NPC-faction assaults and reconstruction | [§8](#8-npc-invasions-defend-a-village-or-help-rebuild-it) | [Details](docs/06-invasions-and-reconstruction.md) — Defined lifecycle; event timing and reward tuning open |
-| PvE, world, PvP, Arena and Challenge recognition | [§10](#10-rankings-and-recognition-pve-world-pvp-arenas-and-challenge) | [Details](docs/08-prestige-ranks.md) — Domains defined; Arena format/rating remains open |
-| Finite Rune-stat progression | [§11](#11-runes-finite-statistics-without-another-rank-ladder) | [Details](docs/systems/runes.md) — Fixed lifetime ceiling selected; numbers and pace open |
-| Permanent raid ability collection | [§12](#12-adventurer-repertoire-permanent-raid-abilities-one-equipped-choice) | [Details](docs/systems/adventurer-abilities.md) — One slot selected; production and ranked policies open |
+| PvE, world, PvP, Arena and Challenge recognition | [§10](#10-rankings-and-recognition-pve-world-pvp-arenas-and-challenge) | [Details](docs/08-prestige-ranks.md) — Five Arena queue profiles selected; rating formulas remain open |
+| Milestone Rune unlocks | [§11](#11-runes-milestones-and-choices-without-stat-accumulation) | [Details](docs/systems/runes.md) — Completion-based unlocks; usage-based statistics rejected |
+| Permanent raid ability collection | [§12](#12-adventurer-repertoire-one-matching-difficulty-raid-talent) | [Details](docs/systems/adventurer-abilities.md) — One raid-only matching-difficulty slot; catalog and swap tuning open |
 | Regions, races and classes | [§13](#13-new-regions-playable-races-and-class-specializations) | [Details](docs/09-regions-races-and-classes.md) — Ten established race candidates, original alternatives and role/spec studies; no release roster |
 | Professions, exploration and small-group play | [§14](#14-professions-exploration-and-small-group-adventures) | [Details](docs/03-world-and-professions.md) — Defined direction; individual activities require pilots |
 
@@ -73,17 +73,17 @@ Blizzard describes Forever as a permanent home with a level 1–60 journey and a
 
 ## 2. Progression channels with different purposes
 
-![Equipment, finite Runes, scoped raid equipment, a one-slot ability collection and recognition have separate purposes and limits.](assets/diagrams/progression-channels.svg)
+![Equipment, milestone Runes, scoped raid equipment, a one-slot ability collection and recognition have separate purposes and limits.](assets/diagrams/progression-channels.svg)
 
 | Channel | What develops | Boundary |
 | --- | --- | --- |
 | Permanent equipment | Finite preparation, stat profiles and reviewed sidegrades | No automatic stronger baseline every update |
-| Runes | A finite permanent stat allowance and activity history | One fixed lifetime ceiling, no seasonal increases and no Rune rank |
+| Runes | Completion milestones, targeted choices and history | No cast-count power, cumulative statistics or extra rank |
 | Contextual raid equipment | Local bonuses in an approved update and difficulty | No transfer of those equipment bonuses to another scope |
-| Adventurer Repertoire | Permanently learned raid abilities usable beyond their source | One active or passive option equipped at a time; each difficulty teaches its own option |
+| Adventurer Repertoire | Permanently owned final-boss raid talents | One option; Normal only in Normal raids, Veteran only in Veteran raids; inactive elsewhere |
 | Recognition and collections | Participation, competitive results, city service and earned identity | No hidden combat/yield bonus from a rank |
 
-The permanent power envelope includes the complete fixed Rune allowance. New objectives can vary how that allowance is earned; they do not enlarge it. Rune amounts and acquisition time still require tuning.
+After level 60, an accessible transition earns the role-appropriate [raid-entry preset](docs/systems/raid-entry-preset.md). Its permanent budget is the default starting set for every new raid season. Runes add completion/unlock history, not another stat allowance.
 
 A larger repertoire offers useful answers to more encounters. One slot limits simultaneous options but does not prove equal power or remove the incentive to revisit an old raid. This is an intended long-term collection goal, with interaction balance and group access to evaluate.
 
@@ -93,7 +93,7 @@ A larger repertoire offers useful answers to more encounters. One slot limits si
 
 ![A permanent level-60 baseline feeds three independent raid updates. Each update contains separate Normal and Veteran contextual equipment progression, with no contextual equipment-power transfer between updates or difficulties.](assets/diagrams/raid-progression.svg)
 
-This diagram shows the equipment channel. Permanent Rune development and the one-slot ability repertoire are separate systems.
+This diagram shows the equipment channel. Rune milestones record unlocks; the separate raid-talent slot follows its raid/difficulty boundary.
 
 ### Permanent items, contextual bonuses
 
@@ -132,7 +132,7 @@ Shared bonuses create a risk: players may farm the shortest raid before attempti
 | Cross-difficulty effects | Veteran bonuses inactive | Normal bonuses inactive |
 | Prestige | Core collections and completion rewards | Additional appearances, titles, mounts and achievements |
 
-Veteran is a proposed difficulty name. It is separate from any Hardcore ruleset. Its intended feel is readable tactical progression: deliberate preparation, important individual responsibilities and coordination without excessive mechanical clutter. A roughly **four-to-eight-week progression journey** for an appropriately prepared target guild is a tuning hypothesis, not a forced waiting period or a guarantee. Skilled groups may finish sooner.
+Veteran is a proposed difficulty, separate from a Hardcore ruleset. Target **1–2 months of mechanical progression** for its prepared reference guild, with Ulduar hard modes as the author's qualitative upper difficulty compass. Normal aims to be approachable for roughly **70%** and Veteran for roughly **30%** of a defined raiding-guild cohort. These are tuning targets, not entry quotas or measured clear rates. Define the cohort, completion milestone and raid schedule in testing; skilled groups may finish sooner, without calendar gates or Rune-use grinding.
 
 Neither difficulty feeds the other's contextual equipment currency or upgrades. Permanent abilities are a separate reward: Normal teaches its own option and Veteran teaches its own option, without automatically granting Normal. Collecting both can motivate both clears; a shared equipment ladder is still avoided.
 
@@ -140,7 +140,7 @@ Neither difficulty feeds the other's contextual equipment currency or upgrades. 
 
 The player keeps their items, collections and Update A progress. Update A bonuses continue working in Update A. They do not work in Update B, which starts its own progression from the same lasting baseline. Old content remains available; the proposal does not require expiring its rewards.
 
-Older raids retain their local progression, stories, collections, profession projects and permanently useful ability unlocks. A player can deliberately seek an old ability for a preferred build. Group organization and reward balance still matter; one useful unlock does not guarantee a healthy population at every hour.
+Older raids retain their local progression, stories, collections, profession projects and permanently owned raid-talent unlocks. A player can deliberately seek an old ability for a preferred build. Group organization and reward balance still matter; one useful unlock does not guarantee a healthy population at every hour.
 
 [Read the raid design, trade-offs and safeguards →](docs/01-progression-and-raids.md)
 
@@ -194,7 +194,7 @@ Bosses may reward artifacts, materials and recipes for specialized crafting. A c
 
 The core Warfare activity is a group assault on designated camps or small forts: defeat objective guards and a boss, validate participation, and capture the location. Ordinary questgivers and essential city services are not conquest targets.
 
-City service would let a player choose an eligible standard within their existing major faction, without race restrictions, and earn a separate Warfare reputation. The selected reward direction keeps base banners, cloaks and mounts permanently owned, while city crests/variants require eligible service. Changing the served city loses some departed-city reputation; amount and thresholds remain open. Merely turning the combat flag off is a distinct action.
+City service would let a player choose an eligible standard within their existing major faction, without race restrictions, and earn a separate Warfare reputation. The selected reward direction keeps base banners, cloaks and mounts permanently owned, while city crests/variants require eligible service. At service change, choose preserved standing with territorial quarantine or loss of 50% of the departed city standing without a new quarantine; duration and further claim safeguards remain open. Merely turning the combat flag off is a distinct action.
 
 The preferred bivalent prototype keeps ordinary Horde/Alliance combat and adds voluntary city rivalry inside Warfare areas. Different cities can fight even within the same major faction, but only when both city flags are active. A city-neutral ally remains outside that rivalry. Ordinary legal PvP is evaluated separately, so a city flag never grants immunity from it.
 
@@ -237,43 +237,39 @@ Group size is committed at floor checkpoints so leaving or dying cannot downscal
 | Adventurer | Eligible instanced-PvE participation |
 | Explorer | Discovery and meaningful open-world contribution |
 | Honor | PvP participation under its separate rules |
-| Gladiator | Arena competitive standing; format and rating details remain open |
+| Gladiator | Arena standing across 1v1, premade/assembled 2v2 and full/split 5v5 profiles; formulas remain open |
 | Challenger | Validated Challenge Dungeon performance and time-based standings |
 | City service | Warfare reputation and cosmetic recognition for a chosen standard |
 
-Runes are not another rank. They show a finite earned stat allowance and its activity history, without an extra prestige ladder. The combat-ability repertoire is likewise distinct from the Adventurer participation score.
+Runes are not another rank. They record completed objectives and targeted unlocks, without numerical stat growth or an extra prestige ladder. The combat-ability repertoire is likewise distinct from the Adventurer participation score.
 
 The initial Adventurer base-point prototype remains native creature level ×1, ×2 for elites or ×5 for bosses, with role-aware eligibility and repeat rules. Tanking, healing, control and objective assignments count; the final blow does not determine the reward.
 
 Adventurer/Explorer participation tiers use a provisional Wood-to-Legend ladder, reserving Challenger for timed competition. Exact thresholds remain open. Participation totals are not skill ratings, and recognition ranks do not grant statistics or activity-access advantages.
 
+Support compositions exchange some speed for control and safety; numerical targets remain open. Historical titles, city decorations, winner monuments, accomplishment registers and exclusive visuals recognize mastery and community contribution without compulsory daily power chores.
+
 [Recognition rules →](docs/08-prestige-ranks.md) · [Arenas →](docs/activities/arenas.md) · [Rune record →](docs/systems/runes.md)
 
-## 11. Runes: finite statistics without another rank ladder
+## 11. Runes: milestones and choices without stat accumulation
 
-![Validated activity milestones grant progress to a fixed lifetime Rune ceiling, after which history persists without overflow statistics or a new rank.](assets/diagrams/rune-progression.svg)
+![Completions unlock choices and history; repeated casts do not add numerical power.](assets/diagrams/rune-progression.svg)
 
-Runes provide a bounded numerical journey whose **complete lifetime allowance is fixed in advance**. New content can add objectives and equivalent acquisition routes, but it does not increase that ceiling or reset earned progress. The complete allowance belongs inside the permanent power envelope.
+Runes follow the principle **permanent progression expands choices, not cumulative statistical advantages**. No 0.01%-per-use, exponential usage requirement or 1% spell-power mastery is adopted, even inside raids. Boss completions and authored objectives grant declared unlocks, cosmetics and history. Repeating casts, prolonging a boss phase or farming trash does not improve the reward.
 
-The record shows actual earned statistics, remaining allowance and contributing activities. It does not introduce another competitive or participation rank. Group milestones recognize healing, tanking, control and objectives alongside damage.
-
-At the ceiling, activity history and appropriate existing recognition can continue, without stat overflow. Exact amounts, the permitted stat set, acquisition pace and ranked-mode treatment remain tuning decisions.
+[Current twelve-point decision review →](docs/proposals/current-contract-clarification.md)
 
 [Read the Rune system →](docs/systems/runes.md)
 
-## 12. Adventurer Repertoire: permanent raid abilities, one equipped choice
+## 12. Adventurer Repertoire: one matching-difficulty raid talent
 
-![Raid options remain permanently collected, but exactly one active or passive entry is equipped with explicit swap and competitive rules.](assets/diagrams/adventurer-repertoire.svg)
+![Final-boss clears teach permanently owned options, with one matching-difficulty raid talent active only inside raids.](assets/diagrams/adventurer-repertoire.svg)
 
-Historical raids can teach **permanently useful combat options**. Players collect those entries and equip exactly one active ability or passive modifier. Each difficulty teaches only its own option: a Veteran completion does not also teach Normal.
+Defeating a final boss teaches its difficulty's reviewed raid talent. **Normal options work only in Normal raids; Veteran options only in Veteran raids.** One active or passive option may be selected outside combat, with encounter, cooldown and persistent-effect checks. This is an extra raid-choice slot, separate from the normal 51-point class trees.
 
-Older raids intentionally remain sources of desirable build choices. Direct access to a new raid's equipment progression does not mean owning an already complete or optimized ability library. One slot bounds simultaneous options, but their interactions and practical acquisition pressure still need evaluation.
+These rewards are inactive in open world, every dungeon including Challenge, all PvP, battlegrounds and Arenas. Base class abilities are unaffected. More raid utility/choice may make a raid easier; it does not justify cumulative permanent spell statistics. Older raids remain useful sources of matching-difficulty choices.
 
-Switching is outside combat under encounter and persistent-effect rules. Cooldowns, summons and delayed effects cannot be stacked or reset by cycling entries. Free switching through a brief preparation action is the recommended prototype; exact cost, duration and permitted checkpoints remain open.
-
-Ordinary external use is part of the selected direction. Competitive Challenge and Arena profiles must separately define eligible options; permanent ownership is not a normalization bypass.
-
-[Read the Repertoire rules →](docs/systems/adventurer-abilities.md)
+[Read the raid-talent rules →](docs/systems/adventurer-abilities.md)
 
 ## 13. New regions, playable races and class specializations
 
@@ -283,7 +279,7 @@ Future updates can add lasting regions, cultures, classes and playable peoples w
 
 The race shortlist starts with **ten established peoples from Vanilla, TBC or Wrath**: Ethereals, Ogres, Naga, classic Worgen, Quilboar/Razormane, Kobolds, Gnolls, Furbolgs, Arakkoa and Tuskarr. Preserve their early visual identity, especially the Silverpine/Arugal-associated Worgen appearance. Six invented alternatives remain secondary rather than replacing recognizable peoples with new names.
 
-Every new playable race has a neutral introductory experience and then permits **Alliance or Horde** membership, so friends can keep their preferred race and choose the same faction. Armor remains recognizable through visible anatomy-specific adaptations. Existing NPC assets are visual starting points, not proof that arbitrary player equipment or animations already work.
+Every new playable race has a neutral introductory experience and then permits **Alliance or Horde** membership, so friends can keep their preferred race and choose the same faction. Armor remains recognizable through anatomy-specific adaptations. Wrists, cloaks and gloves may be adapted or hidden; footwear is reviewed individually, while head and weapon presentation must preserve combat readability. Test overall class recognition through silhouette, animations, effects and nameplates. Existing NPC assets are visual starting points, not proof that arbitrary player equipment or animations already work.
 
 The class catalog uses **English archetypes** such as Bard, Alchemist, Summoner, Oracle, Spellblade and Artificer. **Every one of the eighteen candidates has an individual dossier and three talent-tree specifications: 54 trees in total.** Pages define roles, resources, states, baseline actions, talent anchors, recovery and acceptance scenes. The thirteen mechanical studies have explicit primary homes and documented adaptations.
 
@@ -317,7 +313,7 @@ Two- or three-player adventures offer investigations, defense missions and small
 
 ## 15. A shared technical contract
 
-![Server-owned policies validate equipment, finite Runes, contextual scope and one repertoire entry before computing the effective loadout.](assets/diagrams/power-validation.svg)
+![Server-owned policies validate equipment, milestone Runes, contextual scope and one repertoire entry before computing the effective loadout.](assets/diagrams/power-validation.svg)
 
 The technical proposal uses a lasting equipment budget, explicit content scopes, separate difficulty identifiers and versioned normalization profiles. All are conceptual fields; this repository makes no claim about Blizzard's internal architecture.
 
@@ -325,7 +321,7 @@ The server determines whether an effect is active. A tooltip explains that decis
 
 For Challenge Modes, use approved normalized equipment profiles or accessible template equivalents so legacy item farming cannot become the hidden preparation game. Raw item-level scaling is insufficient. A maintained effect catalog and class/build testing remain necessary.
 
-The same contract covers fixed Rune ceilings, one-slot repertoire state, durable settlements, seeded expeditions, separate recognition ledgers and explicitly resolved Warfare/ordinary-PvP permissions. No new objective silently adds Rune allowance or activates several archived abilities.
+The same contract covers completion-only Rune records, matching-difficulty raid-slot state, durable settlements, seeded expeditions, separate recognition ledgers and explicitly resolved Warfare/ordinary-PvP permissions. No objective adds cumulative Rune statistics, and no raid slot activates outside its raid/difficulty scope.
 
 [Read the conceptual model and acceptance cases →](docs/04-technical-framework.md)
 
@@ -337,7 +333,7 @@ The same contract covers fixed Rune ceilings, one-slot repertoire state, durable
 | Items usable only in their source raids | Strong isolation of power | Awkward item usability, collection management and weaker attachment outside raids |
 | **Permanent gear with scoped progression** | Preserves item ownership and local upgrades while keeping new updates accessible | More rules, normalization work, reward-design pressure and ongoing balance costs |
 
-The equipment model reduces regular obsolescence while local gearing can still feel repetitive. Permanent ability unlocks add a practical old-raid goal, and fixed Runes add a finite numerical journey. Those additions also create acquisition pressure and interaction costs; the design should measure them rather than promise every progression path is interchangeable.
+The equipment model reduces regular obsolescence while local gearing can still feel repetitive. Permanent ability unlocks add a practical old-raid goal, and Rune milestones add completion-based choices and history. Those additions also create acquisition pressure and interaction costs; the design should measure them rather than promise every progression path is interchangeable.
 
 Inventory pressure needs a dedicated bonus collection or archive, clear presets and automatic scope previews. Balance work must detect mandatory sidegrades, not merely keep item levels equal. Development costs require pilots and evidence; reusing dungeon geometry does not make encounter redesign cheap or automatic.
 

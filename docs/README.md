@@ -30,19 +30,19 @@ Choose an activity or character topic. Pages distinguish selected directions, re
 | Topic | What you will find |
 | --- | --- |
 | [PvP Overview](activities/pvp.md) | Find PvP topics and their shared participation and reward boundaries. |
-| [Arenas and Gladiator](activities/arenas.md) | The arena competition domain, with format and competitive policies still to define. |
+| [Arenas and Gladiator](activities/arenas.md) | Five strict solo/premade queue profiles, hidden MMR, visible standing and open tuning. |
 | [Open-World PvP](activities/open-world-pvp.md) | Regional objectives, consent, temporary benefits and faction imbalance. |
 | [Faction Warfare](activities/faction-warfare.md) | Guard-and-boss capture with ordinary faction conflict and voluntary local city rivalry. |
 | [Warfare Models and Rules](activities/warfare-models.md) | Compare faction, city and bivalent designs; targeting, ownership and prototype edge cases. |
-| [Warfare Reputation and Cosmetics](activities/warfare-rewards.md) | Permanent base objects, live city treatments, allegiance changes and reputation penalties. |
+| [Warfare Reputation and Cosmetics](activities/warfare-rewards.md) | Permanent base objects, service-qualified city variants and two player-selected city-switch routes. |
 
 ## Character and Progression
 
 | Topic | What you will find |
 | --- | --- |
-| [Equipment and Progression](systems/equipment-and-progression.md) | Equipment, fixed Rune growth, scoped raid bonuses and the permanent ability repertoire. |
-| [Runes](systems/runes.md) | Finite permanent stat progression, a fixed lifetime ceiling and history without a new rank. |
-| [Adventurer Abilities](systems/adventurer-abilities.md) | Permanently useful historical raid options, one equipped entry and distinct Normal/Veteran unlocks. |
+| [Equipment and Progression](systems/equipment-and-progression.md) | Stable entry equipment, completion-based Runes, scoped bonuses and raid-only talent choices. |
+| [Runes](systems/runes.md) | Completion milestones and targeted unlocks, without statistical accumulation or another rank. |
+| [Adventurer Abilities](systems/adventurer-abilities.md) | Final-boss talent collection: one slot, Normal only in Normal raids and Veteran only in Veteran raids. |
 | [Recognition and Competitive Standing](08-prestige-ranks.md) | Adventurer, Explorer, Honor, Gladiator, Challenger and city-service boundaries. |
 | [Races](identity/races.md) | Ten individual race dossiers, original alternatives, neutral origins and visible armor fitting. |
 | [Classes](identity/classes.md) | Eighteen individual class dossiers, 54 tree specifications and a role/equipment matrix. |
@@ -50,6 +50,9 @@ Choose an activity or character topic. Pages distinguish selected directions, re
 | [Identity Implementation Standard](identity/implementation-standard.md) | State/ability handoff, talent allocation, hybrid review and evidence gates. |
 | [Archetype and Mechanic Coverage](identity/mechanic-coverage.md) | Latest nine studies, four earlier studies and their explicit class/tree homes. |
 | [Rewards and Acquisition](11-rewards-and-acquisition.md) | Reward matrix, ownership, lockouts, alternatives and economic faucets. |
+
+| [Raid Entry Preset](systems/raid-entry-preset.md) | Finite post-60 preparation; lasting default equipment budget for new seasons. |
+| [Group Tools and Class Identity](identity/group-tools-and-class-identity.md) | Several valid encounter solutions without a mandatory specific class. |
 
 ## Class Dossiers
 
@@ -99,7 +102,8 @@ Choose an activity or character topic. Pages distinguish selected directions, re
 | [Glossary and Decisions](13-glossary-and-decisions.md) | Terms, selected boundaries, prototypes and open questions. |
 | [Technical Framework](04-technical-framework.md) | Conceptual data, validation, transitions and acceptance cases. |
 | [Roadmap and Evaluation](05-roadmap-and-evaluation.md) | Pilot scope, dependencies, measurements and unresolved tuning. |
-| [Design Readiness Review](proposals/design-readiness-review.md) | Critical gaps, 51/31 talent reference, support trade-off and paid Artificer recovery. |
+| [Design Readiness Review](proposals/design-readiness-review.md) | Historical readiness snapshot; current Rune, raid-talent and switching decisions are superseded by v0.11. |
+| [Current Twelve-Point Review](proposals/current-contract-clarification.md) | Selected v0.11 rules, superseded assumptions and evidence gates. |
 | [Reports Under Review](proposals/incoming-reports-review.md) | Selected report directions, revised acquisition promises and remaining prototype questions. |
 | [Contributing](../CONTRIBUTING.md) | How to propose and review a change. |
 | [Change History](../CHANGELOG.md) | Recorded design and documentation changes. |
@@ -110,6 +114,6 @@ Choose an activity or character topic. Pages distinguish selected directions, re
 
 ## Design Status
 
-Fixed-ceiling Runes, the globally useful one-slot repertoire and separate ability acquisition for each raid difficulty are selected directions. The preferred Warfare prototype combines ordinary faction combat and local opt-in city rivalry. Base city-reward objects remain owned; live city variants and a departure reputation penalty are the selected conditional reward direction. Exact amounts, support/capture transitions and competitive profiles remain open.
+Runes now record completion-based unlocks without accumulated statistics. Final-boss talents use one slot active only in matching-difficulty raids. A finite post-60 route earns the stable default raid-entry preset. Bivalent Warfare retains city variants and offers either preserved standing with territorial quarantine or 50% departure-standing loss without a new quarantine. Support trades speed for safety/control with numbers open. See the current twelve-point review for selected decisions and remaining tests.
 
 Changes merged into `main` automatically update the wiki, including its topic categories.

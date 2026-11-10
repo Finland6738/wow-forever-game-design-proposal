@@ -30,7 +30,7 @@ This sacrifices some unrestricted equipment experimentation in exchange for a mo
 
 Specify weapon damage, armor, primary/secondary stats, caps, procs, set effects, enchants, consumables, profession benefits and pets. Disable all contextual raid bonuses and external territorial buffs. Either normalize relevant permanent unlocks to the profile or make their equivalent available within the mode.
 
-The fixed [Rune allowance](../systems/runes.md) and permanent [Adventurer Repertoire](../systems/adventurer-abilities.md) must be covered explicitly. Their ordinary-gameplay ownership does not automatically enable them outside the approved competitive profile. Repertoire integration is still under review; no new earned option may silently bypass normalization.
+[Rune milestones](../systems/runes.md) grant no numerical power. Final-boss [raid talents](../systems/adventurer-abilities.md) are inactive in Challenge, not conditionally inherited from the player's raid library. Ordinary class talents, equipment and effects still use the approved profile.
 
 If a previously unknown effect appears, use an approved replacement or prevent a ranked start with a clear explanation. Do not silently leave an unreviewed item at full power.
 
@@ -61,3 +61,7 @@ Start with a few dungeons that support readable competitive routes, distinct tac
 Open questions include medal thresholds, death penalties, equipment changes during a run, talent locking, profession consumables, reward duplication and ruleset archival cadence. Favor an understandable starting policy and publish it before ranked runs begin.
 
 Measure medal completion, composition diversity, ranked abandonment, restart friction, exploit frequency and whether players feel compelled to farm unrelated content before participating.
+
+## Group-led start and historical reference
+
+The selected experience is to form a five-player group, travel to the dungeon, confirm readiness/start, reset freely between attempts and inspect medals, personal bests and leaderboards. The author names Pandaria Challenge Modes as the reference. Blizzard describes the historical group/console/timer/medal/leaderboard structure in its [official overview](https://news.blizzard.com/en-gb/article/24221824/scenarios-challenge-modes-in-mists-of-pandaria-classic). The proposal keeps its own keyless, free-retry and full-effect normalization rules; it does not import historical gear rewards or assume every original reset detail is reproduced.

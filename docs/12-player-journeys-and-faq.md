@@ -4,7 +4,7 @@
 
 ## A new level-60 character
 
-The character completes a finite preparation path through accessible quests, dungeons or professions and obtains an adequate permanent equipment profile. They can then join the current raid without clearing every earlier update. This does not guarantee a clear: encounter learning, group roles and coordination still matter.
+The character completes an accessible, finite post-60 preparation route and earns a role-appropriate [raid-entry preset](systems/raid-entry-preset.md), retained as the default for later raid seasons at the same budget. Exact tasks and time remain open; quests, dungeons and professions are possible routes to evaluate. They can then join the current raid without clearing every earlier update. This does not guarantee a clear: encounter learning, group roles and coordination still matter.
 
 Alternative preparation sources are part of the contract. No particular World Boss, territorial victory, prestige tier or old raid item may be the only realistic route to entry-ready power.
 
@@ -20,7 +20,7 @@ They may also seek a useful [ability](systems/adventurer-abilities.md) from a pa
 
 The guild chooses Veteran and begins from the common permanent baseline. Normal bonuses do not apply. The guild earns its own Veteran contextual rewards and attempts the stated encounters until it succeeds or decides to change its approach.
 
-No Normal contextual currency or upgrade accelerates its Veteran equipment track. A desired Normal repertoire ability is different: it requires a Normal clear, because Veteran grants only its own ability. Collecting both is a deliberate collection goal rather than equipment-track independence.
+No Normal currency, upgrade or Normal reward talent is required or active in Veteran. A player collecting the Normal option for Normal play must clear Normal separately; Veteran teaches only its own option.
 
 ## A healer learning a Challenge dungeon
 
@@ -68,15 +68,23 @@ No. They record eligible accumulated activity. A high total can reflect time pla
 
 ## Can several ranks or bonuses combine into more permanent power?
 
-Recognition ranks have no combat or yield bonus. Runes are a separate finite numerical journey inside a fixed permanent allowance. Repertoire abilities offer one equipped choice; contextual equipment still follows scope/difficulty budgets. Their interactions require effective-power testing rather than assuming every source is a cosmetic rank.
+Recognition ranks have no combat or yield bonus. Runes record completions and targeted unlocks without numerical power. One Repertoire talent works only in matching-difficulty raids; contextual equipment follows its separate scope/budget. Tactical utility still needs interaction testing.
 
 ## Do Runes add another rank to maintain?
 
-No. Their record shows finite earned statistics and activity history. Adventurer, Explorer, Honor, Gladiator and Challenger keep their own distinct participation or competition roles.
+No. The Rune record shows completed milestones and declared unlocks, without numerical stat growth. Adventurer, Explorer, Honor, Gladiator and Challenger retain their distinct roles.
 
 ## Can I switch a raid ability between encounters?
 
 Yes, outside combat under the encounter, cooldown and persistent-effect rules. Free switching through a brief preparation action is the recommended prototype; final cost and location rules remain open. No switch may stack several nominally exclusive abilities or reset their cooldowns.
+
+## Where do collected raid talents work?
+
+Normal talents work only in Normal raids and Veteran talents only in Veteran raids, including other historical/current raids of the same difficulty. They are inactive in open world, every dungeon, PvP, battlegrounds and Arenas. This restriction concerns reward talents, not the class's ordinary abilities.
+
+## Can I change Warfare city to join friends?
+
+Yes. Guilds remain trans-city and ordinary group play is immediate. The NPC offers two service-change routes: keep standing and accept territorial quarantine, or lose 50% of the departed city's current Warfare standing without a new quarantine. Turning the city combat flag off is a separate operation with neither penalty. Quarantine length is not fixed; [the detailed policy](activities/warfare-rewards.md) explains permitted combat and restricted claims.
 
 ## Are all concept names and numerical values final?
 

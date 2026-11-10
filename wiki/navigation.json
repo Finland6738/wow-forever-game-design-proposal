@@ -28,27 +28,29 @@
       "collapsed": true,
       "items": [
         {"source": "docs/activities/pvp.md", "page": "PvP", "label": "PvP Overview", "description": "Find PvP topics and their shared participation and reward boundaries."},
-        {"source": "docs/activities/arenas.md", "page": "Arenas", "label": "Arenas and Gladiator", "description": "The arena competition domain, with format and competitive policies still to define."},
+        {"source": "docs/activities/arenas.md", "page": "Arenas", "label": "Arenas and Gladiator", "description": "Five strict solo/premade queue profiles, hidden MMR, visible standing and open tuning."},
         {"source": "docs/activities/open-world-pvp.md", "page": "Open-World-PvP", "label": "Open-World PvP", "description": "Regional objectives, consent, temporary benefits and faction imbalance."},
         {"source": "docs/activities/faction-warfare.md", "page": "Faction-Warfare", "label": "Faction Warfare", "description": "Guard-and-boss capture with ordinary faction conflict and voluntary local city rivalry."},
         {"source": "docs/activities/warfare-models.md", "page": "Warfare-Models", "label": "Warfare Models and Rules", "description": "Compare faction, city and bivalent designs; targeting, ownership and prototype edge cases."},
-        {"source": "docs/activities/warfare-rewards.md", "page": "Warfare-Rewards", "label": "Warfare Reputation and Cosmetics", "description": "Permanent base objects, live city treatments, allegiance changes and reputation penalties."}
+        {"source": "docs/activities/warfare-rewards.md", "page": "Warfare-Rewards", "label": "Warfare Reputation and Cosmetics", "description": "Permanent base objects, service-qualified city variants and two player-selected city-switch routes."}
       ]
     },
     {
       "title": "Character and Progression",
       "collapsed": true,
       "items": [
-        {"source": "docs/systems/equipment-and-progression.md", "page": "Equipment-and-Progression", "label": "Equipment and Progression", "description": "Equipment, fixed Rune growth, scoped raid bonuses and the permanent ability repertoire."},
-        {"source": "docs/systems/runes.md", "page": "Runes", "label": "Runes", "description": "Finite permanent stat progression, a fixed lifetime ceiling and history without a new rank."},
-        {"source": "docs/systems/adventurer-abilities.md", "page": "Adventurer-Abilities", "label": "Adventurer Abilities", "description": "Permanently useful historical raid options, one equipped entry and distinct Normal/Veteran unlocks."},
+        {"source": "docs/systems/equipment-and-progression.md", "page": "Equipment-and-Progression", "label": "Equipment and Progression", "description": "Stable entry equipment, completion-based Runes, scoped bonuses and raid-only talent choices."},
+        {"source": "docs/systems/runes.md", "page": "Runes", "label": "Runes", "description": "Completion milestones and targeted unlocks, without statistical accumulation or another rank."},
+        {"source": "docs/systems/adventurer-abilities.md", "page": "Adventurer-Abilities", "label": "Adventurer Abilities", "description": "Final-boss talent collection: one slot, Normal only in Normal raids and Veteran only in Veteran raids."},
         {"source": "docs/08-prestige-ranks.md", "page": "Prestige-Ranks", "label": "Recognition and Competitive Standing", "description": "Adventurer, Explorer, Honor, Gladiator, Challenger and city-service boundaries."},
         {"source": "docs/identity/races.md", "page": "Races", "label": "Races", "description": "Ten individual race dossiers, historical references, neutral origins and armor/animation evaluation."},
         {"source": "docs/identity/classes.md", "page": "Classes", "label": "Classes", "description": "Eighteen individual class dossiers and 54 talent-tree specifications; roles, loops and evaluation."},
         {"source": "docs/identity/class-roles-and-specializations.md", "page": "Class-Roles", "label": "Class Roles and Specializations", "description": "Pure support, traditional/support five-player groups and design-review decisions."},
         {"source": "docs/11-rewards-and-acquisition.md", "page": "Rewards-and-Acquisition", "label": "Rewards and Acquisition", "description": "Reward matrix, ownership, lockouts, alternatives and economic faucets."},
         {"source": "docs/identity/implementation-standard.md", "page": "Identity-Implementation-Standard", "label": "Identity Implementation Standard", "description": "Ability/state handoff, talent allocation, hybrid review, race asset proof and readiness evidence."},
-        {"source": "docs/identity/mechanic-coverage.md", "page": "Archetype-And-Mechanic-Coverage", "label": "Archetype and Mechanic Coverage", "description": "Trace thirteen mechanical studies and the supplied archetypes into explicit class trees."}
+        {"source": "docs/identity/mechanic-coverage.md", "page": "Archetype-And-Mechanic-Coverage", "label": "Archetype and Mechanic Coverage", "description": "Trace thirteen mechanical studies and the supplied archetypes into explicit class trees."},
+        {"source": "docs/systems/raid-entry-preset.md", "page": "Raid-Entry-Preset", "label": "Raid Entry Preset", "description": "Finite post-60 preparation and a retained default entry budget across raid seasons."},
+        {"source": "docs/identity/group-tools-and-class-identity.md", "page": "Group-Tools-And-Class-Identity", "label": "Group Tools and Class Identity", "description": "Multiple valid encounter solutions while preserving distinct class signatures."}
       ]
     },
     {
@@ -101,7 +103,7 @@
         {"source": "docs/13-glossary-and-decisions.md", "page": "Glossary-And-Decisions", "label": "Glossary and Decisions", "description": "Terms, selected boundaries, prototypes and open questions."},
         {"source": "docs/04-technical-framework.md", "page": "Technical-Framework", "label": "Technical Framework", "description": "Conceptual data, validation, transitions and acceptance cases."},
         {"source": "docs/05-roadmap-and-evaluation.md", "page": "Roadmap-And-Evaluation", "label": "Roadmap and Evaluation", "description": "Pilot scope, dependencies, measurements and unresolved tuning."},
-        {"source": "docs/proposals/design-readiness-review.md", "page": "Design-Readiness-Review", "label": "Design Readiness Review", "description": "Critical gaps, working talent budget, support trade-off and paid Artificer recovery."},
+        {"source": "docs/proposals/design-readiness-review.md", "page": "Design-Readiness-Review", "label": "Design Readiness Review", "description": "Historical readiness snapshot; current Rune, raid-talent and switching decisions are superseded by v0.11."},
         {"source": "docs/proposals/incoming-reports-review.md", "page": "Reports-Under-Review", "label": "Reports Under Review", "description": "Selected report directions, revised acquisition promises and remaining prototype questions."},
         {"source": "docs/README.md", "page": "Documentation-Index", "label": "Topic Directory", "description": "The repository's subject-based documentation index."},
         {"source": "CONTRIBUTING.md", "page": "Contributing", "label": "Contributing", "description": "How to propose and review a change."},
@@ -109,7 +111,8 @@
         {"source": "docs/references.md", "page": "References", "label": "Sources and Boundaries", "description": "Verified context and the distinction between facts and suggestions."},
         {"source": "docs/14-wiki-maintenance.md", "page": "Wiki-Maintenance", "label": "Wiki Maintenance", "description": "Automatic publication, navigation and recovery."},
         {"source": "assets/README.md", "page": "Asset-Notes", "label": "Asset Notes", "description": "Editable diagrams, cover provenance and source assets."},
-        {"source": "docs/forum-summary.md", "page": "Forum-Summary", "label": "Forum Summary Draft", "description": "A short unpublished introduction linking to the proposal."}
+        {"source": "docs/forum-summary.md", "page": "Forum-Summary", "label": "Forum Summary Draft", "description": "A short unpublished introduction linking to the proposal."},
+        {"source": "docs/proposals/current-contract-clarification.md", "page": "Current-Contract-Review", "label": "Current Twelve-Point Review", "description": "Selected v0.11 decisions, superseded assumptions and remaining evidence gates."}
       ]
     }
   ]

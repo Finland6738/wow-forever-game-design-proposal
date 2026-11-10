@@ -4,6 +4,8 @@
 
 Review date: **10 November 2026**. This review records remaining work and three newly selected working constraints. It does not adopt every proposed class kit or assert engine validation.
 
+> **Historical review snapshot:** the v0.11 clarification supersedes finite-stat Runes, globally active raid rewards and the one-route city-change assumption. Use the [current clarification](current-contract-clarification.md) and canonical system pages. Remaining evidence gaps still apply.
+
 ## Assessment
 
 Topic coverage is broad: eighteen class dossiers, 54 tree outlines, ten established race dossiers and the main endgame systems have reading paths. Implementation detail remains uneven. Most tree outlines define three baseline actions and talent directions rather than a complete playable toolkit and allocated talent grid.

@@ -186,3 +186,7 @@ Test a control-immune boss, a moving encounter and a destroyed relay. The suppor
 Ordinary devices from all three trees share the family deployment cap and construction resource. A mixed build cannot gain three independent deployment rosters, three repair budgets or every full output role. The extra autonomous tank capstone remains additional and temporary as selected; its deep-tree access, cooldown and power must be evaluated in the actual talent allocation.
 
 Before full implementation, specify node ranks, prerequisites, unlock depths, resource/Heat values, target caps, placement range, repair throughput, external-prevention eligibility and the encounter threat-transition rules. Validate representative hybrid builds under the approved level-60 point budget rather than imposing an unannounced modern specialization lock.
+
+## Shared progression boundary
+
+These are ordinary class talent-tree abilities, usable according to their own combat rules. The separate final-boss Adventurer Repertoire reward slot works only in matching-difficulty raids (Normal to Normal, Veteran to Veteran), never in dungeons, open world or PvP. Rune milestone records grant no cumulative combat statistics. Apply the [shared implementation standard](../implementation-standard.md) to this kit and its hybrids.

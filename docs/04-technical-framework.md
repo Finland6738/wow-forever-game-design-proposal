@@ -4,7 +4,7 @@
 
 > This is a behavior specification and an illustrative data model. It is not production code, an API contract, a database migration, or a description of Blizzard's internal systems. Exact budgets, performance costs and engine integration need investigation.
 
-![Server-owned policies validate equipment, finite Runes, contextual scope and one repertoire entry before computing the effective loadout.](../assets/diagrams/power-validation.svg)
+![Server-owned policies validate equipment, milestone Rune unlocks, contextual scope and one repertoire entry before computing the effective loadout.](../assets/diagrams/power-validation.svg)
 
 ## Invariants
 
@@ -12,14 +12,14 @@
 2. An additional contextual equipment effect is eligible only for its approved content group, instance and difficulty.
 3. Normal and Veteran do not exchange contextual equipment power or its currency; permanent repertoire abilities are a separate channel with one unlock source per difficulty.
 4. An update's equipment preparation cannot require a sequential previous-tier climb and must offer self-contained contextual routes within each sibling raid.
-5. Challenge Modes use an explicit versioned profile, including Rune/repertoire eligibility, with contextual raid-equipment and territorial effects inactive.
+5. Challenge Modes use explicit versioned equipment profiles. Contextual raid-equipment effects, territorial effects and reward Repertoire talents are inactive; Rune records add no statistics.
 6. Participation and effect eligibility are authoritative server decisions.
 7. Transitioning contexts cannot preserve otherwise ineligible effects or produce duplicate progression/reward claims.
 8. Adventurer, Explorer and civic recognition grant no combat stats, economic throughput, equipment budget or activity-access advantage.
 9. A procedural expedition commits its seed, finite depth and generator version; floor scaling cannot shrink during an active encounter.
 10. Settlement transitions, reconstruction deliveries and prestige claims are durable, authoritative and deduplicated.
-11. Rune statistics stay inside a fixed lifetime allowance; new updates do not increase or bypass it, and the Rune record is not a rank.
-12. Exactly one eligible repertoire option is equipped; archived effects, cooldowns or summons cannot preserve several options through a swap.
+11. Rune records grant completion-based unlocks and history, never cast-count or cumulative numerical power. No seasonal statistical allowance exists.
+12. Exactly one eligible raid Repertoire option is equipped: Normal only in Normal raids, Veteran only in Veteran raids. No effect, cooldown or summon may bypass this scope or stack entries through a swap.
 
 Invariants 1 and 4 include balance and acquisition claims. A validator can enforce identifiers and caps, but cannot prove that an item interaction or a social gearing expectation is acceptable. Those require analysis and playtesting.
 
@@ -37,8 +37,8 @@ Invariants 1 and 4 include balance and acquisition claims. A validator can enfor
 | Settlement event coordinator | Owns invasion state, reconstruction stages, NPC-role restoration and canonical event identity |
 | Expedition generator | Creates and validates seeded layouts, encounter selections, finite depth and floor scaling profiles |
 | Prestige ledger | Separates activity tracks, validates role-aware credit and applies duplicate/repeat policies without power rewards |
-| Rune ledger | Grants validated finite stat progress inside fixed per-profile/aggregate limits and preserves activity history |
-| Repertoire ownership/resolver | Records permanent raid ability unlocks, validates one selected entry and enforces swap/competitive policies |
+| Rune ledger | Records validated completion milestones, declared unlocks and deduplicated history; no statistical accumulator |
+| Repertoire ownership/resolver | Records final-boss unlocks and validates one selected entry against raid status, matching difficulty, encounter state and cooldown/effect integrity |
 | Warfare relation and service ledger | Separates city enrollment, service reputation, objective ownership, Warfare eligibility and ordinary PvP state |
 
 These are logical responsibilities. They need not become separate services, tables or new network boundaries.
@@ -180,13 +180,15 @@ Role-aware eligibility uses a participation window and approved evidence, includ
 
 Explorer claims use discovery, quest, event or project objective IDs. Repeated dialogue requests, location-boundary crossings and already completed construction do not create fresh milestones. Store character-level cumulative progress separately from deduplicated account cosmetic entitlements. Any account summary is presentation, not automatic point pooling.
 
-## Fixed Rune allowances and permanent ability state
+## Milestone ownership, entry presets and raid-only talent state
 
-Rune objectives grant against a fixed lifetime budget with explicit rounding and derived-stat behavior. Per-objective progress cannot create a new uncapped stat pool. Changing content versions, completing a new update or repeating an entitlement does not increase the allowance.
+Rune objectives record authored completion milestones and declared unlocks. Repeating casts, prolonging boss phases, killing unbounded adds or retrying the completion message grants no extra stat value or duplicate unlock. A new update cannot create another numerical allowance. Ordinary class resources such as Runemaster sigils are separate from this progression record.
 
-Repertoire entries store source raid, difficulty, class/build compatibility, ownership, selected state and persistent cooldown/effect identity. A Normal completion grants only the Normal entry; Veteran grants only its own. Validate eligibility once and make retries idempotent. The global use policy does not re-enable scoped equipment bonuses.
+Persist the raid-entry preset entitlement and approved role/profile version independently of an update's local gear. A new raid season does not increase its permanent budget or require the character to earn the same entry set again. Representation and acquisition details remain open; see the [preset contract](systems/raid-entry-preset.md).
 
-Out-of-combat selection still checks encounter state, outstanding effects, summons, delayed damage and resource changes. Keep or resolve relevant cooldowns across deselection. Ranked Challenge/Arena profiles explicitly approve their Rune/repertoire treatment; ordinary ownership alone is insufficient to bypass that profile.
+Repertoire entries record source raid, source difficulty, class/build compatibility, ownership, selected state and persistent cooldown/effect identity. The final boss teaches only its own difficulty's reviewed option. Resolve activation only when the destination is a raid and its difficulty matches the entry: Normal to Normal, Veteran to Veteran. Other raids of the same difficulty can use the option; open world, all dungeons, PvP, battlegrounds and Arenas cannot. Ordinary class talents and abilities are unaffected.
+
+Out-of-combat selection still checks the encounter, outstanding effects, summons, delayed damage and resource changes. Preserve relevant cooldowns across deselection. Clear or revalidate derived effects on every scope transition; leaving a raid cannot carry its reward talent into a Challenge run or the world.
 
 ## City Warfare and ordinary combat permissions
 
@@ -194,7 +196,13 @@ Model city standard, major faction, Warfare flag, ordinary PvP state, area polic
 
 An ordinary legal opposing-faction attack is not suppressed because someone has a Warfare pledge. Conversely, a Normal-ruleset Warfare flag must not silently become universal ordinary-PvP consent. Any city-versus-city relation among allied factions is restricted to the Warfare area with both flags active, if the city-rivalry variant is selected.
 
-The preferred prototype combines ordinary faction combat and the local opt-in city relation. Final support inheritance, capture ownership resolution and the city-switch penalty amount remain open. Base cosmetic ownership persists; city variants require eligible current service. Objective guards and boss state are dedicated event data; ordinary quest/service NPCs cannot be used as conquest triggers.
+The preferred prototype combines ordinary faction combat and the local opt-in city relation. A service change offers preserved city standing with territorial quarantine OR a 50% loss of the departed city's current Warfare standing without a new quarantine. Quarantine duration and mixed-standard capture resolution remain open. A city flag toggle alone causes neither penalty. Base cosmetics persist; city variants require eligible current service. See the [switch transaction](activities/warfare-rewards.md).
+
+## Capture appearance and competitive profiles
+
+Commit one objective ownership result and appearance version for a capture occurrence. The major faction and city determine its banner, architectural treatment, objective guards and boss presentation; neutral objectives use the regional NPC faction. Appearance changes cannot replay a boss kill, reset a live fight for profit or change the approved encounter budget. Defer conflicting presentation changes until the safe transition state. Mixed-city claims remain an explicit pilot decision.
+
+Arena entry records queue profile and premade partition before matching: solo 1v1, premade 2v2, assembled 1+1 versus 1+1, premade 5v5 or 2+3 versus 2+3. Do not silently merge these queues. Keep MMR, visible standing and profile version distinct. Exact rating and population policies remain open; the [Arena specification](activities/arenas.md) is authoritative for the selected topology.
 
 ## Playable identities, construct tanks and support
 
@@ -226,7 +234,7 @@ These are proposed implementation acceptance cases, not tests executed against a
 | An alt or duplicate item attempts to funnel local power | Ownership and cap rules prevent unauthorized transfer |
 | A World Boss reward is acquired in multiple event copies | Event/reward identity prevents duplicate claims |
 | A player skips Updates A and B and prepares for C | Accessible baseline route exists with no required earlier raid item |
-| A Veteran-only guild prepares for progression | No Normal contextual equipment/currency is required; a desired Normal repertoire ability still needs its own completion |
+| A Veteran-only guild prepares for progression | Starts with the retained raid-entry budget; no Normal gear/currency or Normal raid talent is required or active in Veteran |
 | One sibling raid is skipped | The other retains a self-contained progression path |
 | A contextual effect is inactive in the UI | The destination and reason are understandable without internal IDs |
 | A settlement defense succeeds | Village stays intact; valid contributions receive the intended event recognition |
@@ -262,18 +270,18 @@ These are proposed implementation acceptance cases, not tests executed against a
 | An Artificer capstone expires | Extra autonomous unit ends predictably, preserving cooldown state and an explicit threat transition |
 | A Summoner follower is inside enemy AoE | No hidden HP/death is simulated; its selected no-HP policy remains true |
 | A Summoner consumes a committed group | The same unit cannot retain its full future payload and also grant a free full burst/refund |
-| A new update adds Rune objectives | Existing lifetime limits remain unchanged; objectives can offer equivalent acquisition paths |
-| A character reaches the Rune ceiling | Further activity cannot grant hidden stat overflow or a new Rune rank |
+| A new update adds Rune objectives | Declared completion unlocks and history only; no new stat allowance or Rune rank |
+| A character repeats a Rune objective or spams an ability | No statistical progression, duplicate entitlement or reward for prolonging an encounter |
 | A character clears Veteran | Receives the eligible Veteran repertoire option, without automatically learning Normal |
-| An old raid ability is learned | Can be selected for ordinary external play, while only one repertoire entry is equipped |
+| An old final-boss raid talent is learned | May be selected in another raid of matching difficulty; exactly one entry equipped, no external activation |
 | A repertoire option is replaced outside personal combat during an active boss | Encounter-state restrictions still prevent a mid-encounter swap exploit |
 | A discarded ability leaves a summon, buff or cooldown | The approved swap policy prevents stacked active benefits and cooldown resets |
-| A repertoire option enters ranked competition | The published mode profile decides eligibility; global ownership cannot silently bypass normalization |
+| A raid Repertoire option enters a dungeon, open world or PvP | Inactive, including Challenge, battlegrounds and every Arena profile; base class kit remains available |
 | A Warfare player meets a legal ordinary PvP opponent | The Warfare state grants no ordinary-PvP immunity |
 | An allied character has no active city flag | City rivalry alone does not make them a target |
 | Two allied-major-faction rivals leave the Warfare area | Their city flags create no allied-faction hostility outside it |
 | A character toggles city combat off through the NPC | This is distinct from changing service; active combat/claim commitments cannot vanish instantly |
-| A character changes city service | Apply the selected departure loss, preserve base objects and reevaluate live city treatments |
+| A character changes city service | Atomically apply the chosen standing-loss or quarantine route, preserve base ownership and reevaluate city treatments; publish the resulting restrictions |
 | A neutral supporter attempts to affect a city fight while immune | Require the appropriate participation or disallow the protected interaction under the published policy |
 
 ## Operational questions

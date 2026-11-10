@@ -66,3 +66,11 @@ For classes, compare representative baseline builds on a single boss, a control-
 For races, capture the same wardrobe on a baseline playable body and the candidate, document every hidden/adapted item, and test world interaction. Record actual defects rather than substituting cost adjectives for measurements.
 
 Publish the outcome, unresolved defects and the next decision. This makes a dossier a useful implementation handoff while keeping its evidence level honest.
+
+## Current progression, composition and silhouette gates
+
+The 51-point/31-point-capstone class-tree reference is separate from the one-slot final-boss raid Repertoire. Ordinary class abilities remain normal class tools. Reward talents activate only in matching-difficulty raids; no reward talent is active in open world, any dungeon or PvP. Rune milestones add choices/history, never accumulated stats or cast-count power. The retained raid-entry preset has one lasting permanent budget across new seasons.
+
+Support trades speed for control/safety; no 15–25% numerical target is adopted. Validate both five-player compositions against the same encounters. Group challenges require multiple valid tool combinations without one mandatory specific class; identities need not become identical.
+
+Race equipment keeps ordinary slots and item effects. Wrists, cloaks and gloves may be hidden or visibly adapted; footwear needs anatomy-specific review. Head and weapon presentation must preserve recognizable gear and combat readability. Test silhouette, animations, effects and nameplate information together: gear alone cannot guarantee class recognition. These selected exceptions qualify earlier full-wardrobe ambitions; no asset audit has yet demonstrated them.

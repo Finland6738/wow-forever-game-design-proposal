@@ -22,9 +22,9 @@ This page collects cross-system policies. Exact drop rates, prices, cooldowns an
 | Settlement defense/recovery | No exclusive baseline requirement | None | Event supplies fund restoration | Explorer civic commendations |
 | Territorial PvP | No compulsory PvE equipment route | Regional activity effects only where permitted | Local rewards with PvE alternatives for needed resources | Honor/PvP recognition |
 | Prestige ranks | None from rank itself | None | No yield or throughput bonus from rank | Titles, badges and cosmetics |
-| Rune milestones | Fixed-lifetime stat allowance inside the permanent envelope | No new seasonal allowance | No yield bonus from a Rune rank | Activity history without a new rank ladder |
-| Raid ability unlock | A permanently learned repertoire option, not a gear tier | Separate from scoped equipment bonuses | No paid/consumable entry requirement introduced | Useful source-exclusive collection and one equipped choice |
-| City Warfare service | No stronger permanent equipment | No raid or Rune-cap advantage | Reward ownership/switching policy under discussion | City-themed banners, cloaks, mounts and service recognition |
+| Rune milestones | Declared completion unlocks; no permanent stat reward | Reviewed tactical choices obey their own scope | No yield or Rune-rank bonus | Milestone and unlock history |
+| Raid ability unlock | Permanently owned final-boss talent, not a gear tier | One entry: Normal only in Normal raids, Veteran only in Veteran raids | No consumable entry requirement introduced | Source-specific historical collection |
+| City Warfare service | No stronger permanent equipment | No raid or Rune statistical advantage | No exclusive required PvE material | Permanent base objects and service-qualified city variants |
 
 An approved recipe is not automatically harmless: its output and acquisition effort need review. An optional material becomes a practical obligation if it is the only realistic source of a superior combat effect.
 
@@ -36,9 +36,11 @@ The [Adventurer Repertoire](systems/adventurer-abilities.md) is an explicit diff
 
 Equivalence need not erase visual identity. A settlement reward can have a unique appearance while an accessible crafted item offers comparable combat function. Specialization remains valuable when it creates choices within the budget rather than access to a stronger budget.
 
+The finite [raid-entry preparation](systems/raid-entry-preset.md) earns a role-compatible preset retained for each new season, at the same permanent budget. Historical talents offer further raid choices without replacing that accessible entry route.
+
 ## Raid acquisition and lockouts
 
-Normal and Veteran have distinct contextual equipment tracks. Their currency, item upgrades and scoped effects do not transfer. Permanent repertoire abilities can be used across ordinary content, but **each difficulty teaches only its own option**. A player collecting both completes both; Veteran does not grant Normal automatically.
+Normal and Veteran have distinct contextual equipment tracks. Currency, item upgrades, scoped effects and reward-talent activation do not transfer between difficulties. **Each final boss teaches only its own option**. A player collecting both completes both; Veteran does not grant Normal. Each collected option works in other raids of matching difficulty and nowhere else.
 
 Within an update, sibling raids share a contextual budget. Each needs a self-contained acquisition route; exclusive required unlocks and additive per-raid caps would recreate a prerequisite ladder. Their exact loot cadence is an open pilot decision, not a finalized universal weekly cap.
 
@@ -65,7 +67,7 @@ Event reconstruction supplies can be local-purpose resources rather than rare tr
 | Settlement recognition | Per participant within one canonical event allowance | Defense and recovery do not create two unrestricted payouts |
 | Expedition floor reward | Character participation in that expedition/floor | No repeated claims, inherited earlier floors or seed rerolls |
 | Challenge record | Validated run identity and ruleset | Reconnects and duplicate completion requests cannot generate a new record |
-| Rune progress | Character-owned, finite lifetime allowance | No seasonal cap increase, repeat grant or transfer from alts |
+| Rune milestone | Character-owned completion and declared unlock | No repeated grant, use-count reward or alt transfer of restricted ownership |
 | Repertoire ability | Permanent eligible character unlock from its source difficulty | One equipped entry; no automatic cross-difficulty unlock |
 
 Persist authoritative entitlements before confirming completion. If recovery requires a retry, return the original result rather than reissuing the reward. Technical failures should not create a choice between lost legitimate progress and duplicate grants.
@@ -74,6 +76,6 @@ Persist authoritative entitlements before confirming completion. If recovery req
 
 Cosmetic does not mean automatic. A title, medal or appearance can represent a demanding objective without granting permanent combat power. Collections also need clear criteria and understandable progress; extreme rarity alone does not establish meaningful prestige.
 
-The city-service reward direction keeps base objects permanently owned, makes city treatments depend on eligible current service and loses some departed-city reputation when changing service. The [full policy](activities/warfare-rewards.md) distinguishes those changes from toggling combat; the penalty amount and thresholds remain open.
+City-service base objects remain owned while city treatments require eligible current service. At a service change, the player chooses preserved standing with territorial quarantine OR loss of 50% of the departed city's current standing without a new quarantine. Duration, credit during quarantine and further claim safeguards remain open. Toggling combat causes neither penalty; see the [full policy](activities/warfare-rewards.md).
 
 When correcting an unintended powerful effect, preserve ownership and collections where possible and communicate the functional change. A permanent budget can require balance corrections without making each content update a planned gear replacement cycle.

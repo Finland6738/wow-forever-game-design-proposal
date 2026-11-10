@@ -1,70 +1,57 @@
 # Adventurer Abilities
 
-[← Raids](../01-progression-and-raids.md) · [Equipment and Progression](equipment-and-progression.md) · [Runes](runes.md)
+[← Raids](../01-progression-and-raids.md) · [Runes](runes.md) · [Raid entry preset](raid-entry-preset.md)
 
-![Raid options remain permanently collected, but exactly one active or passive entry is equipped with explicit swap and competitive rules.](../../assets/diagrams/adventurer-repertoire.svg)
+![Final-boss clears teach permanently owned raid-only options; one matching-difficulty option can be selected outside combat.](../../assets/diagrams/adventurer-repertoire.svg)
 
 ## Selected direction
 
-Raid rewards can include **permanently learned combat abilities usable beyond their source raid**. Players collect those options in an Adventurer Repertoire and equip **one option at a time**. The choice may be an active ability or a passive modifier, never one of each simultaneously.
+Completing a raid's final boss teaches its reviewed class/build-compatible **raid talent**. The character keeps the unlock and can select **one active ability or passive option** in the Adventurer Repertoire. This is a separate raid-choice slot, not extra points in the ordinary 51-point class talent allocation.
 
-The purpose is to give older raids lasting gameplay rewards. A player may return months or years later for a useful or desirable build option, not only an appearance. That is an intentional change from the earlier proposal that all functionally important old-raid rewards should have equivalent non-raid sources.
-
-## The revised access promise
-
-New raids do not require a sequential climb through every previous raid's item levels or contextual equipment. An accessible permanent set still provides direct entry. That does **not** promise that a new character immediately owns the same ability library or optimized loadouts as a long-term raider.
-
-| Question | Selected interpretation |
-| --- | --- |
-| Must a player gear through every old tier before entering the new raid? | No sequential equipment prerequisite |
-| Can a useful old ability motivate a specific old-raid visit? | Yes; that is an intended reward |
-| Is every learned ability active simultaneously? | No; one repertoire slot |
-| Must every historical ability be granted through a current shortcut? | No automatic equivalence promise |
-| Can collecting more options improve answers to different encounters? | Yes; breadth has practical value and requires balance review |
-| Should a future boss demand one exclusive historical ability as its only solution? | Avoid this hard entry/completion gate; distinguish optimization from an unsolvable missing prerequisite |
-
-The design accepts historical acquisition goals and possible optimization pressure. It should not claim that one slot makes all old-raid farming optional in practice or guarantees equal performance for every repertoire.
+**These unlocked options work only inside matching-difficulty raids.** Base class spells and ordinary talent-tree abilities retain their normal use; this restriction concerns the additional final-boss reward slot.
 
 ## Working acquisition model
 
-The report's deterministic final-boss unlock is a useful starting prototype: eligible completion teaches a reviewed class/build-compatible option, without loot-roll competition. Exact options per raid, eligibility, specialization handling and late-join rules still need specification.
+| Source / destination | Normal raid | Veteran raid | World / dungeons / PvP |
+| --- | --- | --- | --- |
+| Normal final-boss option | Active if selected and eligible | Inactive | Inactive |
+| Veteran final-boss option | Inactive | Active if selected and eligible | Inactive |
 
-Normal and Veteran contextual equipment remain separate. Adventurer abilities are a **different permanent reward channel**, so the old blanket statement that no combat unlock can cross difficulties no longer applies to this channel.
+Each difficulty teaches only its own option. Veteran does not automatically grant Normal. The proposed acquisition is an eligible final-boss completion without a competitive loot roll for the ability; participation and late-join criteria still need specification.
 
-**Each difficulty teaches only its own ability.** A Veteran clear does not also grant the Normal option. Players who want both complete both difficulties. That is an intentional permanent collection incentive, separate from contextual equipment independence. A full production promise of two new abilities for every specialization and every update is not adopted.
+The difficulty boundary is different from the source-update scope of contextual equipment. Learned options can provide choices in other raids of the **same difficulty**, rather than expire when the source update ends. Their interaction budget must remain reviewed across that catalog.
+
+## The revised access promise
+
+The [entry preset](raid-entry-preset.md) provides the lasting starting equipment budget for each new raid season. A prepared character does not gear sequentially through previous raid tiers. A desired older talent can still motivate a visit to its original raid; the initial library need not already contain every optimized choice.
+
+The author accepts that a learned raid option can make encounters easier through utility, strategy and more choices. That does not justify an accumulating permanent damage statistic, a simply stronger copy of every earlier option or one exclusive historical ability as the only solution to a new encounter.
 
 ## One equipped option
 
-The server resolves one chosen eligible repertoire entry. Passive entries participate in the same slot restriction as active entries. Archive size does not increase the number of available slots.
-
-Each option needs a reviewed purpose, cost, interaction set and class identity. Average damage alone does not measure mobility, control, resource efficiency, threat, protection or encounter-specific advantages. Older entries remain available, but a new entry should not simply supersede every earlier choice.
-
-Existing contextual equipment bonuses retain their update/difficulty restrictions. A global repertoire option does not enable those bonuses outside their scope, and a snapshot or summon cannot carry several discarded options into combat.
+Resolve one eligible raid entry, active or passive. A growing collection does not add simultaneous slots. Review damage, healing, protection, control, mobility, resources and mechanic interactions together. A new utility option can improve a strategy without increasing the permanent entry preset.
 
 ## Switching outside combat
 
-Switching is allowed outside combat, with encounter-state checks. A boss encounter remains locked even if one participant temporarily drops combat. Existing cooldowns, persistent auras, pets, delayed effects and resource changes cannot be reset or stacked by switching.
+Select/change the raid slot only outside combat under encounter-state restrictions. Dropping personal combat during a live boss is insufficient. The recommended prototype remains a short free preparation action; exact input, time and locations are open.
 
-**Recommended prototype:** free switching through a short, interruptible preparation action at an appropriate safe checkpoint. A gold fee would weigh more heavily on players who experiment or help groups change roles; it is not needed to enforce cooldown integrity. Cost, duration, permitted locations and checkpoint behavior remain tuning decisions for discussion.
+Cooldowns, persistent auras, summons and delayed effects survive or terminate under an explicit policy. Swapping does not reset cooldowns or let several discarded entries contribute simultaneously. Leaving a raid or changing difficulty deactivates incompatible effects and prevents carried snapshots from bypassing scope.
 
-Do not require a scarce reagent or punish a failed attempt by consuming access to the repertoire. Equally, do not let rapid swaps become a mandatory sequence of pre-pull buffs from several nominally exclusive options.
+## World, dungeons and competition
 
-## Global use and competitive profiles
-
-Earned abilities are intended for use outside their source raid, including ordinary world and instanced play. Competitive Challenge/Arena policies need explicit handling; “global” must not accidentally bypass a published normalized profile.
-
-Challenge Dungeons keep their approved-profile rules while repertoire integration is reviewed. Possible policies include a common approved option library, mode-specific equivalents or a restricted selection. The exact treatment is open; ordinary permanent ownership does not itself settle ranked availability.
-
-PvP coefficients, control interactions and visibility require testing. A recognizable ability may need mode-specific limits, but the design should communicate them clearly rather than hide them behind the same tooltip.
-
-## Relationship with Masteries and prestige
-
-The repertoire is a combat-choice collection, not the Adventurer participation rank. It grants no new rank ladder or increased point multiplier. Owning a difficult raid ability can represent an earned accomplishment while its combat behavior remains subject to balance corrections.
-
-The separate Mastery-XP system in the report is not automatically adopted alongside this collection. Before adding another tree, currency or experience track, decide whether it provides a distinct player choice that the repertoire does not already cover.
+The raid talent is inactive in open world, Heroic dungeons, procedural dungeons, Challenge Modes, ordinary PvP, battlegrounds and Arenas. Ownership does not override those boundaries. Challenge/Arena equipment, ordinary talents and class/racial rules still need their own competitive profiles, but these raid rewards are excluded rather than enabled through an unreviewed exception.
 
 ## Sustaining old raids
 
-Keep unlocks available and explain their source. Support group organization and trustworthy reward eligibility so newcomers can deliberately seek an older option. Preserve the encounter experience rather than assuming stronger permanent stats will eventually let every class solo it.
+Keep sources and eligible rewards available. Support understandable group formation, role-aware completion credit and recognizable prestige. Monitor dominant options, acquisition pressure and the diversity of selections across raids. One slot and a raid boundary do not prove all choices equally valuable.
 
-Monitor old-raid group formation, dominant mandatory-feeling options, acquisition time, new/returning player pressure and the diversity of equipped abilities. This model intentionally gives old raids practical reward value; maintenance must keep that value from collapsing into one compulsory farming route.
+## Acceptance cases
+
+1. A Normal final-boss clear grants only its own Normal option; Veteran grants only its Veteran option.
+2. A Normal option cannot activate in Veteran, or vice versa.
+3. A selected raid option is inactive immediately outside the permitted raid context.
+4. Base class abilities still work normally outside raids.
+5. A swap during an active encounter is rejected even if the owner temporarily leaves personal combat.
+6. Swapping, zoning, summons and persistent effects cannot stack archived options or reset cooldowns.
+
+The previous globally usable repertoire direction is superseded. Rune milestones and raid talents are a completion/unlock journey, not a new Mastery-XP/stat system or another prestige ladder.

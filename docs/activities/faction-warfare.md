@@ -30,6 +30,14 @@ Only designated objective NPCs belong to this capture mechanism. Ordinary city g
 
 Guard and boss completion must be authoritative and tied to one capture occurrence. A final hit alone must not decide every participant's reward or allow a banner switch at the last second to steal the capture. The exact winning-claim policy remains to be specified.
 
+## Ownership and visual transformation
+
+After a validated conquest, the objective and its represented area display the controlling **major faction and city banner**. The camp, fort or tower changes its architectural/prop treatment to the city's style, and its designated guards and boss adopt that city's presentation. A neutral/uncontrolled objective instead uses the region's hostile NPC-faction structures and defenders.
+
+This is one territorial record, not separate contradictory city and faction owners. Ordinary faction-only capture needs a defined sponsor/default treatment; the city claimant for mixed-standard groups remains open. Do not arbitrarily award the city through a last hit. No broader province/supply simulation is required.
+
+City art is identity, not a stronger guard or boss tier. Keep reviewed encounter budgets consistent. Publish how role-equivalent NPC abilities remain readable across variants. Apply the ownership/banner/NPC transition at a safe, authoritative event boundary: no duplicated capture rewards or mid-fight reskin that resets an encounter. Test collision, navigation, spawn safety and return-to-neutral behavior.
+
 ## City-service reputation and rewards
 
 Warfare uses its own city-service reputation and rank presentation, separate from ordinary reputation levels, PvP Honor, arena standing and Adventurer/Explorer participation. It records service to a selected standard rather than a universal skill rating.
@@ -39,9 +47,9 @@ Warfare uses its own city-service reputation and rank presentation, separate fro
 | Standard or banner | A city-themed banner appearance, including an eligible off-hand treatment | Cosmetic presentation must not create additional weapon stats or misrepresent the active combat flag |
 | Cloak | City insignia and visual identity | No stronger armor or hidden proc |
 | Mount | A distinct themed mount or treatment for each eligible sponsor | No increased combat capability or exclusive travel advantage |
-| Service recognition | City-themed titles or collection milestones | No raid buff, Rune-cap increase or required PvE material |
+| Service recognition | City-themed titles or collection milestones | No raid buff, Rune statistical power or required PvE material |
 
-The selected reward direction, conditional on retaining city service, keeps base objects permanently owned while city crests/variants require eligible current service. Changing city loses some reputation with the departed city; the amount and thresholds remain open. The [reward policy](warfare-rewards.md) separates ownership, live appearance eligibility and reputation loss.
+The selected model keeps base objects permanently owned while city crests/variants require eligible current service. Changing service offers preserved standing plus territorial quarantine OR a 50% loss of the departed city's current Warfare standing without a new quarantine. Duration and further claim protections remain open. The [reward policy](warfare-rewards.md) separates ownership, live appearance, service change and flag toggling.
 
 ## Warfare flag and ordinary PvP are separate
 
@@ -64,7 +72,7 @@ Same-major-faction rivalry is restricted to Warfare areas with both city flags a
 
 Only one city standard is active for a character at a time. The NPC manages city service and the separate on/off combat flag. Disabling combat participation is not changing city: the recommendation is no reputation loss merely for leaving the mode to play with friends or raid.
 
-Changing the served city is the commitment action that loses reputation under the chosen city-service direction. The final penalty, timing and safe-state requirements remain open. Base rewards stay owned and city treatments follow live eligibility; toggling a flag must not erase a collection.
+Changing the served city offers the two player-selected routes above. Neither changes character XP, level, Honor or guild membership. Base rewards stay owned; city treatments follow current service eligibility. Exact safe-state requirements remain open.
 
 Flag removal, logout, city changes and crossing an area boundary must not provide an instant escape from an active fight or reset capture/reward eligibility. Timers, safe-state requirements and contest ownership need an explicit published policy.
 

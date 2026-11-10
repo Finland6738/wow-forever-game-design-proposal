@@ -12,7 +12,7 @@ The [prestige ranks](08-prestige-ranks.md), [settlement events](06-invasions-and
 
 The baseline must include more than visible item level: weapon damage, armor, primary and secondary stats, proc effects, enchantments, consumables, relevant profession benefits and any combat-relevant permanent unlocks all affect effective power. A theoretical budget requires encounter and class testing to become a credible balance target.
 
-The permanent envelope now includes [Runes](systems/runes.md) with a fixed lifetime ceiling. The separate [Adventurer Repertoire](systems/adventurer-abilities.md) also lets players learn useful abilities from historical raids and equip one beyond its source raid. Direct entry does not promise an identical optimized ability library: old raids can remain practical collection goals without a sequential item-level ladder.
+At level 60 an accessible transition earns the lasting [raid-entry preset](systems/raid-entry-preset.md), the default budget for each new raid season. [Rune milestones](systems/runes.md) grant no statistics. Final-boss [raid talents](systems/adventurer-abilities.md) are permanently owned choices, active only in matching-difficulty raids. Old raids remain useful without a sequential item-level climb.
 
 ## Why use permanent gear with contextual bonuses?
 
@@ -70,11 +70,11 @@ Normal targets groups who want to experience the complete raid with basic prepar
 
 Veteran targets organized guilds that want more demanding progression with a manageable mechanic set. The desired feel is deliberate tactical coordination, class identity and meaningful personal responsibility. It should be playable using clear built-in information; external tools must not be assumed to solve intentionally opaque mechanics.
 
-The four-to-eight-week progression goal is a cohort-based tuning hypothesis. It depends on player skill, attendance, raid size and schedule. Avoid enforced calendar gates intended solely to make the raid last that long.
+The selected reference is **1–2 months of mechanical progression** for the appropriately prepared target guild, without forced waiting or usage grinding. Normal aims to be approachable for roughly 70% of the relevant raiding-guild cohort, Veteran for roughly 30%. These are design accessibility/progression targets, not measured clear rates, mutually exclusive populations or entry quotas. Define the cohort and completion milestone in testing. The author cites Ulduar hard modes as a historical upper difficulty reference; this is a qualitative compass, not proven encounter equivalence. Avoid excessive mechanical clutter.
 
 Normal and Veteran begin from the same permanent baseline and maintain separate contextual budgets. Veteran may have more involved local equipment combinations and additional prestige rewards. Its stronger or more specialized local effects do not escape into Normal or future updates.
 
-Equipment-track independence also applies to less obvious item/currency sources. Global repertoire rewards are a separate channel: each difficulty teaches only its own ability, and collecting both requires both completions.
+Equipment-track independence also applies to less obvious item/currency sources. Raid-only repertoire rewards are a separate channel: each difficulty teaches only its own ability, and collecting both requires both completions.
 
 | Potential leak | Required policy |
 | --- | --- |

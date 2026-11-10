@@ -1,5 +1,18 @@
 # Change history
 
+## 0.11 — 2026-11-11
+
+- Replaced all Rune statistical/usage-counter progression with completion milestones and targeted horizontal unlocks; rejected fractional per-cast power, the 1% cap and seasonal numerical allowances.
+- Added a finite post-60 preparation route earning a role-appropriate raid-entry preset retained as the default for every new raid season at the same permanent budget.
+- Restricted final-boss Repertoire talents to one selected option in matching-difficulty raids: Normal only in Normal raids, Veteran only in Veteran raids; inactive in the world, all dungeons and all PvP. Ordinary class abilities remain unaffected and each difficulty teaches only its own reward.
+- Clarified Normal/Veteran approachability targets (~70%/~30% of a defined guild cohort) and 1–2 months of mechanical Veteran progression for its reference guild; these are design targets, not quotas or measured outcomes.
+- Kept the support speed-for-safety/control trade-off qualitative, without numerical time/wipe targets; confirmed multiple valid group solutions without one mandatory class and tank-comparable Artificer responsibility.
+- Specified city/faction banners and city-style structures, guards and bosses after capture; neutral objectives use the regional NPC faction, with equivalent encounter budgets and safe state transitions.
+- Offered two city-service switch routes at the player's choice: preserve standing with territorial quarantine OR lose 50% of current departure-city Warfare standing without a new quarantine. Guild/group access and flag toggling remain separate; duration and anti-bypass safeguards require evaluation.
+- Defined five strict Arena matchmaking profiles (1v1, premade 2v2, solo-assembled 2v2, premade 5v5, duo+trio 5v5) with hidden MMR versus visible progress; formulas, population and role policies remain open. Clarified group-led Challenge starts, resets and standings.
+- Applied anatomical equipment exceptions to every race dossier, prioritizing head/weapon readability; expanded historical/community recognition without mandatory daily power chores.
+- Reconciled README, detailed systems, class/race dossiers, technical acceptance cases, diagrams, navigation and source notes; added a twelve-step current design review and marked the previous readiness assessment as historical.
+
 ## 0.10 — 2026-11-10
 
 - Added a critical readiness review separating broad topic coverage from incomplete kits, talent grids, class differentiation and unperformed engine/asset validation.

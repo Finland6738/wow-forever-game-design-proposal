@@ -18,7 +18,7 @@ This is a proposed order of investigation, not Blizzard's roadmap, a schedule or
 | 7 — Procedural pilot | One module theme, reviewed encounter pools, limited initial depth and representative 5–20-player profiles | Valid paths/objectives, fair scaling, acceptable content cost and bounded gold/material output before expanding to five floors |
 | 8 — Prestige pilot | Adventurer/Explorer ledgers, simple base weights, role-aware credit and a small cosmetic milestone set | Support-role fairness, understandable repeat rules, no power reward and acceptable social gatekeeping risk |
 | 9 — World and identity prototypes | A region concept and a small race/class prototype shortlist | Setting fit, distinct loops, animation/pathing feasibility, roster diversity and unchanged permanent power limits |
-| 10 — Rune and repertoire pilot | A small fixed stat set, reviewed group milestones and a limited permanent ability set | Finite acquisition effort, stable numerical limits, one-slot integrity and diverse useful options |
+| 10 — Rune and repertoire pilot | Authored completion milestones and a small final-boss raid-talent library | No cast-count incentives/stat grants; one-slot integrity; matching-difficulty activation and external exclusion |
 | 11 — Bivalent Warfare pilot | One area, a few guard/boss camps, ordinary faction capture and opt-in city rivalry | Clear relations, no immune support, coherent ownership and meaningful service/cosmetic commitment |
 
 Stages can overlap where work is independent. Challenge competition depends on a trustworthy normalization framework; full raid isolation is the central progression experiment and should not wait for the entire dungeon catalog. Do not launch every system simultaneously.
@@ -27,7 +27,7 @@ The added stage numbers identify scope gates, not required calendar order. Prest
 
 ## What success looks like
 
-Set thresholds before each pilot using baseline data. This proposal intentionally does not invent universal hour targets, completion rates or statistical significance claims.
+Set thresholds before each pilot using baseline data. Raid tuning now has author-selected direction targets: Normal approachable for roughly 70% and Veteran for roughly 30% of a defined raiding-guild cohort, with 1–2 months of progression for the Veteran reference guild. These are not measured success rates or access quotas. Cohort, success criteria, sessions/week and tolerance must be defined before measurement. Support retains a qualitative speed-for-safety goal, with no numerical speed or wipe-rate target adopted.
 
 | Question | Suggested measurement | Warning signal |
 | --- | --- | --- |
@@ -57,14 +57,14 @@ Assess short-term novelty and repeat behavior separately. A high participation r
 - Permanent equipment remains usable, with additional progression bonuses restricted by context.
 - Approved raids in the same content update share a progression scope.
 - Normal and Veteran maintain independent contextual power and acquisition tracks.
-- Each difficulty teaches only its own permanently usable repertoire ability; collecting both requires both completions.
+- Each final boss teaches only its own reward talent; Normal options activate only in Normal raids and Veteran only in Veteran raids. All non-raid contexts exclude these rewards.
 - Veteran adds prestige and its own internal progression without exporting extra power.
 - Heroics provide tactical level-60 adventures; Challenge Modes provide keyless, normalized timed mastery.
 - World, PvP and profession systems remain parallel rather than compulsory gearing steps.
 - NPC factions can attack settlements; loss opens cooperative reconstruction and NPC restoration with essential-service continuity.
 - Procedural expeditions target level 60, groups of 5–20 and a finite committed depth of 1–5 floors.
 - Adventurer, Explorer and Honor identities stay separate and grant no statistics; civic defense belongs to Explorer.
-- Gladiator and Challenger identify separate competitive domains. Rune history is not another rank; its numerical allowance has a fixed lifetime ceiling.
+- Gladiator and Challenger identify separate competitive domains. Rune history has no rank or statistical allowance; its unlocks are completion-based.
 - Historical raids may remain the exclusive source of desirable build abilities. The direct-entry promise concerns the equipment ladder, not an already complete optimized repertoire.
 - New regions and playable options must fit the setting and budget. Prioritize ten established early-era race candidates, neutral introductions with faction choice and recognizable armor adaptations; class families need explicit roles and distinct specialization loops.
 
@@ -91,9 +91,9 @@ The [critical readiness review](proposals/design-readiness-review.md) prioritize
 | Pure support | A support can replace one DPS; traditional and support five-player groups both work | Boss utility, leveling, raid stacking, matched encounter completion and competitive profiles |
 | Artificer tank | Stationary dummies with independent HP repaired only by the Artificer; extra temporary autonomous capstone | Threat, repair/rebuild economy, healer role, placement, capstone power and recovery |
 | Summoner trees | Swarmcaller and Soulbinder DPS, Sporekeeper support; beings are non-selectable and have no HP | Reserve pace, output accounting, caster counterplay and boss-usable support tools |
-| Rune progression | A fixed lifetime stat allowance, no new rank or seasonal increase | Stat set, exact caps, acquisition time, precision, group incentives and competitive profiles |
-| Raid repertoire | Permanent historical options, one equipped entry, each difficulty teaches its own | Per-raid/class production scope, eligibility, swap preparation/cost and competitive treatment |
-| Warfare structure | Preferred ordinary-faction/local-city prototype; permanent base objects and service-qualified variants | Full capture/support resolution, objective population, penalty amount, eligibility thresholds and switching timers |
+| Rune progression | Completion-based targeted unlocks/history; no cumulative statistics or usage counters | Exact objectives, unlock catalogs, participation checks and duplicate handling |
+| Raid repertoire | One raid-only entry; matching Normal/Veteran scope, each final boss teaches its own | Per-raid/class catalog, acquisition cadence, swap preparation/cost and cooldown integrity |
+| Warfare structure | Bivalent prototype, city-styled objectives, permanent base objects; choose 50% standing loss or preserved standing plus quarantine | Mixed claims/support, population, quarantine duration, eligibility and anti-trading protections |
 
 ## Revision policy
 

@@ -30,7 +30,7 @@ These are adaptations into a persistent group MMO with the selected power and ro
 | --- | --- | --- | --- |
 | M10 — Parries and partnered follow-ups | [Warden / Duelist](classes/warden.md#duelist) | Prepare a response, counter and choose the follow-up moment | No mandatory named partner class. A teammate may trigger the same bounded seal payload; the tree remains viable independently |
 | M11 — Ammunition and deliberate precision release | [Gunslinger / Sharpshooter](classes/gunslinger.md#sharpshooter) | Spend ammunition, aim, release and recover through reload/reposition | Latency-tolerant timing; an imperfect release retains useful output. Reload cancellation cannot duplicate ammunition |
-| M12 — School choice then an enhanced spell | [Runemaster / Rune Scholar](classes/runemaster.md#rune-scholar) | Choose a school and consume a prepared class-sigil enhancement | Nature/Arcane/Holy palette is proposed for review. No full three-role kit, redundant input requirement or connection to permanent Rune-stat growth |
+| M12 — School choice then an enhanced spell | [Runemaster / Rune Scholar](classes/runemaster.md#rune-scholar) | Choose a school and consume a prepared class-sigil enhancement | Nature/Arcane/Holy palette is proposed for review. No full three-role kit, redundant input requirement or connection to the completion-based Rune milestone record |
 | M13 — Mounted/foot companion play with transferred damage | [Cavalier / Beast Rider](classes/cavalier.md#beast-rider) | Decide when to ride, separate and regroup while managing companion risk | Capped damage debt, viable indoor fallback and no free full recovery through mounting. Beastmaster retains pack assignments instead of duplicating this tree |
 
 ## Tabletop-style archetype coverage

@@ -94,7 +94,7 @@ Each established candidate has a dedicated implementation-evaluation page. The s
 | Player actions | Combat, casting, movement, death, recovery, emotes, sitting and interaction | Animation coverage in a working prototype |
 | World interaction | Doors, stairs, lifts, transports, mounts, camera and combat positioning | Small interiors, crowded combat and traversal scene |
 
-Use a test wardrobe: close/open helmets, large shoulders, chest-and-leg armor, long robe, cape, gloves, boots, shield, staff, two-handed and ranged weapons. Repeat for relevant armor types and body presentations. Any hidden or adapted item needs an explicit decision; do not advertise complete compatibility from a dressed NPC screenshot.
+Use a test wardrobe: close/open helmets, large shoulders, chest-and-leg armor, long robe, cape, gloves, boots, shield, staff, two-handed and ranged weapons. Repeat for relevant armor types and body presentations. Wrist items, cloaks and gloves may be hidden or varied with documented exceptions. Footwear needs an anatomy-specific decision; head and weapon readability are key requirements. Test overall class recognition in PvP, not appearance alone; do not advertise complete compatibility from a dressed NPC screenshot.
 
 No automatic flight, extra weapon attacks, phasing or encounter immunity comes from a model. Racial abilities use the same permanent budget and competitive policies as the existing roster.
 

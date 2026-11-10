@@ -21,7 +21,7 @@ The requested system resembles a persistent participation record. It must not be
 
 Honor is kept conceptually distinct here; its current mechanics are not redefined or assumed to match a competitive rating. “Roleplay honor” from settlement defense becomes Explorer civic commendations, avoiding two unrelated currencies called Honor.
 
-[Runes](systems/runes.md) are a separate fixed-ceiling numerical system with a history record, not another rank. [Adventurer Abilities](systems/adventurer-abilities.md) form a combat-choice collection; the similar name does not make them rewards from the Adventurer participation score. [City service](activities/faction-warfare.md) records a specific allegiance rather than adding another general-purpose participation ladder.
+[Runes](systems/runes.md) record completion milestones and targeted unlocks, without numerical stat growth or another rank. [Adventurer raid talents](systems/adventurer-abilities.md) are a separate one-slot collection active only in matching-difficulty raids, not a reward from Adventurer participation score. [City service](activities/faction-warfare.md) records a specific allegiance rather than another general-purpose ladder.
 
 ## Adventurer: a simple starting score
 
@@ -107,3 +107,7 @@ Avoid an XP buff or profession throughput perk that quietly converts rank into p
 Test whether all roles receive comparable eligibility, whether old content becomes an optimized points farm, and whether ranks create unwanted group exclusion. Inspect time-to-tier across activities, recognition of world support tasks, repeat-rule false positives and the clarity of the display.
 
 Thresholds, repeat windows, completion recognition, discoverable objectives and account presentation remain open. A combat contribution model cannot be declared fair from its formula alone; inspect ordinary logs, edge cases and player feedback before awarding permanent progression at scale.
+
+## Historical and community recognition
+
+Recognize long-term contribution through historical titles, city decorations, winner monuments, accomplishment registers and earned exclusive visual variants. Reward variety, demonstrated mastery and meaningful community work. No daily task circuit or compulsory power grind is required; monuments need transparent criteria, persistence and display-capacity rules. Competitive seasonal standing can change without erasing the historical record.

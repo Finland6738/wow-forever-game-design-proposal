@@ -1,31 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
-<title id="title">Explain the rule. Enforce it on the server.</title><desc id="desc">The server resolves the current activity and relevant ownership. It applies permanent equipment and Rune limits, contextual equipment scope and one-slot repertoire rules, then exposes the effective result. Ranked modes use an explicit approved profile.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+<title id="title">Explain the rule. Enforce it on the server.</title><desc id="desc">Server-owned context validates the stable entry equipment, scoped local gear and one matching-difficulty raid talent. Rune milestones supply no stat pool. Every dungeon, world and PvP context excludes raid reward talents. Transitions revalidate persistent effects and cooldowns.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#377d7a"/></marker>
 <style>text{font-family:Arial,Helvetica,sans-serif;fill:#172d35}.heading{font-size:34px;font-weight:700}.label{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:19px;fill:#425c63}</style></defs>
-<rect width="1200" height="760" rx="20" fill="#f1f5f1"/>
+<rect width="1200" height="750" rx="20" fill="#f1f5f1"/>
 <text x="60" y="60" text-anchor="start" class="heading" style="" data-fit="60,22,1080,45"><tspan x="60" dy="0">Explain the rule. Enforce it on the server.</tspan></text>
-<text x="60" y="98" text-anchor="start" class="body" style="" data-fit="60,75,1080,32"><tspan x="60" dy="0">Conceptual framework · This diagram does not describe an existing game engine.</tspan></text>
-<rect x="60" y="145" width="1080" height="95" rx="14" fill="#173c43" stroke="#173c43" stroke-width="2"/>
-<text x="600.0" y="181" text-anchor="middle" class="label" style="fill:#ffffff;font-size:25px;" data-fit="72,155,1056,37"><tspan x="600.0" dy="0">Resolve the current activity and owned state</tspan></text>
-<text x="600.0" y="218" text-anchor="middle" class="body" style="fill:#d8e8e5;font-size:21px;" data-fit="72,195,1056,37"><tspan x="600.0" dy="0">Instance · Difficulty · Character · Policy version</tspan></text>
-<path d="M230 240V280" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
-<path d="M600 240V280" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
-<path d="M970 240V280" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
-<rect x="60" y="295" width="340" height="140" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
-<text x="230.0" y="331" text-anchor="middle" class="label" style="font-size:23px;" data-fit="72,305,316,37"><tspan x="230.0" dy="0">Permanent envelope</tspan></text>
-<text x="230.0" y="368" text-anchor="middle" class="body" style="font-size:20px;" data-fit="72,345,316,82"><tspan x="230.0" dy="0">Equipment and effects</tspan><tspan x="230.0" dy="28">Fixed Rune allowance</tspan></text>
-<rect x="430" y="295" width="340" height="140" rx="14" fill="#f5ead5" stroke="#b8ccca" stroke-width="2"/>
-<text x="600.0" y="331" text-anchor="middle" class="label" style="font-size:23px;" data-fit="442,305,316,37"><tspan x="600.0" dy="0">Contextual equipment</tspan></text>
-<text x="600.0" y="368" text-anchor="middle" class="body" style="font-size:20px;" data-fit="442,345,316,82"><tspan x="600.0" dy="0">Approved content scope</tspan><tspan x="600.0" dy="28">Difficulty and effect limits</tspan></text>
-<rect x="800" y="295" width="340" height="140" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
-<text x="970.0" y="331" text-anchor="middle" class="label" style="font-size:25px;" data-fit="812,305,316,37"><tspan x="970.0" dy="0">Repertoire</tspan></text>
-<text x="970.0" y="368" text-anchor="middle" class="body" style="font-size:20px;" data-fit="812,345,316,82"><tspan x="970.0" dy="0">One eligible entry</tspan><tspan x="970.0" dy="28">Swap and persistent-state rules</tspan></text>
-<path d="M230 435V495" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
-<path d="M600 435V495" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
-<path d="M970 435V495" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
-<rect x="60" y="510" width="1080" height="110" rx="14" fill="#173c43" stroke="#173c43" stroke-width="2"/>
-<text x="600.0" y="546" text-anchor="middle" class="label" style="fill:#ffffff;font-size:25px;" data-fit="72,520,1056,37"><tspan x="600.0" dy="0">Compute and explain the effective result</tspan></text>
-<text x="600.0" y="583" text-anchor="middle" class="body" style="fill:#d8e8e5;font-size:20px;" data-fit="72,560,1056,52"><tspan x="600.0" dy="0">Ranked modes use their approved profile; inactive effects show a reason.</tspan></text>
-<path d="M60 671H1140" stroke="#b8ccca" stroke-width="2"/>
-<text x="600" y="698" text-anchor="middle" class="small" style="" data-fit="60,678,1080,77"><tspan x="600" dy="0">Revalidate transitions, equipment changes, reconnects, pets and persistent effects.</tspan><tspan x="600" dy="28">Scope limits, finite stats and collected abilities are separate policy checks.</tspan></text>
+<text x="60" y="98" text-anchor="start" class="body" style="" data-fit="60,75,1080,32"><tspan x="60" dy="0">Resolve ownership and context before applying effects.</tspan></text>
+<rect x="60" y="145" width="1080" height="100" rx="14" fill="#173c43" stroke="#173c43" stroke-width="2"/>
+<text x="600.0" y="181" text-anchor="middle" class="label" style="fill:#ffffff;font-size:24px;" data-fit="72,155,1056,37"><tspan x="600.0" dy="0">Server-owned activity, difficulty, encounter and policy version</tspan></text>
+<text x="600.0" y="218" text-anchor="middle" class="body" style="fill:#d8e8e5;font-size:20px;" data-fit="72,195,1056,42"><tspan x="600.0" dy="0">Never trust client-provided scope or a cosmetic banner for combat permissions.</tspan></text>
+<rect x="60" y="300" width="340" height="135" rx="14" fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"/>
+<text x="230.0" y="336" text-anchor="middle" class="label" style="font-size:24px;" data-fit="72,310,316,37"><tspan x="230.0" dy="0">Permanent profile</tspan></text>
+<text x="230.0" y="373" text-anchor="middle" class="body" style="font-size:20px;" data-fit="72,350,316,77"><tspan x="230.0" dy="0">Stable entry budget</tspan><tspan x="230.0" dy="28">Reviewed item interactions</tspan></text>
+<rect x="430" y="300" width="340" height="135" rx="14" fill="#f5ead5" stroke="#b8ccca" stroke-width="2"/>
+<text x="600.0" y="336" text-anchor="middle" class="label" style="font-size:24px;" data-fit="442,310,316,37"><tspan x="600.0" dy="0">Local equipment</tspan></text>
+<text x="600.0" y="373" text-anchor="middle" class="body" style="font-size:20px;" data-fit="442,350,316,77"><tspan x="600.0" dy="0">Approved update + raid scope</tspan><tspan x="600.0" dy="28">Matching difficulty and cap</tspan></text>
+<rect x="800" y="300" width="340" height="135" rx="14" fill="#f5ead5" stroke="#b8ccca" stroke-width="2"/>
+<text x="970.0" y="336" text-anchor="middle" class="label" style="font-size:24px;" data-fit="812,310,316,37"><tspan x="970.0" dy="0">Raid reward talent</tspan></text>
+<text x="970.0" y="373" text-anchor="middle" class="body" style="font-size:20px;" data-fit="812,350,316,77"><tspan x="970.0" dy="0">Owned · One selected entry</tspan><tspan x="970.0" dy="28">Raid + matching difficulty</tspan></text>
+<path d="M230 435V470H600V500" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M600 435V470H600V500" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M970 435V470H600V500" fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="60" y="515" width="1080" height="110" rx="14" fill="#173c43" stroke="#173c43" stroke-width="2"/>
+<text x="600.0" y="551" text-anchor="middle" class="label" style="fill:#ffffff;font-size:24px;" data-fit="72,525,1056,37"><tspan x="600.0" dy="0">Resolve effective state and show the reason</tspan></text>
+<text x="600.0" y="588" text-anchor="middle" class="body" style="fill:#d8e8e5;font-size:20px;" data-fit="72,565,1056,52"><tspan x="600.0" dy="0">Revalidate summons, delayed effects, swaps, cooldowns and context transitions.</tspan></text>
+<path d="M60 661H1140" stroke="#b8ccca" stroke-width="2"/>
+<text x="600" y="688" text-anchor="middle" class="small" style="" data-fit="60,668,1080,77"><tspan x="600" dy="0">Rune milestones grant no statistical accumulator.</tspan><tspan x="600" dy="28">Raid reward talents are inactive in world, every dungeon and every PvP profile.</tspan></text>
 </svg>

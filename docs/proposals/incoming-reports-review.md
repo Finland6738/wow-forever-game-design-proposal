@@ -1,60 +1,41 @@
-# Incoming Reports — Decisions and Remaining Questions
+# Incoming Reports — Current Decisions
 
-[← Topic directory](../README.md) · [Current decisions](../13-glossary-and-decisions.md) · [Warfare model comparison](../activities/warfare-models.md)
+[← Topic directory](../README.md) · [Current twelve-point review](current-contract-clarification.md) · [Decision register](../13-glossary-and-decisions.md)
 
-## Selected directions
+The supplied reports informed the concept, but are not adopted wholesale. The author's latest answers supersede earlier fixed-stat Rune and globally usable raid-talent interpretations. Historical versions remain in Git and the changelog.
 
-The reports have been evaluated against the project's goals, and the following directions now supersede the earlier blanket status of unadopted proposals.
-
-| Topic | Current direction | What remains open |
+| Topic | Selected direction | Still open |
 | --- | --- | --- |
-| Runes | Finite permanent statistics inside a fixed lifetime allowance; history without a Rune rank | Stat set, amounts, acquisition time, precision and competitive profiles |
-| Adventurer abilities | Permanently useful old-raid options, one equipped active or passive entry | Production scope, compatibility/eligibility, swap details and competitive treatment |
-| Normal and Veteran | Each teaches only its own ability; collecting both requires both completions | Exact per-raid/class rewards and loot/unlock cadence |
-| Historical raids | Useful ability acquisition is an intended long-term build goal | Group access, dominant options, acquisition pressure and ongoing maintenance |
-| Warfare relationship | Preferred bivalent prototype: ordinary faction rules plus voluntary local city rivalry | Complete support, capture and transition state model |
-| City rivalry | Allied-major-faction rivals require different city standards, both flags active and a Warfare area | Pilot scope, target UI and mixed-party behavior |
-| City rewards | Conditional on city service: permanent base objects, eligible-service crests/variants and a departure reputation loss | Amount, thresholds, regained eligibility and detailed art coverage |
-| City flag | Enabled/disabled through an NPC; distinct from changing the served city | Combat/safe-state timers and presentation details |
+| Entry | Finite post-60 route earns a lasting raid-entry preset, unchanged in budget each new season | Tasks, role coverage and equipment/entitlement representation |
+| Runes | Completion milestones and targeted unlocks/history, without stat grants or a new rank | Objective catalog, eligibility and duplicate handling |
+| Raid talents | Final-boss reward, one slot; Normal only in Normal raids, Veteran only in Veteran raids | Catalog, dominant options, historical access pressure and swaps |
+| Difficulty acquisition | Each final boss teaches only its own option; no automatic Normal reward from Veteran | Reward cadence and production scope |
+| Difficulty feel | Normal ~70%/Veteran ~30% approachability targets; Veteran reference guild progresses for 1–2 months | Cohort, success milestone, attendance and measured tuning |
+| Support | Both five-player lineups viable; speed exchanged for safety/control | Actual utility and comparative outcomes; no numerical targets adopted |
+| Group tools | Multiple valid solutions without one mandatory specific class | Composition coverage while preserving signatures |
+| Warfare | Ordinary faction conflict plus voluntary local city rivalry, with city-styled captured objectives | Mixed-standard claims, assistance, consent and population |
+| City switching | Choose preserved standing plus quarantine OR 50% departure-standing loss without a new quarantine | Quarantine length and anti-bypass/capture-trading protections |
+| City rewards | Permanent base objects; city variants require eligible current service | Thresholds and visual coverage |
+| Competition | Group-led Challenge; five strict Arena premade profiles, hidden MMR versus visible progress | Formulas, queue viability and role policy |
 
-## The revised progression contract
+## Rejected and deferred mechanisms
 
-Direct equipment access no longer means an identical optimized ability collection. A prepared player can enter a new raid without gearing through every historical tier, while a desired old ability can intentionally motivate an earlier raid visit.
+Seasonal Rune cap increases, fractional stat grants and usage-based spell mastery are rejected, including raid-only variants capped at 1%. A finite allowance still rewards numerical preparation and repetitive farming; the current design removes that accumulator.
 
-Contextual equipment still stays update/difficulty-scoped. Runes remain numerically finite. Repertoire options are globally useful in ordinary play with one selected entry, and each source difficulty must be completed for its own reward. The competitive profile remains an explicit separate policy.
+A separate Mastery-XP tree, mentoring currency and full province/supply simulation are not automatically adopted. Each needs a distinct purpose and its own evaluation.
 
-A separate Mastery-XP tree is not automatically adopted alongside the repertoire. It needs a distinct purpose before adding another currency, interface and acquisition journey.
+The report's illustrative 9 classes × 3 trees × 2 difficulties × 10 seasons = 540 rewards is not a production schedule. Shared components can reduce work but do not remove interaction, balance and presentation costs.
 
-## What the report's seasonal Rune proposal does not establish
+## Historical raids and collection pressure
 
-The illustrative +0.50 primary stat per season becomes +5 after ten seasons. That arithmetic is not final tuning, and a repeatedly increasing cap would still be permanent vertical growth. The selected model instead defines the complete lifetime allowance in advance.
+Accessible direct entry means no sequential item-level climb, not a complete optimized talent library. A desired historical reward can remain exclusive to its original final boss, and works in raids of matching difficulty only. One slot limits simultaneous effects, but does not prove equal utility or prevent a dominant option. Future encounters need several valid solutions.
 
-A fixed cap prevents unbounded accumulation but does not prove acquisition feels fair. Test the newcomer/veteran gap, source diversity, meaningful group participation, excessive reset farming and whether fractional values are really applied by the engine.
+## Warfare commitment and social play
 
-## Why one ability slot still needs balance work
+The NPC-managed city flag is separate from service choice. Guilds remain trans-city; allied-major-faction rivalry exists only in Warfare areas with both flags active. The city layer grants no immunity against legal ordinary opposing-faction PvP.
 
-The single slot prevents twenty simultaneous extra abilities. It does not eliminate the practical advantage of owning the best answer to more encounters. Mobility, control and resource interactions need testing alongside damage.
+Both switch routes are player choices. A 50% loss does not guarantee falling below a cosmetic threshold, and low/zero standing makes that route weak anti-abuse protection. Current-service eligibility controls city variants separately. Duration is open; the recommendation that existing quarantine survives another switch needs validation. See [City Rewards](../activities/warfare-rewards.md).
 
-That broader collection value is accepted rather than dismissed as automatically invalid. The design should monitor when healthy source-specific goals become a narrow compulsory-feeling farm, and avoid making one historical ability the only possible answer to a future encounter.
+## Evidence gate
 
-The report's 9 classes × 3 specializations × 2 difficulties × 10 seasons = 540 variants is an illustration under those assumptions, not an adopted production schedule. Shared components can help implementation without removing identity and interaction work.
-
-## Warfare assessment after the flag clarification
-
-The early concern about compulsory guild fragmentation changes when city combat is voluntary and local. A guild can continue ordinary activities with city rivalry switched off. Inside the area, participating rival-city members need consistent targeting and support rules; party/guild membership cannot silently override their chosen hostility.
-
-The [comparison](../activities/warfare-models.md) evaluates two-faction, full-city and bivalent approaches. The preferred prototype uses ordinary faction combat as a foundation and evaluates the city relationship per pair. Turning on one person's flag must not change the entire battlefield's mode or create immunity against ordinary legal PvP.
-
-Territory can record major-faction ownership and city stewardship as separate levels. Exact capture claims, mixed-city groups, repeated recapture trading and support from unflagged allies must be solved in the pilot. The broader province/supply/fortress system remains a possible later expansion, not required infrastructure for the initial guard-and-boss camps.
-
-## City commitment and cosmetic ownership
-
-The selected base-object/conditional-variant model distinguishes possession from the city treatment currently usable. Departure reputation loss creates a commitment cost, but its value must be evaluated against regrouping with friends and joining underrepresented cities.
-
-A 50% loss of 10,000,000 leaves 5,000,000, so it does not guarantee falling below a 1,000,000 first-reward threshold. Current-service eligibility already deactivates a departed city's crest. A stronger below-first-reward reset would be an additional rule, not a mathematical consequence of halving.
-
-Toggling combat off should not itself be treated as city desertion. [Warfare rewards](../activities/warfare-rewards.md) records the recommended distinction and the remaining tuning.
-
-## Remaining work
-
-Specify the smallest useful Rune/repertoire and Warfare pilots, choose stat and acquisition budgets, settle ranked profiles and test the bivalent capture/support matrix. Mentoring and separate Mastery progression remain proposals requiring their own reason to exist.
+Use the [current review](current-contract-clarification.md) and [pilot plan](../05-roadmap-and-evaluation.md). This reconciliation improves specification consistency; numerical balance, engine feasibility and production costs remain unproven.

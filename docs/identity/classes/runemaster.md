@@ -22,7 +22,7 @@ The roles describe different build responsibilities, not three full kits active 
 
 ## Shared resource and state model
 
-Combat sigils are bounded class charges, entirely separate from permanent Rune-stat progression. A prepared arrangement records school, target/state eligibility and whether its next enhancement has been consumed.
+Combat sigils are bounded class charges, entirely separate from completion-based Rune milestones. A prepared arrangement records school, target/state eligibility and whether its next enhancement has been consumed.
 
 **State progression:** Prepare arrangement → generate sigil charges → select school/mark → trigger or reconfigure → recover. Rime damage-state stacks remain distinct from slow/root control flags.
 
@@ -39,7 +39,7 @@ The server accepts one action only after target, range, line of sight, ownership
 | Baseline action | Trigger / state change | Guard, trade-off and counterplay |
 | --- | --- | --- |
 | Inscribe Edge | Select one reviewed arrangement for the current weapon sequence. | One active arrangement; changing it has an explicit cost. |
-| Sigil Cut | Use melee attacks to build the bounded class-charge reserve. | No permanent stat Rune generation or free duplicate procs. |
+| Sigil Cut | Use melee attacks to build the bounded class-charge reserve. | No usage-based Rune reward generation or free duplicate procs. |
 | Release Inscription | Consume charges through a prepared strike. | A charge enhances one valid action, not every visual component. |
 
 **Talent anchors to allocate:** Early: steadier charging or greater arrangement retention. Middle: sustained inscriptions versus a stronger triggered release. Capstone: a finite inscribed sequence with a reviewed reconfiguration cost.
@@ -54,7 +54,7 @@ These anchors describe node behavior and opportunity costs, not an approved comp
 
 | Baseline action | Trigger / state change | Guard, trade-off and counterplay |
 | --- | --- | --- |
-| Gather Sigil | Deal a valid ranged action and build class charges. | Fixed cap; no relation to account/character permanent Rune allowance. |
+| Gather Sigil | Deal a valid ranged action and build class charges. | Fixed cap; no relation to permanent Rune milestone record. |
 | Choose School | Select a proposed Nature, Arcane or Holy-themed offensive palette. | Exact schools need setting review; direct bindings can preserve accessibility without changing the decision. |
 | Inscribed Spell | Cast the selected school's reviewed action and consume its eligible enhancement. | School choice does not grant full healing and full support alongside ranged DPS. |
 
@@ -88,7 +88,7 @@ Target death, owner death, encounter reset, dispel and reconnect must use publis
 
 Runeblade is melee damage; Rune Scholar and Rime Scholar are ranged magical damage. The school-selector and apply/consume-cold studies are fully represented without claiming a second permanent Rune system.
 
-Apply permanent equipment, finite Runes and the one-slot Adventurer Repertoire through the same effective-power review. Normal/Veteran contextual bonuses stay in scope. Owned effects inherit the approved normalized profile, and valid control/protection/objective contribution receives owner-level credit without multiplying player shares.
+Apply permanent equipment, milestone Rune unlocks and the one-slot Adventurer Repertoire through the same effective-power review. Normal/Veteran contextual bonuses stay in scope. Owned effects inherit the approved normalized profile, and valid control/protection/objective contribution receives owner-level credit without multiplying player shares.
 
 ## Implementation parameters and interface
 
@@ -100,7 +100,7 @@ Display the shared reserve, committed state, selected target and the tree's next
 
 1. Consume Rime on a slow-immune boss while preserving the correct damage/control separation.
 2. Switch schools with a primed enhancement and apply it only once under the declared eligibility rule.
-3. Verify that combat sigils never change permanent Rune statistics or bypass Challenge normalization.
+3. Verify that combat sigils never change Rune milestone ownership or reward scope or bypass Challenge normalization.
 4. Exercise death, reconnect, target loss and encounter reset with no duplicate spend, proc, reward or free cooldown reset.
 5. Compare baseline and normalized profiles, including representative Rune/repertoire interactions and any contextual raid bonuses.
 6. Allocate mixed-tree builds at the approved level-60 talent budget; verify they do not combine full role outputs or bypass a capstone's intended opportunity cost.
@@ -110,3 +110,7 @@ Display the shared reserve, committed state, selected target and the tree's next
 The first deliverable is the shared resource/state loop plus the three baseline actions for one tree. Demonstrate it in a single-target scene, a multi-target pull, movement, failure recovery and counterplay, then expand the other trees against the same contribution contract.
 
 The final point grid, coefficients, equipment restrictions, animation/effect costs, race/class matrix and competitive policies remain open. Review measured output, survival, resource pressure, input load, readability and group access before promoting this specification to a validated implementation candidate. The [standard](../implementation-standard.md) defines the evidence gate.
+
+## Shared progression boundary
+
+These are ordinary class talent-tree abilities, usable according to their own combat rules. The separate final-boss Adventurer Repertoire reward slot works only in matching-difficulty raids (Normal to Normal, Veteran to Veteran), never in dungeons, open world or PvP. Rune milestone records grant no cumulative combat statistics. Apply the [shared implementation standard](../implementation-standard.md) to this kit and its hybrids.

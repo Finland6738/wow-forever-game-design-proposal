@@ -30,7 +30,7 @@ Both of these compositions must be viable in ordinary five-player content:
 
 There is **no sixth player slot and no compulsory support slot**. Viable means a reasonably prepared group can finish the intended encounters, not that every composition must have identical speed, safety or tactics. A support lineup may gain control and recovery room while losing direct damage. If boss checks make that loss insurmountable, the role or encounter has failed the test.
 
-**Selected ordinary-play trade-off:** the support lineup is generally a little slower, with more control and safety. This is an intended aggregate trade-off, not a rule forcing every individual run to be slower. Exact tolerance remains open. Timed Challenge and Arena treatment require separate evaluation; no hidden encounter-health reduction compensates for the selected lineup.
+**Selected ordinary-play trade-off:** the support lineup is generally a little slower, with more control and safety. This is an intended aggregate trade-off, not a rule forcing every individual run to be slower. Exact tolerance remains open. The discussed 15–25% time/wipe figures are not adopted targets; buffs, debuffs and control should make execution smoother while the direct-damage slot is sacrificed. Timed Challenge and Arena treatment require separate evaluation; no hidden encounter-health reduction compensates for the selected lineup.
 
 The same dungeon should not arbitrarily lower boss health when a support joins: that hides whether the role works and creates roster-change exploits. Test both groups against the same ordinary encounter. A future difficulty-specific rule requires a separate explicit decision.
 
@@ -101,3 +101,7 @@ The selected Summoner direction contains **Swarmcaller, Soulbinder and Sporekeep
 8. What support leveling path, raid stacking limits and competitive formats preserve a clear role without compulsory composition?
 
 These are continuing design questions, not approval gates for keeping the documentation current. Numerical suggestions remain prototypes until tested and discussed.
+
+## Class identity and alternative solutions
+
+The author selected multiple valid group solutions, without requiring a specific class for an encounter. This does not give every class every tool. See [concrete examples](group-tools-and-class-identity.md).

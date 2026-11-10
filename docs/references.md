@@ -2,7 +2,7 @@
 
 [← Main proposal](../README.md) · [Documentation index](README.md)
 
-Last checked: **10 November 2026**. Official pages may change; this register states the limited purpose for which each is cited. The design does not depend on a particular future raid launch date or an unverified interview summary.
+Last checked: **11 November 2026**. Official pages may change; this register states the limited purpose for which each is cited. The design does not depend on a particular future raid launch date or an unverified interview summary.
 
 ## Verified context
 
@@ -14,6 +14,13 @@ Last checked: **10 November 2026**. Official pages may change; this register sta
 | Blizzard, [Playable Races](https://worldofwarcraft.blizzard.com/en-gb/game/races) | A direct roster reference when reviewing how a proposed playable identity differs from existing choices | That an invented working concept is feasible or approved for this setting |
 | Blizzard, [Taking Your First Steps in World of Warcraft Classic](https://news.blizzard.com/en-us/article/23317716/taking-your-first-steps-in-world-of-warcraft-classic) | Historical context for major-faction membership and Normal/PvP realm distinctions | That the proposed city flag, bivalent ownership or reward policy already exists or is endorsed |
 
+## Requested historical system references
+
+| Primary source | Limited use | Not established |
+| --- | --- | --- |
+| Blizzard, [Scenarios & Challenge Modes in Mists of Pandaria Classic](https://news.blizzard.com/en-gb/article/24221824/scenarios-challenge-modes-in-mists-of-pandaria-classic) | A five-player timed dungeon reference with a start console, normalized gear, medals and standings | Our keyless retry, reward, roster and normalization policies are separate proposal choices |
+| Riot Games, [MMR, Rank, and LP](https://support.riotgames.com/en-us/league-of-legends/gameplay/mmr-rank-and-lp) | Separating hidden matchmaking rating from visible ranked progress | Our five Arena premade profiles, queue sizes, rating formulas or viability in this MMO |
+
 ## Proposal and interpretation
 
 The following are design choices developed in this repository:
@@ -21,9 +28,9 @@ The following are design choices developed in this repository:
 - A stable long-term permanent equipment budget.
 - Update-wide contextual raid effects with strict difficulty boundaries.
 - Separate Normal/Veteran contextual equipment tracks and difficulty-specific permanent ability unlocks.
-- A fixed lifetime Rune-stat allowance, with history rather than another rank ladder.
-- A globally useful one-slot historical raid repertoire; no automatic Normal unlock from Veteran.
-- A preferred ordinary-faction/local-city Warfare prototype, with conditional city variants and a reputation-loss concept whose amount remains open.
+- Completion-based Rune unlocks/history, without cast-count statistics or another rank ladder.
+- A one-slot historical final-boss repertoire active only in matching-difficulty raids; no automatic Normal unlock from Veteran.
+- A bivalent faction/city Warfare prototype with city-styled objectives, conditional city variants and a player choice between 50% departure-standing loss or preserved standing plus territorial quarantine.
 - A tactical level-60 Heroic catalog and the proposed Challenge Mode access/reward rules.
 - Elite regions, territorial World Bosses, regional PvP objectives and the proposed crafting safeguards.
 - Hostile-NPC invasions, settlement recovery, replacement NPC tasks and Explorer civic commendations.
@@ -36,7 +43,7 @@ The proposal defines tactical dungeon play and normalized timed mastery directly
 
 The reasoning that repeated permanent upgrades accumulate power is a design inference. The further claim that players must consequently complete every old raid would be too strong: catch-up systems, alternative sources and resets can prevent that requirement. The proposal favors stable power because of its intended player experience, while acknowledging those alternatives.
 
-Four-to-eight-week raid progression, 30–60-minute territorial benefits and short scenario durations are hypotheses requiring playtests. No staffing, cost, delivery date or completion-rate guarantee is made.
+The author-selected Veteran target is 1–2 months for the reference guild, with Ulduar hard modes as a qualitative upper difficulty compass, not a measured equivalence. Roughly 70% Normal/30% Veteran approachability targets require a defined guild cohort and completion criteria. Regional benefit durations and scenario lengths remain playtest hypotheses. No staffing, delivery date or success-rate guarantee is made.
 
 The level ×1/×2/×5 prestige formula is a user-proposed prototype, not a validated performance model. The 5–20-player range and 1–5-floor envelope are requested design parameters; exact scaling, reward rates and feasibility remain unproven. Generated module assemblies can repeat, so the design does not promise a globally unique layout for every run.
 

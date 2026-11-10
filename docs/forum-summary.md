@@ -25,10 +25,10 @@ The wider endgame could grow through:
 - NPC-faction invasions: defend a settlement or gather supplies, rebuild and restore its NPCs after defeat, with essential-service fallbacks.
 - Procedural expeditions discovered through world portals: 5–20 players, generated routes and encounters, and 1–5 finite floors, with gold/material rewards to test.
 - Separate Adventurer, Explorer and Honor prestige, offering recognition without statistics and crediting support roles as well as damage.
-- Runes with a fixed lifetime stat allowance and activity history, without seasonal cap increases or another rank ladder.
-- Separate Gladiator arena and Challenger timed-dungeon standings; their detailed competitive policies remain to be defined.
+- Completion-based Rune milestones and targeted unlocks, without use counters, statistical accumulation or another rank ladder.
+- Gladiator Arena profiles for 1v1, premade/assembled 2v2 and full/duo+trio 5v5; Challenger remains the separate timed-dungeon domain. Rating formulas need prototyping.
 
-Warfare now focuses on capturing designated guard-and-boss camps and expressing service through city-themed cosmetic rewards. The preferred bivalent prototype combines ordinary Horde/Alliance combat and local voluntary city rivalry, with a separate NPC-managed flag. Base cosmetics remain owned; city variants require eligible service, and changing city loses some reputation. Detailed capture/support rules and the penalty amount still need testing.
+Warfare captures designated guard-and-boss camps: city/faction banners, structures and defenders change with ownership; neutral camps use the regional NPC faction. The bivalent prototype keeps ordinary faction conflict and voluntary local city rivalry distinct. Base cosmetics remain owned; city variants need eligible service. Changing city offers either preserved standing with territorial quarantine or 50% departure-standing loss without a new quarantine. Capture/support rules, duration and anti-trading checks remain open.
 
 Future updates could also explore established peoples from Vanilla/TBC/Wrath, with ten individual race dossiers and either-faction choice after their introduction. Equipment should stay recognizable through anatomy-specific fitting. Eighteen English class archetypes have individual dossiers and three talent-tree specifications each, with a traceable mechanical-study audit. Pure support can replace one DPS without becoming compulsory. These remain implementation-evaluation proposals rather than a validated release roster.
 
@@ -41,3 +41,5 @@ This is an independent proposal, not an announced Blizzard feature or a claim ab
 **Full proposal, diagrams and technical details:** [WoW: Forever game-design repository](https://github.com/Finland6738/wow-forever-game-design-proposal)
 
 Would local raid progression feel rewarding with stable permanent power? What would keep old raids worth visiting without making them mandatory? Which level-60 activities would you choose if regular item-level increases were no longer the main incentive?
+
+A finite post-60 route earns the stable default raid-entry preset for each new season. Final-boss talents offer one extra raid-only choice: Normal only in Normal raids, Veteran only in Veteran raids. They never activate in world, dungeons or PvP. Support groups trade speed for safety/control, without adopted numerical targets.

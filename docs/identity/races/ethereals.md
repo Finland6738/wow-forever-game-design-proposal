@@ -10,7 +10,7 @@
 
 **Fantasy:** an energy-bound traveler whose wrappings, equipment and controlled luminosity remain recognizable from the early model. The goal is not to turn every item into an unrelated bandage costume.
 
-**Equipment proposal:** retain standard slots. Test chest, leg and robe surfaces against the translucent body, then stable anchors for shoulders, helmets, gloves, boots, weapons and a cloak. A full suit must remain visible without erasing the wrapped-energy silhouette. Lighting and spell effects must not make the character unreadable to opponents.
+**Equipment proposal:** retain standard slots. Test chest, leg and robe surfaces against the translucent body, then stable anchors for shoulders, helmets, gloves, boots, weapons and a cloak. The suit must remain recognizable without erasing the wrapped-energy silhouette, with the documented wrist/cloak/glove exceptions below. Lighting and spell effects must not make the character unreadable to opponents.
 
 **Story proposal:** a small expedition or trading delegation establishes local relationships. Its arrival route and membership need writing; this does not assign the whole Consortium to a faction.
 
@@ -68,3 +68,7 @@ Numerical racials and race/class combinations are not selected. Compare any late
 The character-art team owns mesh/rig/attachment evidence; animation owns player-action coverage; narrative owns the neutral introduction and faction choice; gameplay owns slot/racial parity and encounter positioning; QA owns the wardrobe and traversal matrix. These describe required disciplines, not assigned Blizzard staff or measured costs.
 
 Before advancing, provide the asset audit, defect list, supported body options, approved armor exceptions, race/class matrix, starting-experience dependencies and test captures. The dossier is ready to guide that evaluation; production readiness requires the evidence defined in the [implementation standard](../implementation-standard.md).
+
+## Selected silhouette and equipment exception policy
+
+Wrist items, cloaks and gloves may be hidden or anatomically varied where needed; document every exception. Footwear is audited per anatomy and has no blanket invisibility approval. Head and weapon presentation are key audit requirements: preserve readable headgear/weapon identity, casting source and the wider class signals in PvP. Gear silhouette alone cannot prove class recognition, so test poses, effects, movement and authoritative nameplate/faction cues too. These requirements revise any earlier all-items-visible assumption; they do not erase slot effects or item ownership.

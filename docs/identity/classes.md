@@ -60,13 +60,13 @@ The latest attachment repeats the first nine studies; four additional studies we
 | Blood resource and transformation | [Hemomancer / Nightform](classes/hemomancer.md#nightform) | Bounded health substitution/upkeep; no infinite drain or unrestricted flight |
 | Parries and partnered follow-ups | [Warden / Duelist](classes/warden.md#duelist) | Independent viability; teammate timing optional and no duplicated payload |
 | Ammunition and precision release | [Gunslinger / Sharpshooter](classes/gunslinger.md#sharpshooter) | Latency-tolerant timing and explicit reload cancellation |
-| School selection and enhanced spell | [Runemaster / Rune Scholar](classes/runemaster.md#rune-scholar) | One class-sigil enhancement; separate from permanent Rune statistics |
+| School selection and enhanced spell | [Runemaster / Rune Scholar](classes/runemaster.md#rune-scholar) | One class-sigil enhancement; separate from completion-based Rune milestones |
 | Mounted/foot companion and damage transfer | [Cavalier / Beast Rider](classes/cavalier.md#beast-rider) | Capped debt, indoor fallback and no free reset by mounting |
 
 ## Shared balance and development gates
 
 Every class dossier defines its three trees; most require author review of the proposed kit choices before implementation validation. Establish one complete representative loop first, then compare the other trees and hybrid allocations. Shared themes are allowed; identical decisions with different colors are insufficient.
 
-Permanent equipment, fixed Rune development, scoped raid effects, the one-slot repertoire, owned entities and support effects belong in one effective-power review. A class or racial package cannot become a mandatory party member or an exception to normalization. See [roles](class-roles-and-specializations.md) and the [implementation evidence gate](implementation-standard.md#evaluation-package).
+Permanent equipment, milestone-based Rune unlocks, scoped raid effects, the one-slot repertoire, owned entities and support effects belong in one effective-power review. A class or racial package cannot become a mandatory party member or an exception to normalization. See [roles](class-roles-and-specializations.md) and the [implementation evidence gate](implementation-standard.md#evaluation-package).
 
 Document resource pace, state recovery, input load, owner vulnerability, role contribution, animation/equipment coverage, performance and counterplay. A professional handoff identifies what is specified and what needs evidence; it does not claim engine or production readiness from prose alone.

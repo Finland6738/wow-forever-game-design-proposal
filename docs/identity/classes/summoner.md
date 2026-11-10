@@ -126,7 +126,7 @@ Separate the gameplay reserve and ordered effects from decorative followers. A s
 
 Show gathered reserve, committed groups, selected target and impending release clearly. Give opponents a readable major attack signal without covering a raid in twenty nameplates per caster. Summons do not create collision walls or independent objective bodies merely because they are visible.
 
-Apply approved equipment, finite Rune, repertoire and normalization rules once through the owner. No copied attack should multiply a proc, a participation claim or a scoped raid effect once per decorative insect. Entity counts cannot bypass the power envelope.
+Apply approved equipment, milestone Rune, repertoire and normalization rules once through the owner. No copied attack should multiply a proc, a participation claim or a scoped raid effect once per decorative insect. Entity counts cannot bypass the power envelope.
 
 ## Prototype acceptance scenes
 
@@ -142,3 +142,7 @@ Apply approved equipment, finite Rune, repertoire and normalization rules once t
 | Support composition | Sporekeeper can help complete the same five-player encounters without becoming mandatory |
 
 Measure reserve pacing, active inputs, target-change friction, direct-versus-companion output, PvP response windows and visual density. A shared accumulation mechanic alone does not prove that three branches are fun or balanced.
+
+## Shared progression boundary
+
+These are ordinary class talent-tree abilities, usable according to their own combat rules. The separate final-boss Adventurer Repertoire reward slot works only in matching-difficulty raids (Normal to Normal, Veteran to Veteran), never in dungeons, open world or PvP. Rune milestone records grant no cumulative combat statistics. Apply the [shared implementation standard](../implementation-standard.md) to this kit and its hybrids.
