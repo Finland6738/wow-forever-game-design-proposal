@@ -38,6 +38,6 @@ There are real costs: normalization must handle procs and consumables, contextua
 
 This is an independent proposal, not an announced Blizzard feature or a claim about its internal implementation.
 
-**Full proposal, diagrams and technical details:** [WoW: Forever game-design repository](https://github.com/Finland6738/wow-forever-game-design)
+**Full proposal, diagrams and technical details:** [WoW: Forever game-design repository](https://github.com/Finland6738/wow-forever-game-design-proposal)
 
 Would local raid progression feel rewarding with stable permanent power? What would keep old raids worth visiting without making them mandatory? Which level-60 activities would you choose if regular item-level increases were no longer the main incentive?

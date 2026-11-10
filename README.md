@@ -4,9 +4,9 @@
 
 ![Five adventurers at a crossroads overlooking a forest valley, ruins, a mountain citadel, and a dungeon entrance.](assets/images/a-world-of-parallel-adventures.png)
 
-> **Status: design proposal · v0.7 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
+> **Status: design proposal · v0.8 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
 
-**[Read the complete GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design/wiki)** · [Documentation index](docs/README.md) · [Questions and discussion](https://github.com/Finland6738/wow-forever-game-design/discussions)
+**[Read the complete GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design-proposal/wiki)** · [Documentation index](docs/README.md) · [Questions and discussion](https://github.com/Finland6738/wow-forever-game-design-proposal/discussions)
 
 ## The proposal in one minute
 
@@ -28,7 +28,7 @@ Keep the rules understandable and let depth come from decisions and teamwork. Ap
 
 ## Find a topic
 
-The [Wiki Home](https://github.com/Finland6738/wow-forever-game-design/wiki) and sidebar are organized by activity. Use the dedicated page for the topic you want:
+The [Wiki Home](https://github.com/Finland6738/wow-forever-game-design-proposal/wiki) and sidebar are organized by activity. Use the dedicated page for the topic you want:
 
 | Area | Topics |
 | --- | --- |
@@ -351,9 +351,11 @@ The critical test is concrete: **can a player with an adequate permanent set ent
 
 ## Discuss and contribute
 
-The [GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design/wiki) provides the complete reading view, a topic index and detailed navigation. The Markdown files in this repository are the source: changes merged into `main` automatically rebuild the wiki, including new or renamed documentation pages. See [wiki maintenance](docs/14-wiki-maintenance.md) for the publishing rules.
+The [GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design-proposal/wiki) provides the complete reading view, a topic index and detailed navigation. The Markdown files in this repository are the source: changes merged into `main` automatically rebuild the wiki, including new or renamed documentation pages. See [wiki maintenance](docs/14-wiki-maintenance.md) for the publishing rules.
 
-Use [GitHub Discussions](https://github.com/Finland6738/wow-forever-game-design/discussions) for open-ended design debate, [Issues](https://github.com/Finland6738/wow-forever-game-design/issues) for specific problems, and pull requests for proposed edits. Explain the affected player experience, the trade-off and how we could test an improvement.
+Concept-documentation updates on `main` are also announced automatically in [Announcements](https://github.com/Finland6738/wow-forever-game-design-proposal/discussions/categories/announcements) after the wiki publishes successfully. Posts link the changed sources and summarize new change-history entries, with duplicate prevention on reruns.
+
+Use [GitHub Discussions](https://github.com/Finland6738/wow-forever-game-design-proposal/discussions) for open-ended design debate, [Issues](https://github.com/Finland6738/wow-forever-game-design-proposal/issues) for specific problems, and pull requests for proposed edits. Explain the affected player experience, the trade-off and how we could test an improvement.
 
 Three useful starting questions:
 

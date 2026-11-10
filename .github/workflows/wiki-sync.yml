@@ -9,6 +9,7 @@ on:
       - 'scripts/**'
       - 'tests/**'
       - 'wiki/**'
+      - '.github/concept-announcements.json'
       - '.github/workflows/wiki-sync.yml'
   pull_request:
     paths:
@@ -17,6 +18,7 @@ on:
       - 'scripts/**'
       - 'tests/**'
       - 'wiki/**'
+      - '.github/concept-announcements.json'
       - '.github/workflows/wiki-sync.yml'
   workflow_dispatch:
 
@@ -37,7 +39,7 @@ jobs:
       - name: Check out source
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
-          ref: ${{ github.event_name == 'pull_request' && github.sha || github.ref_name }}
+          ref: ${{ github.sha }}
           persist-credentials: false
 
       - name: Test wiki generation
@@ -69,3 +71,24 @@ jobs:
           source_revision="$(git rev-parse --short=12 HEAD)"
           git -C "$wiki_path" commit -m "docs: sync wiki from $source_revision"
           git -C "$wiki_path" push origin HEAD
+
+  announce-concept-update:
+    needs: build-and-publish
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      discussions: write
+    steps:
+      - name: Check out the published source revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Announce changed concepts without duplicates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/announce_concept_changes.py --publish

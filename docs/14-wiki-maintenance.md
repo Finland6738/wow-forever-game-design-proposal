@@ -4,9 +4,25 @@
 
 ## One source, two reading views
 
-The [GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design/wiki) is generated from the repository's Markdown. Edit the repository files to change the concept. A push or merge into `main` triggers the [Sync GitHub Wiki workflow](https://github.com/Finland6738/wow-forever-game-design/actions/workflows/wiki-sync.yml).
+The [GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design-proposal/wiki) is generated from the repository's Markdown. Edit the repository files to change the concept. A push or merge into `main` triggers the [Sync GitHub Wiki workflow](https://github.com/Finland6738/wow-forever-game-design-proposal/actions/workflows/wiki-sync.yml).
 
 The pipeline validates source links and section anchors, runs generator tests, rebuilds the pages and publishes a normal commit to the separate wiki Git repository. It does not rewrite gameplay decisions, invent tuning values or publish the forum draft to a forum.
+
+## Announcements after publication
+
+The same workflow has a separate announcement job that runs only after successful wiki publication from `main`. It uses `discussions: write` and the temporary repository token to create a post in [Announcements](https://github.com/Finland6738/wow-forever-game-design-proposal/discussions/categories/announcements). No personal access token is stored in the repository.
+
+[The publisher](../scripts/announce_concept_changes.py) summarizes newly added/edited `CHANGELOG.md` bullets and links the affected README, design documents and diagrams at the exact source revision. If release notes are absent, it reports commit subjects as such. Metadata/code-only changes are skipped; editorial changes within concept sources are still documentation updates and are announced conservatively.
+
+Each post includes a repository-and-commit marker. A rerun detects an existing post, and a later run catches up from the latest successfully announced ancestor. An older workflow rerun cannot announce a revision already covered by a newer post. Publications are serialized by the workflow's concurrency group.
+
+[Configuration](../.github/concept-announcements.json) selects the category slug and initial baseline commit. Do not reset the baseline to hide a failed announcement. If publishing fails, rerun the workflow; it rechecks the existing Discussion before creating another. If a request timed out after GitHub accepted it, the marker prevents a duplicate on that rerun. Missing permissions/category or unrelated rewritten history fail visibly rather than posting to a different destination.
+
+The local default is preview-only: `python scripts/announce_concept_changes.py --output .preview/announcement.md`. The workflow's explicit `--publish` performs the live operation. Pull requests run checks without wiki or Discussion publication.
+
+## Repository rename
+
+The repository is now `Finland6738/wow-forever-game-design-proposal`. It was renamed in place; commit objects, branches, wiki and Discussions belong to the same repository. Publishing resolves the current repository and category IDs at runtime. Existing clones should update `origin` to the current URL; no reclone, history rewrite or force push is required.
 
 ## What is included
 

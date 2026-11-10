@@ -1,6 +1,6 @@
 # Design Topics
 
-[← Main proposal](../README.md) · [GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design/wiki)
+[← Main proposal](../README.md) · [GitHub Wiki](https://github.com/Finland6738/wow-forever-game-design-proposal/wiki)
 
 Choose an activity or character topic. Pages distinguish selected directions, recommended prototypes and open tuning.
 

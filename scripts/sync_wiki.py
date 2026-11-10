@@ -307,7 +307,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--repository", default=os.environ.get("GITHUB_REPOSITORY", "Finland6738/wow-forever-game-design"))
+    parser.add_argument("--repository", default=os.environ.get("GITHUB_REPOSITORY", "Finland6738/wow-forever-game-design-proposal"))
     parser.add_argument("--revision")
     args = parser.parse_args()
     revision = args.revision or subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=args.root, text=True).strip()

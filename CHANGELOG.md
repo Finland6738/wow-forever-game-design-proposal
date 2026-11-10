@@ -1,5 +1,12 @@
 # Change history
 
+## 0.8 — 2026-11-10
+
+- Renamed the existing GitHub repository to `wow-forever-game-design-proposal`, retaining repository identity and Git history; updated source links and publishing defaults.
+- Added automatic Announcements Discussions after successful concept/wiki publication on `main`, using changed release notes and links to affected sources.
+- Added duplicate prevention, catch-up from the last announced revision and safe handling of reruns; infrastructure-only changes do not create standalone concept posts.
+- Documented announcement scope, preview and recovery; retained normal wiki and source history without force pushes.
+
 ## 0.7 — 2026-11-10
 
 - Prioritized ten established Vanilla/TBC/Wrath race candidates ahead of the six original alternatives, with historical references, equipment analysis and candidate-specific review gates.
