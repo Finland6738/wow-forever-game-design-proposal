@@ -8,6 +8,8 @@ The permanent equipment-power range does not increase merely because a new conte
 
 This allows a finite initial gearing journey. It does not require every level-60 character to have identical stats or immediately enter every encounter without preparation. Accessible quests, dungeons, world activities and crafting provide routes to the agreed baseline. Those routes stay available as the game grows.
 
+The [prestige ranks](08-prestige-ranks.md), [settlement events](06-invasions-and-reconstruction.md) and [procedural expeditions](07-procedural-expeditions.md) add optional activities and recognition. They do not grant higher permanent budgets, cross-difficulty bonuses or prerequisites for a newly released raid.
+
 The baseline must include more than visible item level: weapon damage, armor, primary and secondary stats, proc effects, enchantments, consumables, relevant profession benefits and any combat-relevant permanent unlocks all affect effective power. A theoretical budget requires encounter and class testing to become a credible balance target.
 
 ## Why use permanent gear with contextual bonuses?

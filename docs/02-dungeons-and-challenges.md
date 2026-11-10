@@ -18,6 +18,10 @@ Heroic dungeons provide untimed, tactical five-player adventures and accessible 
 
 Both are proposals. The familiar names express design intent, rather than confirmation that these modes exist in Forever.
 
+## A third format: procedural expeditions
+
+The [procedural-expedition proposal](07-procedural-expeditions.md) adds a separate untimed activity for 5–20 level-60 players. Open-world portals lead to generated routes, varied packs/bosses and a committed depth of 1–5 floors. It does not change the five-player Heroic or Challenge format above, and random seeds do not share a universal timed leaderboard. Gold/material reward rates and finite floor scaling need their own evaluation.
+
 ## Heroic design goals
 
 The long-term ambition is to revisit the existing leveling dungeon catalog at level 60 while preserving its leveling versions. A conversion needs actual encounter work: rescaling health and damage alone is insufficient.

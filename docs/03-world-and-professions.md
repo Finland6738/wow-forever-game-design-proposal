@@ -6,6 +6,8 @@
 
 A permanent level-60 world needs reasons to explore beyond traveling to instance portals. Elite regions, territorial encounters, faction objectives, professions and story activities can create those reasons without adding another mandatory power ladder.
 
+The expanded proposal also adds [NPC invasions and communal reconstruction](06-invasions-and-reconstruction.md), [world-discovered procedural expeditions](07-procedural-expeditions.md), [Explorer recognition](08-prestige-ranks.md) and [future regions and playable identities](09-regions-races-and-classes.md). Their details live in separate pages to keep the world, reward and identity rules explicit.
+
 The guiding constraint is reward independence. A player may specialize in world content, and a raider may visit it for enjoyment or collections. Neither should need the other's exclusive rewards to participate in their preferred activity.
 
 ## Elite regions as cooperative adventures

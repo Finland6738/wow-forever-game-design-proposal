@@ -6,7 +6,7 @@
 
 *Original AI-generated concept illustration. It represents the proposal's theme and does not depict an announced zone or official game artwork.*
 
-> **Status: design proposal · v0.1 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
+> **Status: design proposal · v0.2 · 10 November 2026.** This is an independent community project, unaffiliated with Blizzard Entertainment. Everything described as a proposed system is a suggestion for discussion, rather than an announced feature or an implementation of the game.
 
 ## The proposal in one minute
 
@@ -14,7 +14,7 @@ Keep characters at level 60 and establish an accessible, lasting equipment-power
 
 Raid equipment remains usable throughout the game. Its additional progression bonuses activate only in the **raid group belonging to its content update and in its own difficulty**. Normal and Veteran have independent progression. A player can start Veteran directly, without farming Normal or previous raid updates.
 
-Around that foundation, expand the level-60 endgame with tactical Heroic dungeons, keyless timed Challenge Modes, elite open-world regions, territorial PvP, professions, and exploration. These activities offer parallel reasons to play, with no required circuit through all of them.
+Around that foundation, expand the level-60 endgame with tactical Heroic dungeons, keyless timed Challenge Modes, elite open-world regions, territorial PvP, settlement defense and reconstruction, procedural expeditions, professions, and exploration. Separate Adventurer, Explorer and Honor prestige recognize participation without granting statistics. Future regions and original playable identities expand the world within the same power policy.
 
 **The central promise:** a returning player can prepare through accessible non-raid activities and enter a newly released raid without completing years of previous raid tiers.
 
@@ -27,6 +27,10 @@ Around that foundation, expand the level-60 endgame with tactical Heroic dungeon
 | [Open world, PvP and professions](docs/03-world-and-professions.md) | Elite regions, territorial bosses, crafting artifacts, regional objectives and optional activities |
 | [Technical framework](docs/04-technical-framework.md) | Conceptual data model, server-side validation, normalization, transition rules and acceptance cases |
 | [Roadmap and evaluation](docs/05-roadmap-and-evaluation.md) | Small pilots, dependencies, success criteria and unresolved decisions |
+| [NPC invasions and reconstruction](docs/06-invasions-and-reconstruction.md) | Defend settlements, gather resources after defeat and restore buildings and NPCs |
+| [Procedural expeditions](docs/07-procedural-expeditions.md) | World portals, groups of 5–20, generated routes and encounters, and 1–5 finite floors |
+| [Prestige ranks](docs/08-prestige-ranks.md) | Adventurer, Explorer and Honor identities, role-aware credit and rewards without statistics |
+| [Regions, races and classes](docs/09-regions-races-and-classes.md) | Creative direction, six exploratory peoples, 18 class families and 13 mechanical studies |
 | [Sources and factual boundaries](docs/references.md) | Verified official context, historical inspiration and the limits of the proposal |
 | [Forum summary draft](docs/forum-summary.md) | A short introduction linking readers here; not published |
 
@@ -48,7 +52,7 @@ Blizzard describes Forever as a permanent home with a level 1–60 journey and a
 | --- | --- | --- | --- |
 | Permanent equipment | A finite preparation journey, alternative stat profiles and budgeted item effects | General gameplay, subject to each activity's rules | An upward baseline with every content update |
 | Contextual raid progression | Equipment bonuses and set combinations earned in a particular update and difficulty | Approved raids in that update, in that difficulty only | Power transfer into another update, difficulty or competitive mode |
-| Permanent collections and mastery | Appearances, mounts, pets, toys, titles, achievements, stories, recipes and personal skill | Character/account collections and the activities themselves | Hidden combat advantages that make unrelated activities compulsory |
+| Permanent collections, prestige and mastery | Appearances, mounts, pets, toys, titles, achievements, stories, recipes, participation ranks and personal skill | Character/account collections and the activities themselves | Hidden combat advantages, or presenting accumulated participation as a skill rating |
 
 Players still improve their initial level-60 equipment. The goal is a **finite, accessible preparation path**, followed by sidegrades and independent content progression. Quest rewards, max-level dungeons and crafting should offer reasonable routes to a raid-ready baseline. A newly leveled character is not automatically fully prepared, and a returning player need not replace an already adequate baseline set.
 
@@ -159,7 +163,61 @@ Other parallel activities include short two- or three-player adventures, class q
 
 [Read the world, PvP and crafting design →](docs/03-world-and-professions.md)
 
-## 8. A shared technical contract
+## 8. NPC invasions: defend a village or help rebuild it
+
+Hostile **NPC factions**, separate from Horde and Alliance players, periodically attack settlements. Players defend objectives, protect residents and repel a commander. A successful defense preserves the village. Defeat leaves a damaged site whose local NPCs withdraw, followed by cooperative resource gathering, construction and recruitment to restore them.
+
+![A settlement cycles from peace through an invasion warning and defense. Victory preserves it; defeat opens reconstruction and NPC restoration before peace returns.](assets/diagrams/settlement-cycle.svg)
+
+Reconstruction uses regional supplies and visible communal projects. NPC recruitment restores approved service roles; players cannot duplicate or control public questgivers. Essential displaced services remain accessible from a fallback camp, and NPC-assisted recovery prevents an unattended village from staying broken indefinitely.
+
+Defense and recovery grant civic recognition within **Explorer prestige**, with no combat bonuses. One event's bounded reward allowance covers both phases, and successful defense should be at least as attractive as deliberately losing and repairing. This must be tested against real reward rates.
+
+[Read the invasion lifecycle and recovery safeguards →](docs/06-invasions-and-reconstruction.md)
+
+## 9. Procedural expeditions: unpredictable routes, finite depth
+
+Portals appearing in the world admit level-60 groups of **5–20 players** into cooperative, untimed expeditions. Authored rooms and corridors assemble into generated layouts; compatible enemy packs, positions and bosses vary as well. Each run commits a depth of **1–5 floors**, with further entrances discovered during play.
+
+Later floors increase challenge within a finite envelope through encounter combinations, bounded health/damage/resistance changes and selected additional abilities. This creates deeper adventures without infinitely scaling levels or a permanent equipment ladder. A finite module library provides variety, rather than a guarantee that every layout is historically unique.
+
+Group size is committed at floor checkpoints so leaving or dying cannot downscale an active boss. Reconnects retain the same expedition and seed; rewards cannot be rerolled or claimed twice. Proposed pilot rewards are modest gold, common crafting materials, cosmetic discoveries and Adventurer prestige. Their exact balance remains open, including safeguards against inflation and easy-seed farming.
+
+[Read generation, scaling and reward options →](docs/07-procedural-expeditions.md)
+
+## 10. Prestige without statistics: Adventurer, Explorer and Honor
+
+| Track | Recognizes | Reward boundary |
+| --- | --- | --- |
+| Adventurer | Instanced PvE participation in dungeons, raids and procedural expeditions | Titles, badges and cosmetics; no damage, healing or equipment advantage |
+| Explorer | Discoveries, quests, authored NPC interactions, world events, settlement defense and reconstruction | Recognition of world contribution; no raid access or profession-throughput advantage |
+| Honor | PvP participation under its separate rules | PvE activities do not feed this track |
+
+The initial Adventurer base-point prototype is **native creature level ×1**, **×2 for an elite**, or **×5 for a boss**. Categories are exclusive. A level-60 ordinary enemy, elite and boss would therefore provide 60, 120 and 300 base points respectively, before eligibility and repeat rules.
+
+Every eligible participant receives credit, including tanking, healing, control and encounter assignments. Final blows and damage rankings do not determine the payout. Exclude trivial targets, infinite summoned adds and duplicate claims; review repeat farming without limiting the freedom to practice.
+
+Explorer points come from meaningful completed objectives, rather than dialogue clicks or repeatedly crossing a zone boundary. An illustrative ladder runs **Wood → Bronze → Silver → Gold → Platinum → Diamond → Master → Challenger**, with four subdivisions per tier and no stat rewards or proposed decay. Thresholds remain open.
+
+These cumulative ranks describe participation and history. They are not a skill rating and should not become entry requirements, matchmaking gates or minimum-rank group filters.
+
+[Read scoring, ownership and anti-farming rules →](docs/08-prestige-ranks.md)
+
+## 11. New regions and original playable identities
+
+Future updates can add lasting regions, cultures, classes and playable peoples while keeping level 60 and the same permanent power range. They do not need to deliver a new race or class every season, and older regions should keep useful stories, activities and rewards.
+
+The requested creative direction favors grounded, sometimes ominous fantasy and distinctive new playable identities. It does not select direct imports of later Retail additions such as Pandaren, Goblins, Worgen or Vulpera, nor repeated altered variants of existing races. Exploratory candidates include Ogres, Naga, Giants, Gnolls, a Razormane-inspired people and Ethereals, all subject to setting, roster, anatomy and narrative review.
+
+The class catalog explores Bard, Alchemist, Bound Summoner, Inquisitor, Oracle, Witch, Investigator, Spellblade, Gunslinger, Cavalier, Necromancer, Tinker, Warden, Dark Ranger, Runemaster, Packmaster, Bloodweaver and a martial-adept study requiring redesign. Spellblade/Magus duplicates are consolidated, and the martial-arts/Chi idea cannot advance as a renamed Retail Monk import.
+
+Thirteen additional mechanical studies preserve the useful ideas in the brainstorming—forms, swarms, companion empowerment, state consumption, stances, devices, blood resources, parries, ammunition, rune selection and mounted coordination. They are alternatives that may become specializations or talents, rather than 13 more promised classes.
+
+Each concept needs a unique decision loop, readable role, practical animation/pathing plan and the same power constraints as existing choices. New classes must not become mandatory party slots; new races must not supply a stronger permanent racial package. Prestige rank or old raid completion must not be required to unlock them.
+
+[Read the creative policy and full concept catalog →](docs/09-regions-races-and-classes.md)
+
+## 12. A shared technical contract
 
 The technical proposal uses a lasting equipment budget, explicit content scopes, separate difficulty identifiers and versioned normalization profiles. All are conceptual fields; this repository makes no claim about Blizzard's internal architecture.
 
@@ -167,9 +225,11 @@ The server determines whether an effect is active. A tooltip explains that decis
 
 For Challenge Modes, use approved normalized equipment profiles or accessible template equivalents so legacy item farming cannot become the hidden preparation game. Raw item-level scaling is insufficient. A maintained effect catalog and class/build testing remain necessary.
 
+The same contract extends to durable settlement state, validated reconstruction deliveries, seeded expeditions with floor-level scaling snapshots, and separate prestige ledgers. Their progression grants no exception to the permanent power budget.
+
 [Read the conceptual model and acceptance cases →](docs/04-technical-framework.md)
 
-## 9. Benefits, costs and alternatives
+## 13. Benefits, costs and alternatives
 
 | Approach | Main benefit | Main cost or limitation |
 | --- | --- | --- |
@@ -181,9 +241,13 @@ The proposed model can reduce obsolescence and unwanted prerequisite farming. It
 
 Inventory pressure needs a dedicated bonus collection or archive, clear presets and automatic scope previews. Balance work must detect mandatory sidegrades, not merely keep item levels equal. Development costs require pilots and evidence; reusing dungeon geometry does not make encounter redesign cheap or automatic.
 
-## 10. Build evidence before expanding the system
+The additions introduce further costs: village consequences can disrupt other players, procedural generation needs authored modules and extensive validation, participation ranks can encourage farming or social exclusion, and new classes/races create long-term art and balance commitments. These risks belong in pilot decisions rather than being hidden behind the word “horizontal.”
+
+## 14. Build evidence before expanding the system
 
 Start by defining the permanent budget and measuring effective power. Then test a small Heroic selection, one update-wide raid group with independent difficulties, and selected normalized Challenge dungeons. Elite regions and territorial PvP follow as separate pilots.
+
+Add one settlement-defense cycle, a limited procedural environment and non-statistical prestige as bounded experiments. New regions and playable identities use separate creative, technical and balance gates; a class wishlist is not a delivery schedule.
 
 Measure preparation time for returning players, the practical need to farm sibling raids or another difficulty, class diversity, reward satisfaction, unwanted activity obligations and maintenance cost. Publish outcomes and revise the design before scaling it.
 

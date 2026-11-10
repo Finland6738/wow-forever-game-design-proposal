@@ -22,10 +22,15 @@ The wider endgame could grow through:
 - Keyless Challenge Modes with normalized power, unlimited retries, medals and leaderboards, rewarding mastery and cosmetics.
 - Elite open-world regions where reaching a territorial World Boss is part of the adventure.
 - Regional faction objectives, professions, small-group adventures, exploration and collections.
+- NPC-faction invasions: defend a settlement or gather supplies, rebuild and restore its NPCs after defeat, with essential-service fallbacks.
+- Procedural expeditions discovered through world portals: 5–20 players, generated routes and encounters, and 1–5 finite floors, with gold/material rewards to test.
+- Separate Adventurer, Explorer and Honor prestige, offering recognition without statistics and crediting support roles as well as damage.
+
+Future updates could also expand regions and explore original playable peoples and class concepts that fit Forever's atmosphere. The repository includes a reviewed wishlist and mechanical studies, rather than a promise to import later Retail classes/races or deliver every concept.
 
 The important constraint is that these activities remain parallel choices. PvP buffs should not be raid prerequisites, world artifacts should have reasonable functional alternatives, and Challenge competition should not require farming old gear.
 
-There are real costs: normalization must handle procs and consumables, contextual loot may feel less universally valuable, and shared raid bonuses could make the easiest raid an expected gearing stop. The repository discusses those problems, possible safeguards and small pilots to test them.
+There are real costs: normalization must handle procs and consumables, contextual loot may feel less universally valuable, and shared raid bonuses could make the easiest raid an expected gearing stop. Settlement recovery must not reward deliberate failure, procedural rewards need economic limits, and cumulative prestige must not be mistaken for skill. The repository discusses safeguards and small pilots to test them.
 
 This is an independent proposal, not an announced Blizzard feature or a claim about its internal implementation.
 

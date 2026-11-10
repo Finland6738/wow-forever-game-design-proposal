@@ -9,6 +9,7 @@ All assets are stored in the repository so its pages do not rely on hotlinked im
 | [a-world-of-parallel-adventures.png](images/a-world-of-parallel-adventures.png) | Cover illustrating a lasting world with several adventures | Original AI-generated illustration, built-in ImageGen, 10 November 2026 |
 | [raid-progression.svg](diagrams/raid-progression.svg) | Independent update and difficulty progression | Editable, repository-authored vector diagram |
 | [elite-region.svg](diagrams/elite-region.svg) | Cooperative approach to a territorial World Boss | Editable, repository-authored vector diagram |
+| [settlement-cycle.svg](diagrams/settlement-cycle.svg) | NPC invasion, defense outcome and cooperative village reconstruction | Editable, repository-authored vector diagram |
 
 The diagrams use fictional update scopes and conceptual encounter flow. They do not show announced game systems or geography. Each SVG includes a title and description, and consuming Markdown includes alternative text.
 
