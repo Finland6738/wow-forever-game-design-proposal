@@ -1,0 +1,34 @@
+# Forum summary draft — not published
+
+[← Main proposal](../README.md) · [Documentation index](README.md)
+
+Suggested destination: [WoW: Forever General Discussion, EU](https://eu.forums.blizzard.com/en/wow/c/wow-forever/wow-forever-general-discussion/360). This is an editorial draft for a later post. The repository is the detailed reference.
+
+---
+
+## A Sustainable Level-60 Endgame: Independent Raids and More Ways to Play
+
+How could Forever keep adding content for years without turning a permanent level cap into an endless item-level ladder?
+
+I have started a community design proposal on GitHub. The central idea is a stable, accessible level-60 equipment baseline, with additional raid progression bonuses restricted to the raids of their own content update and difficulty.
+
+An item would remain usable outside its raid group, with permanent stats inside the agreed budget. Its extra raid bonus would activate only in the appropriate content. When a new update arrives, previous bonuses stay in their original raids. Players keep their equipment, collections and achievements, while the new raid has its own progression.
+
+Normal and a proposed Veteran difficulty would be independent. A guild could start Veteran directly without farming Normal, previous updates, or unrelated World Boss rewards. Veteran would offer its own internal progression and additional prestige.
+
+The wider endgame could grow through:
+
+- Tactical level-60 Heroic versions of existing dungeons, preserving the leveling versions.
+- Keyless Challenge Modes with normalized power, unlimited retries, medals and leaderboards, rewarding mastery and cosmetics.
+- Elite open-world regions where reaching a territorial World Boss is part of the adventure.
+- Regional faction objectives, professions, small-group adventures, exploration and collections.
+
+The important constraint is that these activities remain parallel choices. PvP buffs should not be raid prerequisites, world artifacts should have reasonable functional alternatives, and Challenge competition should not require farming old gear.
+
+There are real costs: normalization must handle procs and consumables, contextual loot may feel less universally valuable, and shared raid bonuses could make the easiest raid an expected gearing stop. The repository discusses those problems, possible safeguards and small pilots to test them.
+
+This is an independent proposal, not an announced Blizzard feature or a claim about its internal implementation.
+
+**Full proposal, diagrams and technical details:** [WoW: Forever game-design repository](https://github.com/Finland6738/wow-forever-game-design)
+
+Would local raid progression feel rewarding with stable permanent power? What would keep old raids worth visiting without making them mandatory? Which level-60 activities would you choose if regular item-level increases were no longer the main incentive?

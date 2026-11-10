@@ -1,0 +1,9 @@
+# Local editor configuration
+.idea/
+.vscode/
+
+# Local previews and generated verification output
+.preview/
+__pycache__/
+Thumbs.db
+.DS_Store

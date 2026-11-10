@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">An elite region where the approach is part of the adventure</title>
+  <desc id="desc">The outer approach contains elite patrols and camps. Two parallel routes through cooperative objectives and guardians lead toward a central territorial World Boss. Optional secrets and profession activities branch from the region without becoming boss-access requirements. This is a conceptual flow, not a game map.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#377d7a"/></marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #172d35; }
+      .heading { font-size: 34px; font-weight: 700; }
+      .label { font-size: 25px; font-weight: 700; }
+      .body { font-size: 21px; }
+      .small { font-size: 19px; fill: #425c63; }
+    </style>
+  </defs>
+  <rect width="1200" height="760" rx="20" fill="#f1f5f1"/>
+  <text x="60" y="60" class="heading">The journey to the boss is part of the encounter.</text>
+  <text x="60" y="97" class="body">Elite-region concept · a flow diagram, not a geographical map</text>
+  <rect x="60" y="145" width="800" height="100" rx="16" fill="#173c43"/>
+  <text x="460" y="186" text-anchor="middle" class="label" style="fill:#ffffff">Outer approach</text>
+  <text x="460" y="220" text-anchor="middle" class="body" style="fill:#d8e8e5">Elite patrols · hostile camps · clear danger signals</text>
+  <g fill="none" stroke="#377d7a" stroke-width="3" marker-end="url(#arrow)">
+    <path d="M260 245V312"/><path d="M660 245V312"/>
+    <path d="M260 435V475H350V520"/><path d="M660 435V475H570V520"/>
+  </g>
+  <g fill="#e4f1ed" stroke="#b8ccca" stroke-width="2"><rect x="60" y="325" width="380" height="110" rx="14"/><rect x="480" y="325" width="380" height="110" rx="14"/></g>
+  <g text-anchor="middle">
+    <text x="250" y="364" class="label">Route A</text><text x="250" y="397" class="body">Cooperative objectives</text><text x="250" y="423" class="small">Guardians and mini-bosses</text>
+    <text x="670" y="364" class="label">Route B</text><text x="670" y="397" class="body">An alternative approach</text><text x="670" y="423" class="small">Guardians and mini-bosses</text>
+  </g>
+  <rect x="220" y="535" width="480" height="110" rx="16" fill="#f5ead5" stroke="#ceba91" stroke-width="2"/>
+  <text x="460" y="578" text-anchor="middle" class="label">Territorial World Boss</text>
+  <text x="460" y="614" text-anchor="middle" class="body">Coordination and personal reward eligibility</text>
+  <rect x="900" y="145" width="250" height="500" rx="16" fill="#ffffff" stroke="#b8ccca" stroke-width="2"/>
+  <text x="1025" y="190" text-anchor="middle" class="label">Optional branches</text>
+  <g text-anchor="middle" class="body"><text x="1025" y="253">Secrets</text><text x="1025" y="295">Exploration</text><text x="1025" y="337">Gathering sites</text><text x="1025" y="379">Profession projects</text></g>
+  <path d="M930 415H1120" stroke="#b8ccca" stroke-width="2"/>
+  <text x="1025" y="462" text-anchor="middle" class="small"><tspan x="1025">Distinct reasons to visit.</tspan><tspan x="1025" dy="30">No mandatory keys</tspan><tspan x="1025" dy="30">to boss access.</tspan></text>
+  <path d="M60 680H1140" stroke="#b8ccca" stroke-width="2"/>
+  <text x="600" y="715" text-anchor="middle" class="body">Recurring events, multiple routes and optional crafting rewards.</text>
+  <text x="600" y="743" text-anchor="middle" class="small">Population limits, anti-monopoly rules and faction access require a pilot.</text>
+</svg>
